@@ -1,0 +1,368 @@
+[
+  {
+    "published_file": "data/survey/primary_student.csv",
+    "source_artifact": "cleaned_csv/小学生.csv",
+    "source_sha256": "6670f766ffaf4179af5a61aa3b4f831ef2f4d13663c0406c40250136ae529e9a",
+    "transformation": "Retain mapped SEL and AI-attitude numeric items only; remove metadata; rename columns; shuffle records; replace identifiers"
+  },
+  {
+    "published_file": "data/survey/middle_student.csv",
+    "source_artifact": "cleaned_csv/初中生.csv",
+    "source_sha256": "dc83b79f95b601a48f9613a3c4e476f56981622ed2367b3bf573aa9907c5ad6d",
+    "transformation": "Retain mapped SEL and AI-attitude numeric items only; remove metadata; rename columns; shuffle records; replace identifiers"
+  },
+  {
+    "published_file": "data/survey/parent.csv",
+    "source_artifact": "cleaned_csv/家长.csv",
+    "source_sha256": "bff385fa18189bffe521ba658a576b01c7cdd92f0cf860fc05f9afab88c1e6fd",
+    "transformation": "Retain mapped SEL and AI-attitude numeric items only; remove metadata; rename columns; shuffle records; replace identifiers"
+  },
+  {
+    "published_file": "data/survey/teacher.csv",
+    "source_artifact": "cleaned_csv/教师.csv",
+    "source_sha256": "290fa04de3bcdb357e625c9f7b6a8fe1fd657e072cb52250dd7edd57248a7e18",
+    "transformation": "Retain mapped SEL and AI-attitude numeric items only; remove metadata; rename columns; shuffle records; replace identifiers"
+  },
+  {
+    "published_file": "data/survey/principal.csv",
+    "source_artifact": "cleaned_csv/校长.csv",
+    "source_sha256": "a446dd9efa0e768deddcb95684b0f9293ee8ddd9d0ca372aa777b6554307948a",
+    "transformation": "Retain mapped SEL and AI-attitude numeric items only; remove metadata; rename columns; shuffle records; replace identifiers"
+  },
+  {
+    "published_file": "data/llm/responses.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/h3_bridge_predictions.csv",
+    "source_sha256": "03828573f2f62a6a5fb2ab55a01c600d1f0ae70fcaa4d0b3d73ac125e0195736",
+    "transformation": "Retain texts, scenario/condition metadata and final classifier predictions; omit legacy classifier scores and runtime logs"
+  },
+  {
+    "published_file": "results/reference/h1_role_dimension_descriptives.csv",
+    "source_artifact": "result/h1_role_dimension_descriptives.csv",
+    "source_sha256": "fc85f2e1fbfaa8b02ddae2d2425b349aa91342b40eb142399fd321ab63b5e7f9",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/h1_dimension_group_tests.csv",
+    "source_artifact": "result/h1_dimension_group_tests.csv",
+    "source_sha256": "c4681ed987627519f5c9d0910bca2213eda5621f1e5145498ec0f6fa6f67bd4f",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/h1_pairwise_cohens_d.csv",
+    "source_artifact": "result/h1_pairwise_cohens_d.csv",
+    "source_sha256": "1dafd63fdf98af5300818b82f7eadf85d6df6a10f97777b148049425b6abdb68",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/e1_spearman_correlations.csv",
+    "source_artifact": "result/h1_ai_sel/spearman_correlations.csv",
+    "source_sha256": "969b283e7067e01719090faf4c610dcab222773db8384d877dcfc162b02949d0",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/e1_ai_descriptives.csv",
+    "source_artifact": "result/h1_ai_sel/ai_descriptives.csv",
+    "source_sha256": "eacd746309eeab508b9fd8bf5e8effeebdca12a385da614f4a152e69d1d43579",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/e1_endorsement_rates.csv",
+    "source_artifact": "result/h1_ai_sel/endorsement_rates.csv",
+    "source_sha256": "6e5d3d35196fb70c9a8491d84daec480c2dc12dc313ed4e9c8e2ca240b88556f",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/classifier/voice_bridge_training_manifest.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/voice_bridge_training_manifest.csv",
+    "source_sha256": "24a61b77de05b236ed70172fb5bd4803dffc7d5ff8bffd8e4264fd47e94d1ed5",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/classifier/voice_bridge_oof_predictions.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/voice_bridge_oof_predictions.csv",
+    "source_sha256": "22acd1cb0ce2abc951534ebecb6b25f0f3b1ce36985d2993455d0877992eef3d",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/classifier/voice_bridge_grouped_validation.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/voice_bridge_grouped_validation.csv",
+    "source_sha256": "02d07b9cb747c58a8035e0a1383f08a36ea5d4e8d9b54730c845723cb9dc94b0",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/classifier/voice_bridge_grouped_validation_with_ci.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/voice_bridge_grouped_validation_with_ci.csv",
+    "source_sha256": "5794685e1f9ea5f45b4fc78242b19d8105e404d75efe87bfe344c7e21bd76c3f",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/classifier/run_metadata.json",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/run_metadata.json",
+    "source_sha256": "6427117ceb6d006db88402710e879b26f0197c353327acb61362cb2d8968ea23",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/h3_bridge_by_generator.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/h3_bridge_by_generator.csv",
+    "source_sha256": "c619bfb598930f984ae1b8d57b8e2d6bac46b0897be0ac38878bc6f0fd633e1d",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/h3_bridge_scenario_clustered_effects.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/h3_bridge_scenario_clustered_effects.csv",
+    "source_sha256": "2e1a173ed374a90bc5c66f6378847186c1f1f9da97a02f2a6aec0ea8895fa756",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/h3_bridge_principal_relevant_subset.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/h3_bridge_principal_relevant_subset.csv",
+    "source_sha256": "c5f18ed7379723440d680fad45fb8f8b2da874ef180fe70930574f154acc6475",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/h3_bridge_logistic_mixed_model.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/h3_bridge_logistic_mixed_model.csv",
+    "source_sha256": "16d6271e7c335805b8cb54bf015b3267fa36212934f2b0ab02b657048a4c4dd9",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "results/reference/h3_bridge_probability_mixed_model.csv",
+    "source_artifact": "result/setfit_h2_h3_voice_bridge_2026-08-25/h3_bridge_probability_mixed_model.csv",
+    "source_sha256": "50d8d8d75753410dbec370fee924301fa4282b8cdfd5b4dd2759be9c026b095a",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_contrast_faithfulness.csv",
+    "source_artifact": "result/h2/h2_contrast_faithfulness.csv",
+    "source_sha256": "80feedd4cf899c18a985331b7089486e4978fd2cc5936d48ee044f20897d3b8f",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_extreme_dim_faithfulness.csv",
+    "source_artifact": "result/h2/h2_extreme_dim_faithfulness.csv",
+    "source_sha256": "f9f161e039769fad8f7bc222678e705829b62b7cc592b1a45ed3609b2a66d955",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_faithfulness_by_profile.csv",
+    "source_artifact": "result/h2/h2_faithfulness_by_profile.csv",
+    "source_sha256": "e0fa8ca7018e9553deaa5257ab17385fc99a09dbcd2f259d862811110da29d1d",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_portrait_template.json",
+    "source_artifact": "result/h2/h2_portrait_template.json",
+    "source_sha256": "ad3c7d5b0f439d3aa53e4c7d28df385a03a9fc99e902470f462e88937eedf6f2",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_portraits_generated.json",
+    "source_artifact": "result/h2/h2_portraits_generated.json",
+    "source_sha256": "1f1494e4a968b337d17998e9aacf59a62dc8c84796698caf5365982296cf46d7",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_prompt_variants.json",
+    "source_artifact": "result/h2/h2_prompt_variants.json",
+    "source_sha256": "53039041d74e4bda506551f2c4cc66146f64d03a69d97d58c3aa8e66825a8a92",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_role_feature_packets.json",
+    "source_artifact": "result/h2/h2_role_feature_packets.json",
+    "source_sha256": "706af8ce265645246c6f12b75ca01296c4fa772e8e74d9d5f72ac457ea102dcf",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_signature_distinctiveness.csv",
+    "source_artifact": "result/h2/h2_signature_distinctiveness.csv",
+    "source_sha256": "0c752e5cfb22ee1668e352db5b6727805a47f3901c0013db771d4dd51684be9e",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_signature_faithfulness.csv",
+    "source_artifact": "result/h2/h2_signature_faithfulness.csv",
+    "source_sha256": "75dac56c48a83830eaf71a8621c8b5ce809d2c91b875fd7473a12e44d4fad3d5",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/full/h2_stability_by_dimension.csv",
+    "source_artifact": "result/h2/h2_stability_by_dimension.csv",
+    "source_sha256": "0c576a6eaa1420c82f516bbe45c23c15dbafffe159b7b059b5828aa153d7a8e5",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/no_qualitative_levels/h2_ablation_summary.csv",
+    "source_artifact": "result/h2_ablation_no_ql/h2_ablation_summary.csv",
+    "source_sha256": "aeff980c71376eb7185e9ab4730239bd91bf0e0062a709a3d5c253a2eccd3b47",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/no_qualitative_levels/h2_contrast_faithfulness_no_ql.csv",
+    "source_artifact": "result/h2_ablation_no_ql/h2_contrast_faithfulness_no_ql.csv",
+    "source_sha256": "991fbbcbc80b3197bb8b463ecf4039828ddbd7677fa9cf77152093028da1d772",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/no_qualitative_levels/h2_extreme_dim_faithfulness_no_ql.csv",
+    "source_artifact": "result/h2_ablation_no_ql/h2_extreme_dim_faithfulness_no_ql.csv",
+    "source_sha256": "13e49f3c058b6cbdc997c4477a9216e7dbe24b0e2558c90f439418b71a048aed",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/no_qualitative_levels/h2_faithfulness_no_ql.csv",
+    "source_artifact": "result/h2_ablation_no_ql/h2_faithfulness_no_ql.csv",
+    "source_sha256": "f33190d0295964d5f23c0eed22d656a363e5f9b75185a1d8a9c6cc14b1b28185",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/no_qualitative_levels/h2_portraits_no_ql.json",
+    "source_artifact": "result/h2_ablation_no_ql/h2_portraits_no_ql.json",
+    "source_sha256": "d3acf74a306d1aae7d8c815d75553c0cf7f8343ad047bf82ebc3ae2a3f8c8beb",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/no_qualitative_levels/h2_signature_faithfulness_no_ql.csv",
+    "source_artifact": "result/h2_ablation_no_ql/h2_signature_faithfulness_no_ql.csv",
+    "source_sha256": "32ee67be0d68b34f09f1d165ca1b0afee3aba2eac2f1d11b998f3a43e29ea980",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/numeric_only/h2_contrast_faithfulness_numeric_only.csv",
+    "source_artifact": "result/h2_ablation_numeric_only/h2_contrast_faithfulness_numeric_only.csv",
+    "source_sha256": "79901ec823d5ef085dbb637688ceb039b51db7a7627547866a8694dac27e746c",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/numeric_only/h2_extreme_dim_faithfulness_numeric_only.csv",
+    "source_artifact": "result/h2_ablation_numeric_only/h2_extreme_dim_faithfulness_numeric_only.csv",
+    "source_sha256": "c14e3b144525be3fb9b0effde55678a3a351febe785102e473a0493cd9951a07",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/numeric_only/h2_faithfulness_numeric_only.csv",
+    "source_artifact": "result/h2_ablation_numeric_only/h2_faithfulness_numeric_only.csv",
+    "source_sha256": "49be7e9c37e66f79ab5f95ba00d19b9d99492b38208eec58b8964691504e2f3a",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/numeric_only/h2_numeric_only_ablation_summary.csv",
+    "source_artifact": "result/h2_ablation_numeric_only/h2_numeric_only_ablation_summary.csv",
+    "source_sha256": "2276ca5f062a1bbc88ffdef8811109d00929b95415d4d413bde046fa1703fe77",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/numeric_only/h2_portraits_numeric_only.json",
+    "source_artifact": "result/h2_ablation_numeric_only/h2_portraits_numeric_only.json",
+    "source_sha256": "581e75473c11b9acd2b00102077026a08cf1de27fc33dd3a662f2253d446233b",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/portraits/numeric_only/h2_signature_faithfulness_numeric_only.csv",
+    "source_artifact": "result/h2_ablation_numeric_only/h2_signature_faithfulness_numeric_only.csv",
+    "source_sha256": "ab06ba4841284d19e263fc2b4a0d8a6104fd141001b9f3bbc5493340ff44557f",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/scenarios/scenarios.json",
+    "source_artifact": "result/sel_scenarios_v2.json",
+    "source_sha256": "9756e9519b2fb0aee59b3448a778faa67cae2de834fc315e277b794d65a7e265",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/prompts/H2_materialized_generation_prompts.json",
+    "source_artifact": "doc/supplement/S13_prompts/H2_materialized_generation_prompts.json",
+    "source_sha256": "bce68fe91362b43333a1912afd29a2cc772333188c95b78d2e61ee25d853b881",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/prompts/H2_prompt_variants.json",
+    "source_artifact": "doc/supplement/S13_prompts/H2_prompt_variants.json",
+    "source_sha256": "53039041d74e4bda506551f2c4cc66146f64d03a69d97d58c3aa8e66825a8a92",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/prompts/H3_default_scenario_prompts_60.json",
+    "source_artifact": "doc/supplement/S13_prompts/H3_default_scenario_prompts_60.json",
+    "source_sha256": "9756e9519b2fb0aee59b3448a778faa67cae2de834fc315e277b794d65a7e265",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/prompts/H3_perspective_prompts_20.json",
+    "source_artifact": "doc/supplement/S13_prompts/H3_perspective_prompts_20.json",
+    "source_sha256": "803e07effa9380d3f0ff1a84bed5cbd1d7355d4cc9aad917db91abe44d2c0510",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/prompts/H3_perspective_rewrites_10x2.json",
+    "source_artifact": "doc/supplement/S13_prompts/H3_perspective_rewrites_10x2.json",
+    "source_sha256": "0bfea76e70ebcbe241d715c03e66b7d5ab6d9969c000b45dee8c955740f6b05f",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "data/prompts/H3_principal_prompts_60.json",
+    "source_artifact": "doc/supplement/S13_prompts/H3_principal_prompts_60.json",
+    "source_sha256": "7b407e9584b89ad99b9f83b7bc0c49c3699902a7f65e0699fa042485ab813aef",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "instruments/english/Middle_School_Student_Questionnaire_EN.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/Middle_School_Student_Questionnaire_EN.docx",
+    "source_sha256": "b09e7a1c1ff2ba83c4b96c42b1f60466a932ce2324d264feb54365a3b5ae609a",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "instruments/english/Parent_Questionnaire_EN.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/Parent_Questionnaire_EN.docx",
+    "source_sha256": "fb2f03ccf3948a2c3165f3eff58a1cf3da16661f665f632912fbba013f2aee50",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "instruments/english/Primary_School_Student_Questionnaire_EN.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/Primary_School_Student_Questionnaire_EN.docx",
+    "source_sha256": "018be8c6b65ea6b853aa1fade272641c34ed1bc27de554898344f4cb62ed34b1",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "instruments/english/Principal_Questionnaire_EN.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/Principal_Questionnaire_EN.docx",
+    "source_sha256": "ac12fac0614731aab34b29d0e62a26789f824dc1b09a8524800984ba8b5f1940",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "instruments/english/Teacher_Questionnaire_EN.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/Teacher_Questionnaire_EN.docx",
+    "source_sha256": "b0dcb2bd3840380198993440731e7dddb4c7b6cad6a7907d24da3c678ffff0be",
+    "transformation": "Content copied unchanged"
+  },
+  {
+    "published_file": "instruments/chinese/初中生.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/origin/初中生.docx",
+    "source_sha256": "b624cbf8f370e1c5ecc4ee3a81d765bb0871d13c5459ef32e2c6f4ad23f8e8fb",
+    "transformation": "Remove author/editor metadata; questionnaire content unchanged"
+  },
+  {
+    "published_file": "instruments/chinese/家长.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/origin/家长.docx",
+    "source_sha256": "a08e760b25d63b5d4f5a2b27610c610ffe0597b44c6521b71029d7f95330f55c",
+    "transformation": "Remove author/editor metadata; questionnaire content unchanged"
+  },
+  {
+    "published_file": "instruments/chinese/小学生.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/origin/小学生.docx",
+    "source_sha256": "95d7c01b2556734ee1412776dc038180d0578fbbfed38eb0d6ef5178aec66350",
+    "transformation": "Remove author/editor metadata; questionnaire content unchanged"
+  },
+  {
+    "published_file": "instruments/chinese/教师.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/origin/教师.docx",
+    "source_sha256": "ba52ef9b3e01ec66d418a16d7ced4fbbbef981f38832eccd9a2407bb224aeead",
+    "transformation": "Remove author/editor metadata; questionnaire content unchanged"
+  },
+  {
+    "published_file": "instruments/chinese/校长.docx",
+    "source_artifact": "doc/supplement/S4_questionnaires/origin/校长.docx",
+    "source_sha256": "d5549e1e19a60161fd89f1f21314797d025ac06dbb7439dfbb67c9c4fe819536",
+    "transformation": "Remove author/editor metadata; questionnaire content unchanged"
+  }
+]

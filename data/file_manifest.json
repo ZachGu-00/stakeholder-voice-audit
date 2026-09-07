@@ -1,0 +1,532 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 8,
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  {
+    "path": ".github/workflows/reproduce.yml",
+    "bytes": 506,
+    "sha256": "bc496754f8ceb7a3a6ee79eee6a570d4b6d8a3aa295c2607eadbfee53b06348d"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 138,
+    "sha256": "1497e1c87c720ae6549136f1f2adaef5d6ce6d793ab9f53d519f6c5341397f3c"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 1030,
+    "sha256": "bc8b39563d4905fdd3104634bc80146ea7259368eed7b4e18a63871afdff7949"
+  },
+  {
+    "path": "data/classifier/run_metadata.json",
+    "bytes": 592,
+    "sha256": "6427117ceb6d006db88402710e879b26f0197c353327acb61362cb2d8968ea23"
+  },
+  {
+    "path": "data/classifier/voice_bridge_grouped_validation.csv",
+    "bytes": 660,
+    "sha256": "02d07b9cb747c58a8035e0a1383f08a36ea5d4e8d9b54730c845723cb9dc94b0"
+  },
+  {
+    "path": "data/classifier/voice_bridge_grouped_validation_with_ci.csv",
+    "bytes": 792,
+    "sha256": "5794685e1f9ea5f45b4fc78242b19d8105e404d75efe87bfe344c7e21bd76c3f"
+  },
+  {
+    "path": "data/classifier/voice_bridge_oof_predictions.csv",
+    "bytes": 103897,
+    "sha256": "22acd1cb0ce2abc951534ebecb6b25f0f3b1ce36985d2993455d0877992eef3d"
+  },
+  {
+    "path": "data/classifier/voice_bridge_training_manifest.csv",
+    "bytes": 97500,
+    "sha256": "24a61b77de05b236ed70172fb5bd4803dffc7d5ff8bffd8e4264fd47e94d1ed5"
+  },
+  {
+    "path": "data/coding/response_codes.csv",
+    "bytes": 45368,
+    "sha256": "6e4f1b5e9795b17d4e5174cdd510144d5c2c0a31188c5036bd1409261e7f81ad"
+  },
+  {
+    "path": "data/lexicons/role_lexicons.json",
+    "bytes": 1670,
+    "sha256": "822fe77bd7cb2486a6bb53a4cc4b04de2326e7732e1744cbf6f25788f7ae0dd2"
+  },
+  {
+    "path": "data/llm/condition_counts.csv",
+    "bytes": 518,
+    "sha256": "4d3ce3f4d5a802b9ef2994fd683073d8e4f0fb895b015bd7dcc2b1d7ab292910"
+  },
+  {
+    "path": "data/llm/responses.csv",
+    "bytes": 4218719,
+    "sha256": "56eed9641abf45ac1917302ed648e754d58df760c3b4a97a134c9ed895b1feb6"
+  },
+  {
+    "path": "data/portraits/full/h2_contrast_faithfulness.csv",
+    "bytes": 29128,
+    "sha256": "80feedd4cf899c18a985331b7089486e4978fd2cc5936d48ee044f20897d3b8f"
+  },
+  {
+    "path": "data/portraits/full/h2_extreme_dim_faithfulness.csv",
+    "bytes": 63647,
+    "sha256": "f9f161e039769fad8f7bc222678e705829b62b7cc592b1a45ed3609b2a66d955"
+  },
+  {
+    "path": "data/portraits/full/h2_faithfulness_by_profile.csv",
+    "bytes": 84607,
+    "sha256": "e0fa8ca7018e9553deaa5257ab17385fc99a09dbcd2f259d862811110da29d1d"
+  },
+  {
+    "path": "data/portraits/full/h2_portrait_template.json",
+    "bytes": 1011,
+    "sha256": "ad3c7d5b0f439d3aa53e4c7d28df385a03a9fc99e902470f462e88937eedf6f2"
+  },
+  {
+    "path": "data/portraits/full/h2_portraits_generated.json",
+    "bytes": 221117,
+    "sha256": "1f1494e4a968b337d17998e9aacf59a62dc8c84796698caf5365982296cf46d7"
+  },
+  {
+    "path": "data/portraits/full/h2_prompt_variants.json",
+    "bytes": 54278,
+    "sha256": "53039041d74e4bda506551f2c4cc66146f64d03a69d97d58c3aa8e66825a8a92"
+  },
+  {
+    "path": "data/portraits/full/h2_role_feature_packets.json",
+    "bytes": 16695,
+    "sha256": "706af8ce265645246c6f12b75ca01296c4fa772e8e74d9d5f72ac457ea102dcf"
+  },
+  {
+    "path": "data/portraits/full/h2_signature_distinctiveness.csv",
+    "bytes": 3332,
+    "sha256": "0c752e5cfb22ee1668e352db5b6727805a47f3901c0013db771d4dd51684be9e"
+  },
+  {
+    "path": "data/portraits/full/h2_signature_faithfulness.csv",
+    "bytes": 20671,
+    "sha256": "75dac56c48a83830eaf71a8621c8b5ce809d2c91b875fd7473a12e44d4fad3d5"
+  },
+  {
+    "path": "data/portraits/full/h2_stability_by_dimension.csv",
+    "bytes": 16883,
+    "sha256": "0c576a6eaa1420c82f516bbe45c23c15dbafffe159b7b059b5828aa153d7a8e5"
+  },
+  {
+    "path": "data/portraits/no_qualitative_levels/h2_ablation_summary.csv",
+    "bytes": 383,
+    "sha256": "aeff980c71376eb7185e9ab4730239bd91bf0e0062a709a3d5c253a2eccd3b47"
+  },
+  {
+    "path": "data/portraits/no_qualitative_levels/h2_contrast_faithfulness_no_ql.csv",
+    "bytes": 8994,
+    "sha256": "991fbbcbc80b3197bb8b463ecf4039828ddbd7677fa9cf77152093028da1d772"
+  },
+  {
+    "path": "data/portraits/no_qualitative_levels/h2_extreme_dim_faithfulness_no_ql.csv",
+    "bytes": 19418,
+    "sha256": "13e49f3c058b6cbdc997c4477a9216e7dbe24b0e2558c90f439418b71a048aed"
+  },
+  {
+    "path": "data/portraits/no_qualitative_levels/h2_faithfulness_no_ql.csv",
+    "bytes": 25760,
+    "sha256": "f33190d0295964d5f23c0eed22d656a363e5f9b75185a1d8a9c6cc14b1b28185"
+  },
+  {
+    "path": "data/portraits/no_qualitative_levels/h2_portraits_no_ql.json",
+    "bytes": 67477,
+    "sha256": "d3acf74a306d1aae7d8c815d75553c0cf7f8343ad047bf82ebc3ae2a3f8c8beb"
+  },
+  {
+    "path": "data/portraits/no_qualitative_levels/h2_signature_faithfulness_no_ql.csv",
+    "bytes": 6431,
+    "sha256": "32ee67be0d68b34f09f1d165ca1b0afee3aba2eac2f1d11b998f3a43e29ea980"
+  },
+  {
+    "path": "data/portraits/numeric_only/h2_contrast_faithfulness_numeric_only.csv",
+    "bytes": 9482,
+    "sha256": "79901ec823d5ef085dbb637688ceb039b51db7a7627547866a8694dac27e746c"
+  },
+  {
+    "path": "data/portraits/numeric_only/h2_extreme_dim_faithfulness_numeric_only.csv",
+    "bytes": 20790,
+    "sha256": "c14e3b144525be3fb9b0effde55678a3a351febe785102e473a0493cd9951a07"
+  },
+  {
+    "path": "data/portraits/numeric_only/h2_faithfulness_numeric_only.csv",
+    "bytes": 27615,
+    "sha256": "49be7e9c37e66f79ab5f95ba00d19b9d99492b38208eec58b8964691504e2f3a"
+  },
+  {
+    "path": "data/portraits/numeric_only/h2_numeric_only_ablation_summary.csv",
+    "bytes": 518,
+    "sha256": "2276ca5f062a1bbc88ffdef8811109d00929b95415d4d413bde046fa1703fe77"
+  },
+  {
+    "path": "data/portraits/numeric_only/h2_portraits_numeric_only.json",
+    "bytes": 71200,
+    "sha256": "581e75473c11b9acd2b00102077026a08cf1de27fc33dd3a662f2253d446233b"
+  },
+  {
+    "path": "data/portraits/numeric_only/h2_signature_faithfulness_numeric_only.csv",
+    "bytes": 6889,
+    "sha256": "ab06ba4841284d19e263fc2b4a0d8a6104fd141001b9f3bbc5493340ff44557f"
+  },
+  {
+    "path": "data/prompts/H2_materialized_generation_prompts.json",
+    "bytes": 658408,
+    "sha256": "bce68fe91362b43333a1912afd29a2cc772333188c95b78d2e61ee25d853b881"
+  },
+  {
+    "path": "data/prompts/H2_prompt_variants.json",
+    "bytes": 54278,
+    "sha256": "53039041d74e4bda506551f2c4cc66146f64d03a69d97d58c3aa8e66825a8a92"
+  },
+  {
+    "path": "data/prompts/H3_default_scenario_prompts_60.json",
+    "bytes": 22015,
+    "sha256": "9756e9519b2fb0aee59b3448a778faa67cae2de834fc315e277b794d65a7e265"
+  },
+  {
+    "path": "data/prompts/H3_perspective_prompts_20.json",
+    "bytes": 5478,
+    "sha256": "803e07effa9380d3f0ff1a84bed5cbd1d7355d4cc9aad917db91abe44d2c0510"
+  },
+  {
+    "path": "data/prompts/H3_perspective_rewrites_10x2.json",
+    "bytes": 5748,
+    "sha256": "0bfea76e70ebcbe241d715c03e66b7d5ab6d9969c000b45dee8c955740f6b05f"
+  },
+  {
+    "path": "data/prompts/H3_principal_prompts_60.json",
+    "bytes": 41605,
+    "sha256": "7b407e9584b89ad99b9f83b7bc0c49c3699902a7f65e0699fa042485ab813aef"
+  },
+  {
+    "path": "data/provenance.json",
+    "bytes": 19577,
+    "sha256": "fc089f918f5603e948b1703c8e54448653d91c8f399307b05f13824c63be1aaf"
+  },
+  {
+    "path": "data/scenarios/scenarios.json",
+    "bytes": 22015,
+    "sha256": "9756e9519b2fb0aee59b3448a778faa67cae2de834fc315e277b794d65a7e265"
+  },
+  {
+    "path": "data/survey/dimension_scores.csv",
+    "bytes": 3002851,
+    "sha256": "55ea560face686f9111e548290e4ff5f23543f4914ad0bec24efe76c7f3ed4a0"
+  },
+  {
+    "path": "data/survey/item_dictionary.csv",
+    "bytes": 49614,
+    "sha256": "11d69100aa61517ac531ecf74a551ac61ab4763745a79dc867852fce1a97fbbe"
+  },
+  {
+    "path": "data/survey/middle_student.csv",
+    "bytes": 502420,
+    "sha256": "14d5dae67fb22f1c23bdcf2bdba1e6ad64415b3a4284c4035b693d15255f1478"
+  },
+  {
+    "path": "data/survey/parent.csv",
+    "bytes": 2257380,
+    "sha256": "de34ecfeba072890535fd491dc53f18562dcd0aeb504b2059fb20caad19c0fc0"
+  },
+  {
+    "path": "data/survey/primary_student.csv",
+    "bytes": 1368249,
+    "sha256": "4776cdd37aaac557388b7bb1838a9451a7190d46ee691d6c41a53769575ec772"
+  },
+  {
+    "path": "data/survey/principal.csv",
+    "bytes": 10791,
+    "sha256": "81f008746f9704bcfd6aec79bebd6bcb7f6acabbb6d25e8e27ada478234e9709"
+  },
+  {
+    "path": "data/survey/sample_counts.csv",
+    "bytes": 169,
+    "sha256": "80c15df6c63acbdfed1d263487fb7e8ba1ec1ce505bd0b2e696f8757fa2e9283"
+  },
+  {
+    "path": "data/survey/teacher.csv",
+    "bytes": 193536,
+    "sha256": "5b0b8c29d8603552a81c9f3a3f4d1b1b8963ee50be8876be6a71b4625abddf69"
+  },
+  {
+    "path": "docs/CODING_GUIDE.md",
+    "bytes": 2722,
+    "sha256": "5642a38ddc08fba7fdb1b8a078701836ce115991c1d86f31df9497bc30e90fd0"
+  },
+  {
+    "path": "docs/DATA_GUIDE.md",
+    "bytes": 5920,
+    "sha256": "5c4dbb0cc70d8e5868afc92070ec21e2369bc321ff0f404ecc22b55524c07168"
+  },
+  {
+    "path": "docs/METHODS.md",
+    "bytes": 4448,
+    "sha256": "ef0d4f781f492386f41be081c265613c876ca0c9e39e050d73c2bd9b62a6bb81"
+  },
+  {
+    "path": "docs/VALIDATION.md",
+    "bytes": 1880,
+    "sha256": "4884ed522c8964dd861654217db9748f79381c1fbda11a13fd8611553210ba2e"
+  },
+  {
+    "path": "figures/responsibility_content.pdf",
+    "bytes": 24556,
+    "sha256": "a0b062946856cf1be6478bb7220b84139f977861bf16a6f800003c706fb0504f"
+  },
+  {
+    "path": "figures/responsibility_content.png",
+    "bytes": 175008,
+    "sha256": "2cefbf1d319267f41bb8d5eaf600acab30ebd5ee12ff68b3b28b3f7980a8d945"
+  },
+  {
+    "path": "figures/responsibility_content.svg",
+    "bytes": 15788,
+    "sha256": "6f80c8c59ca1eb4dda9944352c768e8a3ca882a630cc8948951c0efccbecc30b"
+  },
+  {
+    "path": "figures/voice_distributions.pdf",
+    "bytes": 23023,
+    "sha256": "261d8bff62529706da270d526b375b616c842ac58ed6541fc1f96c0432b298f3"
+  },
+  {
+    "path": "figures/voice_distributions.png",
+    "bytes": 137044,
+    "sha256": "3b0c7796e9f7626ec1a768806e9ba94518d32f1935fcdcce1cd8160c68492d28"
+  },
+  {
+    "path": "figures/voice_distributions.svg",
+    "bytes": 17249,
+    "sha256": "9da404062de22170bdab5a241bd652c018a3e001fd43075d716afbd45693efed"
+  },
+  {
+    "path": "instruments/chinese/\u521d\u4e2d\u751f.docx",
+    "bytes": 48862,
+    "sha256": "48d08d534e57e0c7b1a2de8b0ef93395fb7ca6b0bf967c5845ad659eb18579f5"
+  },
+  {
+    "path": "instruments/chinese/\u5bb6\u957f.docx",
+    "bytes": 46378,
+    "sha256": "cef1e1cba000474146c92bc46e330394decdbfda92940f6936bb14d324e6a82a"
+  },
+  {
+    "path": "instruments/chinese/\u5c0f\u5b66\u751f.docx",
+    "bytes": 48093,
+    "sha256": "9bcab1d3a29507341015eee7ac6e160d2fac0a9939485781e859497391d78b0e"
+  },
+  {
+    "path": "instruments/chinese/\u6559\u5e08.docx",
+    "bytes": 46738,
+    "sha256": "8a6dda534329489c73f3f16216b58d5e22278db96c06d861dbecee13f2b8e599"
+  },
+  {
+    "path": "instruments/chinese/\u6821\u957f.docx",
+    "bytes": 36917,
+    "sha256": "479903091b32b0ab0bd9f25613a3371d25f4dd644c61dcb21ec3d63f824e24fa"
+  },
+  {
+    "path": "instruments/english/Middle_School_Student_Questionnaire_EN.docx",
+    "bytes": 46724,
+    "sha256": "b09e7a1c1ff2ba83c4b96c42b1f60466a932ce2324d264feb54365a3b5ae609a"
+  },
+  {
+    "path": "instruments/english/Parent_Questionnaire_EN.docx",
+    "bytes": 45187,
+    "sha256": "fb2f03ccf3948a2c3165f3eff58a1cf3da16661f665f632912fbba013f2aee50"
+  },
+  {
+    "path": "instruments/english/Primary_School_Student_Questionnaire_EN.docx",
+    "bytes": 46223,
+    "sha256": "018be8c6b65ea6b853aa1fade272641c34ed1bc27de554898344f4cb62ed34b1"
+  },
+  {
+    "path": "instruments/english/Principal_Questionnaire_EN.docx",
+    "bytes": 35718,
+    "sha256": "ac12fac0614731aab34b29d0e62a26789f824dc1b09a8524800984ba8b5f1940"
+  },
+  {
+    "path": "instruments/english/Teacher_Questionnaire_EN.docx",
+    "bytes": 45373,
+    "sha256": "b0dcb2bd3840380198993440731e7dddb4c7b6cad6a7907d24da3c678ffff0be"
+  },
+  {
+    "path": "models/APACHE-2.0.txt",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "models/checkpoint_files.json",
+    "bytes": 1647,
+    "sha256": "08186f2799bf581b68a2ab337a296630fa3f47c3a80cbf7679d2f133e77b17a9"
+  },
+  {
+    "path": "models/classifier_head.json",
+    "bytes": 44703,
+    "sha256": "ef38ebc7f88748ced732bd8945ba2409ca72bed24f11746cf5670a01c6735bd0"
+  },
+  {
+    "path": "models/MODEL_CARD.md",
+    "bytes": 3223,
+    "sha256": "d96088d99ee20483430a73345bfac0bcc3659a76a76f6553f956125f6314eea8"
+  },
+  {
+    "path": "models/NOTICE.txt",
+    "bytes": 477,
+    "sha256": "2caee75b2bb1582b3e48749a49462d43e96a2c1e57607c9187ee7cd8030cd8dc"
+  },
+  {
+    "path": "models/release_asset.json",
+    "bytes": 294,
+    "sha256": "2e100397d7a5969a89b9b8bc60853ae51d80ae308147b9997907fc8c39035461"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5111,
+    "sha256": "a7f570fc0118dd0cef89d05f90fddbfadd7bc5919c79b26d076bc5ee84c6a3b6"
+  },
+  {
+    "path": "requirements-model.txt",
+    "bytes": 166,
+    "sha256": "6dfa091928a1d362878398548ae285068e35fa9eb97f71bd3e12f3eb32f4c978"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 60,
+    "sha256": "897e13c21cd1ef45266f2c3c871280ed4e2f540099d84864f160ff11899c8b1c"
+  },
+  {
+    "path": "results/reference/e1_ai_descriptives.csv",
+    "bytes": 5907,
+    "sha256": "eacd746309eeab508b9fd8bf5e8effeebdca12a385da614f4a152e69d1d43579"
+  },
+  {
+    "path": "results/reference/e1_endorsement_rates.csv",
+    "bytes": 4235,
+    "sha256": "6e5d3d35196fb70c9a8491d84daec480c2dc12dc313ed4e9c8e2ca240b88556f"
+  },
+  {
+    "path": "results/reference/e1_spearman_correlations.csv",
+    "bytes": 13625,
+    "sha256": "969b283e7067e01719090faf4c610dcab222773db8384d877dcfc162b02949d0"
+  },
+  {
+    "path": "results/reference/h1_dimension_group_tests.csv",
+    "bytes": 1360,
+    "sha256": "c4681ed987627519f5c9d0910bca2213eda5621f1e5145498ec0f6fa6f67bd4f"
+  },
+  {
+    "path": "results/reference/h1_pairwise_cohens_d.csv",
+    "bytes": 6245,
+    "sha256": "1dafd63fdf98af5300818b82f7eadf85d6df6a10f97777b148049425b6abdb68"
+  },
+  {
+    "path": "results/reference/h1_role_dimension_descriptives.csv",
+    "bytes": 2338,
+    "sha256": "fc85f2e1fbfaa8b02ddae2d2425b349aa91342b40eb142399fd321ab63b5e7f9"
+  },
+  {
+    "path": "results/reference/h3_bridge_by_generator.csv",
+    "bytes": 1228,
+    "sha256": "c619bfb598930f984ae1b8d57b8e2d6bac46b0897be0ac38878bc6f0fd633e1d"
+  },
+  {
+    "path": "results/reference/h3_bridge_logistic_mixed_model.csv",
+    "bytes": 2330,
+    "sha256": "16d6271e7c335805b8cb54bf015b3267fa36212934f2b0ab02b657048a4c4dd9"
+  },
+  {
+    "path": "results/reference/h3_bridge_principal_relevant_subset.csv",
+    "bytes": 374,
+    "sha256": "c5f18ed7379723440d680fad45fb8f8b2da874ef180fe70930574f154acc6475"
+  },
+  {
+    "path": "results/reference/h3_bridge_probability_mixed_model.csv",
+    "bytes": 1037,
+    "sha256": "50d8d8d75753410dbec370fee924301fa4282b8cdfd5b4dd2759be9c026b095a"
+  },
+  {
+    "path": "results/reference/h3_bridge_scenario_clustered_effects.csv",
+    "bytes": 735,
+    "sha256": "2e1a173ed374a90bc5c66f6378847186c1f1f9da97a02f2a6aec0ea8895fa756"
+  },
+  {
+    "path": "results/reproduced/content_composites.csv",
+    "bytes": 389,
+    "sha256": "9599235d7c83d27bbcb9eb85a486f858308726ff2e3839f40a8b5a3d8abac0ee"
+  },
+  {
+    "path": "results/reproduced/content_paired_scenario_effects.csv",
+    "bytes": 1317,
+    "sha256": "704939ec3a2ff8d1afe726ff2fe12e75fe12da08d40cae7462894f88f22508e1"
+  },
+  {
+    "path": "results/reproduced/content_prevalence_percent.csv",
+    "bytes": 1034,
+    "sha256": "5f3420fa7ee11600d889e98b0e48fcda66bbb6aba579979172eb24300ffb7d7c"
+  },
+  {
+    "path": "results/reproduced/e1_ai_attitude_correlations.csv",
+    "bytes": 5158,
+    "sha256": "f3e4de48f9132607d1573955d1fa1de6170862b2afd746e05d560eacb419d2f5"
+  },
+  {
+    "path": "results/reproduced/h1_form_reliability.csv",
+    "bytes": 1891,
+    "sha256": "a5f312a197acb396d6cd02bec27957fd497fe99daf1eefbd5d65787d7ca91245"
+  },
+  {
+    "path": "results/reproduced/h1_role_profiles.csv",
+    "bytes": 1862,
+    "sha256": "86a64d28811ee557968f3aca9cd9045969888306df90399f4fbad5c31a88fd1d"
+  },
+  {
+    "path": "results/reproduced/h2_ablation_comparisons.csv",
+    "bytes": 565,
+    "sha256": "a8a5c8b8849901b7085b48857676f44d4bf2eb8e4d003457144a7e6095c6fd81"
+  },
+  {
+    "path": "results/reproduced/h3_lexicon_hits.csv",
+    "bytes": 90371,
+    "sha256": "f4880a0484821ddbec7608290c04aca0291a7190798dc8749337b947f603fbf1"
+  },
+  {
+    "path": "results/reproduced/h3_voice_shares.csv",
+    "bytes": 959,
+    "sha256": "ed714897aed98289fb4757504334b75345372bed6064fcb31745d6393cd6af21"
+  },
+  {
+    "path": "scripts/download_model.py",
+    "bytes": 2559,
+    "sha256": "ff17fd4f0132df2874b7a414350ea2473a317da94e877f685b7036c79bdd1ed2"
+  },
+  {
+    "path": "scripts/infer.py",
+    "bytes": 3538,
+    "sha256": "e36490f736b20d88088ea6887cef8681c8f5ccba1409e4917ecfab94d7be076b"
+  },
+  {
+    "path": "scripts/plot_results.py",
+    "bytes": 5055,
+    "sha256": "b56fcf7f21fda6242511fe2a32a0fb29102d3af8b723a8c188b3d1f7d2f17a96"
+  },
+  {
+    "path": "scripts/reproduce.py",
+    "bytes": 10670,
+    "sha256": "b4b0bd215edbf7f6f80d7dccc6e35e339597f1684c040b010aa23652fbcd035e"
+  },
+  {
+    "path": "scripts/train_classifier.py",
+    "bytes": 4613,
+    "sha256": "1ee4f161258ce0d5fabf6e8d4119e7dba4fb266b0a208074db17c4d48c95aafb"
+  },
+  {
+    "path": "scripts/validate_release.py",
+    "bytes": 3465,
+    "sha256": "2c250c3af77a0deb7ab5c26d389bd6988e885eb684de3bb9108d1016ae79b39b"
+  }
+]

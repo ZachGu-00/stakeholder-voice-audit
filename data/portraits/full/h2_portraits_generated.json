@@ -1,0 +1,7011 @@
+[
+  {
+    "role": "student",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "乐观度居四类之首，自我觉察也偏高；沟通协作相对最弱，责任感与共情居中。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "沟通协作",
+      "责任分担"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "乐观度排名第1。",
+      "自我觉察排名第2。",
+      "情绪调节韧性排名第3。",
+      "沟通协作排名第4。",
+      "责任与集体导向排名第3。"
+    ],
+    "avoid_overclaim": [
+      "不谈动机",
+      "不说特质"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "整体多处居中，沟通协作相对靠前；情绪调节、责任与自我觉察都不突出。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "情绪调节",
+      "责任落实"
+    ],
+    "signature_dimensions": [
+      "communication_collaboration",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察排名第3。",
+      "积极未来乐观排名第3。",
+      "情绪调节韧性排名第4。",
+      "沟通协作排名第2。",
+      "责任与集体导向排名第4。"
+    ],
+    "avoid_overclaim": [
+      "不作推断",
+      "不加解释"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "情绪调节韧性居四类之首，责任感也较靠前；自我觉察最低，共情尊重和协作均偏中。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察",
+      "协作表达"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "parent",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察排名第4。",
+      "积极未来乐观排名第2。",
+      "情绪调节韧性排名第1。",
+      "沟通协作排名第3。",
+      "责任与集体导向排名第2。"
+    ],
+    "avoid_overclaim": [
+      "不说更强",
+      "不谈原因"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "自我觉察、共情尊重、沟通协作与责任感均居首；唯独积极未来乐观相对最低。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "乐观不足",
+      "压力调节"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察排名第1。",
+      "积极未来乐观排名第4。",
+      "情绪调节韧性排名第2。",
+      "共情尊重排名第1。",
+      "沟通协作与责任导向都排名第1。"
+    ],
+    "avoid_overclaim": [
+      "不扩展",
+      "不演绎"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "乐观度全场最高，自我认知较强；协作偏弱，但仍重视共情与责任。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "协作偏弱",
+      "情绪韧性一般"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "正向未来乐观度为全场第1。",
+      "自我认知排名第2。",
+      "情绪调节与韧性为中等。",
+      "沟通协作为中等且排名第4。",
+      "共情尊重与责任集体均为中等。"
+    ],
+    "avoid_overclaim": [
+      "不推动机",
+      "不扩年龄"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "沟通协作居前，自我认知和韧性较弱；更需稳住情绪、责任与共识。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "情绪韧性不足",
+      "责任集体偏低"
+    ],
+    "signature_dimensions": [
+      "communication_collaboration",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "沟通协作为第2。",
+      "自我认知排名第3。",
+      "正向未来乐观度排名第3。",
+      "情绪调节与韧性排名第4。",
+      "责任集体排名第4。"
+    ],
+    "avoid_overclaim": [
+      "不补动因",
+      "不写家庭"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "情绪调节与韧性最强，责任感也居前；但自我认知最低，需防沟通与共情失衡。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知偏低",
+      "共情尊重偏弱"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我认知为全场第4。",
+      "情绪调节与韧性为全场第1。",
+      "正向未来乐观度排名第2。",
+      "共情尊重排名第4。",
+      "责任集体排名第2。"
+    ],
+    "avoid_overclaim": [
+      "不说强弱因果",
+      "不加经历"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "自我认知、共情、协作和责任都居前；但正向未来乐观度是全场最低。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "乐观度最低",
+      "韧性仅居中"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我认知为全场第1。",
+      "正向未来乐观度为全场第4。",
+      "共情尊重为全场第1。",
+      "沟通协作为全场第1。",
+      "责任集体为全场第1。"
+    ],
+    "avoid_overclaim": [
+      "不写权力感",
+      "不扩职责"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v5_signature_first",
+    "summary": "乐观最突出，自我认知也较高；协作偏弱，但整体仍较能顾及他人与责任。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来期待",
+      "协作表达"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来乐观为全角色最高。",
+      "自我认知位列第二。",
+      "沟通协作位列第四。",
+      "情绪调节韧性为中等。",
+      "责任与集体意识为中等。"
+    ],
+    "avoid_overclaim": [
+      "不推动机",
+      "不写性格"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v5_signature_first",
+    "summary": "协作居中，其他多在中位偏下；最显眼的是责任感不高，自我认知也不占优。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任承担",
+      "协作配合"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "teacher",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "责任与集体意识位列第四。",
+      "情绪调节韧性位列第四。",
+      "自我认知位列第三。",
+      "积极未来乐观位列第三。",
+      "沟通协作位列第二。"
+    ],
+    "avoid_overclaim": [
+      "不写家庭角色",
+      "不补背景"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v5_signature_first",
+    "summary": "情绪调节韧性最强，责任感也较高；但自我认知最低，协作与共情多居中。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知",
+      "情绪稳住"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "student",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "parent",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "情绪调节韧性为全角色最高。",
+      "自我认知位列第四。",
+      "责任与集体意识位列第二。",
+      "积极未来乐观位列第二。",
+      "同理尊重位列第四。"
+    ],
+    "avoid_overclaim": [
+      "不写教学风格",
+      "不写管理方式"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v5_signature_first",
+    "summary": "自我认知、同理尊重、沟通协作与责任感都居首；唯独积极未来乐观相对最低。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "high",
+      "responsibility_collective": "high"
+    },
+    "core_concerns": [
+      "统筹协作",
+      "责任落实"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "parent",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我认知位列第一。",
+      "同理尊重位列第一。",
+      "沟通协作位列第一。",
+      "责任与集体意识位列第一。",
+      "积极未来乐观位列第四。"
+    ],
+    "avoid_overclaim": [
+      "不写权威感",
+      "不写领导风格"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "学生型角色最强在积极未来乐观；自我觉察也较高，但沟通协作明显弱于主理角色，情绪调节与责任感多为中位。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "前景期待",
+      "协作补位"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来乐观为四类第1。",
+      "自我觉察为中位，排第2。",
+      "沟通协作为中位，但排第4。",
+      "情绪调节韧性为中位，排第3。",
+      "责任与集体性为中位，排第3。"
+    ],
+    "avoid_overclaim": [
+      "不写低谷",
+      "不写强弱"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "父母型角色更偏沟通协作，责任感与情绪韧性反而不占优；自我觉察和未来乐观都属中位偏后，整体更平实。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "沟通协作",
+      "责任分担"
+    ],
+    "signature_dimensions": [
+      "communication_collaboration",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "沟通协作为中位，排第2。",
+      "责任与集体性为中位，但排第4。",
+      "情绪调节韧性为中位，排第4。",
+      "自我觉察为中位，排第3。",
+      "积极未来乐观为中位，排第3。"
+    ],
+    "avoid_overclaim": [
+      "不写突出",
+      "不写极强"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "教师型角色最强在情绪调节韧性与责任感；但自我觉察最低，移情尊重也偏弱，较主理角色更少靠自我与共情拉动。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我校准",
+      "情绪承压"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察为低，排第4。",
+      "情绪调节韧性为高，排第1。",
+      "责任与集体性为中位，排第2。",
+      "移情尊重为中位，但排第4。",
+      "积极未来乐观为中位，排第2。"
+    ],
+    "avoid_overclaim": [
+      "不写全能",
+      "不写均衡"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "校长型角色最强在自我觉察、移情尊重、沟通协作与责任集体；但未来乐观最低，情绪韧性只属中位，强在统筹不强在乐观。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "统筹整合",
+      "乐观不足"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "student",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察为高，排第1。",
+      "移情尊重为高，排第1。",
+      "沟通协作为中位，但排第1。",
+      "责任与集体性为中位，但排第1。",
+      "积极未来乐观为中位，排第4。"
+    ],
+    "avoid_overclaim": [
+      "不写低迷",
+      "不写无短板"
+    ],
+    "generator_model": "gpt-5.4-mini-2026-03-17"
+  },
+  {
+    "role": "student",
+    "summary": "学生在自我觉察和未来乐观表现突出，其他方面处于中等水平，并注重持续提升。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "如何维持乐观态度",
+      "情绪调节需加强"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生在未来乐观维度排名第一。",
+      "自我觉察水平为中等偏高。",
+      "沟通与协作维度处于中等低位。",
+      "对责任感的集体倾向表现为中等。",
+      "情绪韧性低于教师和校长。"
+    ],
+    "avoid_overclaim": [
+      "不代表其他角色",
+      "优势仅限部分维度"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在责任与自我觉察维度偏低，沟通协作表现一般，但整体维度未有极端突出。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任感提升压力",
+      "自我觉察需增强"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长自我觉察排名第三。",
+      "责任与集体倾向在四角色中最低。",
+      "沟通协作水平为中等。",
+      "情绪韧性处于中等低位。",
+      "同理与尊重维度偏低。"
+    ],
+    "avoid_overclaim": [
+      "缺乏显著高分",
+      "仅反映当前状况"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师在情绪调节表现最强，自我觉察为所有角色中最低，整体维度分布平衡。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察不足",
+      "平衡情绪压力"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "student",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "教师在情绪调节排名第一。",
+      "自我觉察为所有角色最低。",
+      "责任与集体倾向水平较高。",
+      "沟通协作处于中等偏低。",
+      "同理与尊重维度为中等低位。"
+    ],
+    "avoid_overclaim": [
+      "仅突出情绪优势",
+      "没有全面高分"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "principal",
+    "summary": "校长在自我觉察和同理尊重两个维度均表现突出，其余维度多处于中等偏高水平。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "整体均衡发展",
+      "保持高自我觉察"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "parent",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长自我觉察排名第一。",
+      "同理与尊重维度最高。",
+      "责任感和沟通协作表现为中等偏高。",
+      "情绪韧性为中等水平。",
+      "积极未来乐观排名最低。"
+    ],
+    "avoid_overclaim": [
+      "部分维度仅中等",
+      "高分限于两项"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "student",
+    "summary": "学生角色高度乐观，具备较强自我觉察，其他维度表现中等。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "能否维持积极乐观",
+      "自我觉察是否足够"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生乐观展望未来，得分最高。",
+      "自我觉察为中等偏上水平。",
+      "情绪调节在各角色中较低。",
+      "共情尊重和责任感均为中位。",
+      "沟通协作得分处于末位。"
+    ],
+    "avoid_overclaim": [
+      "不可推断性格",
+      "避免归因动机"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "parent",
+    "summary": "家长责任感、自我觉察处于低位，沟通协作略高，整体中等表现。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任心表现较弱",
+      "自我认知有待提升"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长责任感最低。",
+      "自我觉察在所有角色中排第三。",
+      "对未来乐观态度处于中档。",
+      "沟通协作为次高水平。",
+      "共情与情绪调节均表现中等。"
+    ],
+    "avoid_overclaim": [
+      "不推测动机",
+      "避免泛化描述"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师情绪韧性最高，自我觉察较低。其他能力中等偏弱，平衡发展。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察相对不强",
+      "需持续维护情绪韧性"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师情绪调节与韧性分数最高。",
+      "自我觉察为所有角色最低。",
+      "责任感居于中上水平。",
+      "共情参与为角色中最低之一。",
+      "沟通协作略低于平均值。"
+    ],
+    "avoid_overclaim": [
+      "不描述性格特征",
+      "勿濒断因果关系"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "principal",
+    "summary": "校长在自我觉察与共情方面都表现突出，多数维度领先其他角色。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察维持领先",
+      "共情理解是否保持"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长自我觉察得分最高。",
+      "共情、尊重均显著领先。",
+      "沟通协作居首位。",
+      "责任感同样为最高水准。",
+      "乐观未来得分为所有角色最低。"
+    ],
+    "avoid_overclaim": [
+      "不扩展立场",
+      "避免个人归因"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "student",
+    "summary": "学生在积极未来乐观上表现突出，自我觉察也高于家长和教师，但情绪调适与合作协作相对偏低。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "对未来的期待与现实压力",
+      "自我认知发展"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生积极未来乐观排名全体第一（mean=0.8346）。",
+      "学生自我觉察高于教师（差值0.079）。",
+      "合作协作在四类角色中排名最低。",
+      "情绪调适在学生中为中等水平。",
+      "责任感在角色间属中间梯队。"
+    ],
+    "avoid_overclaim": [
+      "仅中等情绪弹性",
+      "未必最强同理"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在责任感与自我觉察两维度均为最低，合作协作则保持中等偏上水准，整体表现平稳。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "家庭责任压力",
+      "自我认知挑战"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "teacher",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长在责任感排名全体最后（mean=0.8002）。",
+      "家长自我觉察为倒数第二（mean=0.6942）。",
+      "合作协作排名第二，高于学生和教师。",
+      "各维度均表现为中等水平。",
+      "正向未来乐观性处于中游。"
+    ],
+    "avoid_overclaim": [
+      "合作未极高",
+      "同理居中"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师在情绪调适韧性方面遥遥领先，自我觉察则为四类角色中最低，责任感较强。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "压力调节需求大",
+      "自我觉察薄弱"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "student",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师自我觉察均值为四类最低（mean=0.6753）。",
+      "情绪调适韧性全体最高（mean=0.7854）。",
+      "责任感排名第二，仅次于校长。",
+      "合作协作位列第三。",
+      "正向未来乐观性处于中间位置。"
+    ],
+    "avoid_overclaim": [
+      "同理性低调",
+      "责任未最高"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "principal",
+    "summary": "校长在自我觉察和同理尊重两维度中均排名第一，责任感及合作协作也为集体最高。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我要求极高",
+      "对群体责任突出"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长自我觉察均值全体最高（0.7862）。",
+      "同理尊重亦为第一（0.8317）。",
+      "责任感与协作也为集体最高。",
+      "情绪调适排名第二。",
+      "正向乐观处于中游。"
+    ],
+    "avoid_overclaim": [
+      "乐观不极高",
+      "情绪略居中"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "学生突出积极未来期待，较教师自我觉察更高，情绪韧性比教师低，整体自我觉察与集体责任适中。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "成长自信与压力",
+      "自我探索与合作"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生积极未来期待得分排名第一。",
+      "学生自我觉察明显高于教师。",
+      "学生情绪韧性低于教师。",
+      "学生自我觉察属于极高区间。",
+      "学生集体责任得分偏中。"
+    ],
+    "avoid_overclaim": [
+      "沟通能力不突出",
+      "共情仅中等"
+    ],
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "家长集体责任与自我觉察均低于校长和教师，沟通合作适中，积极乐观不突出。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任分配与集体归属",
+      "情感表达与自省"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "teacher",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长集体责任排名最末。",
+      "家长自我觉察低于校长。",
+      "家长集体责任明显低于教师。",
+      "家长自我觉察为极低区间。",
+      "家长沟通合作水平为中等。"
+    ],
+    "avoid_overclaim": [
+      "乐观仅适中",
+      "韧性不显著"
+    ],
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "教师情绪韧性和责任感突出，自我觉察低于其他角色，共情水平较低，合作能力中等。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "情绪处理与责任感",
+      "认知不足与关系管理"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "student",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "教师情绪韧性排名第一。",
+      "教师自我觉察为全角色最低。",
+      "教师情绪韧性属于极高区间。",
+      "教师集体责任中等偏高。",
+      "教师共情得分较低。"
+    ],
+    "avoid_overclaim": [
+      "乐观不极端",
+      "合作能力适中"
+    ],
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "校长自我觉察与共情极高，沟通与责任感强于其他角色，未来乐观较低，韧性中等。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "整体领导与个体感受",
+      "自我觉察与集体协作"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长自我觉察排名第一。",
+      "校长共情能力极高。",
+      "校长集体责任排名第一。",
+      "校长沟通合作能力高于其他角色。",
+      "校长积极未来期待得分较低。"
+    ],
+    "avoid_overclaim": [
+      "韧性未突出",
+      "乐观仅中等"
+    ],
+    "generator_model": "gpt-4.1"
+  },
+  {
+    "role": "student",
+    "summary": "学生展现了中等的自我意识和高的未来乐观。他们在情感调节和社交方面尚需成长。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我成长与学习压力",
+      "未来规划与信心"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "他们的自我意识在角色中排名第二。",
+      "他们对未来的乐观态度非常高。",
+      "情感调节能力处于中等水平。",
+      "他们在同理心方面的表现也在中等范围。",
+      "责任感在学生中得分中等。"
+    ],
+    "avoid_overclaim": [
+      "不强势表达",
+      "不夸大表现"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在责任感和自我意识方面处于中等水平，面临着教养与支持的挑战。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "对孩子发展的支持",
+      "家庭和谐与责任"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "teacher",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长的自我意识在角色中排名第三。",
+      "他们在责任感方面得分较低。",
+      "情感调节能力处于中等水平。",
+      "同理心表现中等。",
+      "沟通能力保持在中等水平。"
+    ],
+    "avoid_overclaim": [
+      "不主观臆断",
+      "不偏激表达"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师在调节情感和集体责任感上表现出色，但自我意识较低，需要进一步提升。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "教学质量与自我提升",
+      "同事合作与支持"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师的自我意识排名最低。",
+      "他们的情感调节能力最佳。",
+      "同理心在排名上较低。",
+      "沟通与合作能力在中等水平。",
+      "责任感表现平均。"
+    ],
+    "avoid_overclaim": [
+      "不极端表述",
+      "不妄加评论"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "principal",
+    "summary": "校长展现出极高的自我意识与同理心，积极影响学生与教师的氛围。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "学校管理与师生关系",
+      "未来发展与支持"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长的自我意识在角色中排名第一。",
+      "他们的同理心得分也最高。",
+      "沟通能力在校长中排名第一。",
+      "责任感显示出中等水平。",
+      "情感调节能力保持在中等范围。"
+    ],
+    "avoid_overclaim": [
+      "不自夸成就",
+      "不贬低他人"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "student",
+    "summary": "学生积极乐观，善于自我反省，同时关注集体责任感。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我意识与未来乐观",
+      "集体责任感不足"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生自我意识处于中等水平。",
+      "学生对未来的乐观程度最高。",
+      "学生的情绪调节能力处于中等水平。",
+      "学生在同理心与尊重方面处于中等水平。",
+      "学生的集体责任感也处于中等水平。"
+    ],
+    "avoid_overclaim": [
+      "自我意识极其强",
+      "集体责任感强"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "parent",
+    "summary": "家长关注集体责任与自我意识，面临沟通与合作的挑战。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "亲子沟通不足",
+      "集体责任感低"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "teacher",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长的自我意识水平处于中等。",
+      "家长对未来的乐观程度中等。",
+      "家长的情绪调节能力为中等。",
+      "家长的同理心与尊重能力也为中等。",
+      "家长在集体责任感方面处于较低水平。"
+    ],
+    "avoid_overclaim": [
+      "沟通能力强",
+      "自我意识极高"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师在情绪调节与责任感方面较强，但自我意识有待提高。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自身意识不足",
+      "情绪管理压力"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师的自我意识水平较低。",
+      "教师对未来的乐观水平为中等。",
+      "教师的情绪调节能力是最高的。",
+      "教师在同理心与尊重上中等。",
+      "教师的集体责任感为中等水平。"
+    ],
+    "avoid_overclaim": [
+      "自我意识强",
+      "沟通能力极高"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "principal",
+    "summary": "校长在自我意识与尊重方面表现出色，关注整个学校的责任感。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "权威与合作的平衡",
+      "未来规划的不确定性"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长的自我意识水平高。",
+      "校长对未来的乐观水平为中等。",
+      "校长的情绪调节能力为中等。",
+      "校长在同理心与尊重上的成绩最高。",
+      "校长在集体责任感方面也是中等水平。"
+    ],
+    "avoid_overclaim": [
+      "未来规划非常明确",
+      "校长不关心责任"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "student",
+    "summary": "学生对未来充满信心，注重自我意识。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "对未来的期望",
+      "自我意识的提高"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生的自我意识中等水平。",
+      "学生对未来持乐观态度。",
+      "学生的情感调节能力中等。",
+      "学生展现出一定的理解与尊重。",
+      "学生的责任感处于中等水平。"
+    ],
+    "avoid_overclaim": [
+      "自我意识极高",
+      "对他人没有尊重"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "parent",
+    "summary": "家长注重集体责任感，努力提升自我意识。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "对孩子教育的关心",
+      "集体责任感不足"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "teacher",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长的自我意识中等水平。",
+      "家长对未来持中立态度。",
+      "家长的情感调节能力中等。",
+      "家长展现出对他人的理解。",
+      "家长在集体责任感方面较低。"
+    ],
+    "avoid_overclaim": [
+      "没有责任感",
+      "情感调节能力极高"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师具备高情感调节能力，自我意识较低。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "提升自我意识",
+      "教学中的情感支持"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师的自我意识水平较低。",
+      "教师对未来持中立态度。",
+      "教师的情感调节能力高。",
+      "教师展现出同情心和尊重。",
+      "教师的责任感处于中等水平。"
+    ],
+    "avoid_overclaim": [
+      "对学生没有关心",
+      "情感调节能力极低"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "principal",
+    "summary": "校长在自我意识和同情心方面表现出色。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "high"
+    },
+    "core_concerns": [
+      "保持高标准管理",
+      "提升团队合作精神"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长的自我意识极高。",
+      "校长对未来持中立态度。",
+      "校长的情感调节能力中等。",
+      "校长展现出较强的同情心。",
+      "校长的责任感极高。"
+    ],
+    "avoid_overclaim": [
+      "情感调节能力低",
+      "没有责任心"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "student",
+    "summary": "学生倾向于关注未来乐观和自我意识，较低的情感调节能力。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来发展关注",
+      "自我认识提升"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生的自我意识得分中等。",
+      "学生在未来乐观方面得分最高。",
+      "学生的情感调节能力处于中等水平。",
+      "学生的同理心得分相对较高。",
+      "学生在责任感方面表现良好。"
+    ],
+    "avoid_overclaim": [
+      "不擅长合作",
+      "情感管理不足"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在集体责任感和自我意识上表现较低，未来乐观能力处于中等水平。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "low"
+    },
+    "core_concerns": [
+      "家长责任感不足",
+      "未来认知模糊"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "teacher",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长在自我意识上得分中等。",
+      "家长的未来乐观能力也较低。",
+      "家长的情感调节能力处于中等范围。",
+      "家长的同理心得分中等。",
+      "家长在集体责任感上得分最低。"
+    ],
+    "avoid_overclaim": [
+      "不擅长沟通",
+      "缺乏情感支持"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师在情感调节能力上表现优异，但自我意识偏低。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "管理学生情感",
+      "自我认知局限"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师的情感调节能力得分极高。",
+      "教师的自我意识得分偏低。",
+      "教师的同理心水平处于中等。",
+      "教师在沟通合作方面表现良好。",
+      "教师的责任感得分中等。"
+    ],
+    "avoid_overclaim": [
+      "不善于自我表达",
+      "情感冲突处理不足"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "principal",
+    "summary": "校长在自我意识和同理心上得分最高，责任感表现优异。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "high",
+      "responsibility_collective": "high"
+    },
+    "core_concerns": [
+      "对整体发展的关注",
+      "对老师和学生的支持"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长的自我意识水平非常高。",
+      "校长在同理心和尊重方面得分最高。",
+      "校长在沟通与合作能力上表现优异。",
+      "校长在集体责任感上得分也很高。",
+      "校长的未来乐观能力水平一般。"
+    ],
+    "avoid_overclaim": [
+      "不善于情感管理",
+      "对细节缺乏关注"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "gpt-4o-mini"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "学习者整体乐观，较能自我觉察，也有一定同理与责任感；但沟通协作相对偏弱，情绪调节居中。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "沟通协作",
+      "情绪调节"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来乐观为四类角色最高。",
+      "自我觉察排名第二。",
+      "同理尊重为中等水平。",
+      "沟通协作排名第四。",
+      "责任与集体为中等水平。"
+    ],
+    "avoid_overclaim": [
+      "不谈成因",
+      "不作延伸"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "家长在沟通协作上相对更稳，责任与情绪调节居中；自我觉察、乐观与同理尊重都不算突出。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任与集体",
+      "情绪调节"
+    ],
+    "signature_dimensions": [
+      "communication_collaboration",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "沟通协作排名第二。",
+      "责任与集体排名第四。",
+      "情绪调节与韧性排名第四。",
+      "自我觉察排名第三。",
+      "积极未来乐观排名第三。"
+    ],
+    "avoid_overclaim": [
+      "不说更强",
+      "不补背景"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "教师情绪调节与韧性最强，责任感也较突出；但自我觉察较低，同理尊重与沟通协作处于中段。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察",
+      "同理尊重"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "student",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察排名第四。",
+      "情绪调节与韧性排名第一。",
+      "责任与集体排名第二。",
+      "同理尊重排名第四。",
+      "积极未来乐观排名第二。"
+    ],
+    "avoid_overclaim": [
+      "不说全面强",
+      "不讲动机"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "校长在自我觉察、同理尊重、沟通协作和责任集体上都居前；积极未来乐观相对靠后，情绪调节居中。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "积极未来乐观",
+      "情绪调节"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察排名第一。",
+      "同理尊重排名第一。",
+      "沟通协作排名第一。",
+      "责任与集体排名第一。",
+      "积极未来乐观排名第四。"
+    ],
+    "avoid_overclaim": [
+      "不说最乐观",
+      "不补细节"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "乐观度最强，自我认知也偏高；整体多为中上，协作相对不占优势，评价应看其期待感与自我把握。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "期待感",
+      "协作短板"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来乐观度为高，且四类角色中排名第1。",
+      "自我意识为中，且四类角色中排名第2。",
+      "情绪调节与韧性为中，排名第3。",
+      "沟通协作为中，排名第4。",
+      "责任与集体性为中，排名第3。"
+    ],
+    "avoid_overclaim": [
+      "不推断动机",
+      "不夸大优势"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "沟通协作为相对优势，责任与情绪韧性偏中；判断时应重视互动配合，也要留意整体责任感并不突出。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "配合互动",
+      "责任感不足"
+    ],
+    "signature_dimensions": [
+      "communication_collaboration",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "沟通与协作为中，排名第2。",
+      "责任与集体性为中，排名第4。",
+      "自我意识为中，排名第3。",
+      "积极未来乐观度为中，排名第3。",
+      "情绪调节与韧性为中，排名第4。"
+    ],
+    "avoid_overclaim": [
+      "不外推原因",
+      "不写绝对强项"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "情绪调节与韧性最强，责任感也偏高；但自我意识处于最低位，评价应兼顾稳定性与自我把握的不足。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我把握",
+      "情绪稳定"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "student",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识为低，且四类角色中排名第4。",
+      "情绪调节与韧性为高，且四类角色中排名第1。",
+      "责任与集体性为中，排名第2。",
+      "积极未来乐观度为中，排名第2。",
+      "沟通与协作为中，排名第3。"
+    ],
+    "avoid_overclaim": [
+      "不夸大战果",
+      "不补充情境"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "自我意识、同理尊重、沟通协作与责任集体性均居首；应重点看其整合与带动能力，同时注意乐观度相对最低。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "high",
+      "responsibility_collective": "high"
+    },
+    "core_concerns": [
+      "整合带动",
+      "乐观度偏低"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识为高，且四类角色中排名第1。",
+      "同理尊重为高，且四类角色中排名第1。",
+      "沟通与协作为中，且四类角色中排名第1。",
+      "责任与集体性为中，且四类角色中排名第1。",
+      "积极未来乐观度为中，且四类角色中排名第4。"
+    ],
+    "avoid_overclaim": [
+      "不推断领导方式",
+      "不夸大情绪表现"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v5_signature_first",
+    "summary": "自我清楚、前景最乐观，沟通协作相对最弱；整体更像有方向感但互动收束的学生角色。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "前景期待",
+      "协作偏弱"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来乐观为高，均值0.8346，四类中第1。",
+      "自我觉察为中，均值0.7543，四类中第2。",
+      "情绪调节韧性为中，均值0.7291，四类中第3。",
+      "沟通协作为中，均值0.7538，四类中第4。",
+      "责任与集体为中，均值0.8229，四类中第3。"
+    ],
+    "avoid_overclaim": [
+      "不推断动机",
+      "不加身份细节"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v5_signature_first",
+    "summary": "沟通协作相对靠前，但自我觉察、前景乐观与责任集体都偏中后；整体更像稳沟通、弱统整的家长角色。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我统整",
+      "责任集体"
+    ],
+    "signature_dimensions": [
+      "communication_collaboration",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "沟通协作为中，均值0.776，四类中第2。",
+      "责任与集体为中，均值0.8002，四类中第4。",
+      "自我觉察为中，均值0.6942，四类中第3。",
+      "积极未来乐观为中，均值0.7771，四类中第3。",
+      "情绪调节韧性为中，均值0.7189，四类中第4。"
+    ],
+    "avoid_overclaim": [
+      "不推断育儿风格",
+      "不加情绪标签"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v5_signature_first",
+    "summary": "情绪调节韧性最强，责任集体也高；但自我觉察最低，体现出能稳住局面却较少自我校准的教师角色。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我校准",
+      "稳住局面"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "情绪调节韧性为高，均值0.7854，四类中第1。",
+      "自我觉察为低，均值0.6753，四类中第4。",
+      "责任与集体为中，均值0.8576，四类中第2。",
+      "积极未来乐观为中，均值0.7999，四类中第2。",
+      "同理尊重为中，均值0.7634，四类中第4。"
+    ],
+    "avoid_overclaim": [
+      "不推断教学能力",
+      "不加管理风格"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v5_signature_first",
+    "summary": "自我觉察、同理尊重、沟通协作与责任集体均居首；前景乐观反而最低，呈现强统筹、弱乐观的校长角色。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "统筹责任",
+      "乐观偏低"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察为高，均值0.7862，四类中第1。",
+      "同理尊重为高，均值0.8317，四类中第1。",
+      "沟通协作为中，均值0.8033，四类中第1。",
+      "责任与集体为中，均值0.8596，四类中第1。",
+      "积极未来乐观为中，均值0.7608，四类中第4。"
+    ],
+    "avoid_overclaim": [
+      "不推断领导方式",
+      "不加校园角色外延"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "最强在积极未来期待；自我觉察居前，协作最弱，责任与同理多为中位。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来期待",
+      "协作表达"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来期待为高，且四类中排名第1。",
+      "自我觉察为中，排名第2。",
+      "协作沟通为中，但在四类中排名第4。",
+      "情绪调节韧性为中，排名第3。",
+      "责任集体为中，且同理尊重也为中。"
+    ],
+    "avoid_overclaim": [
+      "不拔高协作",
+      "不说全优"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "沟通协作相对更靠前；自我觉察、情绪韧性与责任集体都偏中下，积极期待也只是中位。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "沟通协作",
+      "责任集体"
+    ],
+    "signature_dimensions": [
+      "communication_collaboration",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "沟通协作为中，排名第2。",
+      "责任集体为中，但在四类中排名第4。",
+      "情绪调节韧性为中，排名第4。",
+      "自我觉察为中，排名第3。",
+      "积极未来期待为中，排名第3。"
+    ],
+    "avoid_overclaim": [
+      "不说最强",
+      "不夸责任"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "情绪调节韧性最强，责任感也靠前；但自我觉察最低，同理尊重与协作仅属中位。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "情绪韧性",
+      "自我觉察"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "student",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "情绪调节韧性为高，且四类中排名第1。",
+      "责任集体为中，排名第2。",
+      "自我觉察为低，且排名第4。",
+      "同理尊重为中，排名第4。",
+      "沟通协作为中，正向未来期待为中。"
+    ],
+    "avoid_overclaim": [
+      "不说同理高",
+      "不说协调强"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v6_boundary_conditions",
+    "summary": "自我觉察、同理尊重、沟通协作与责任集体都居前；但积极未来期待反而最低，情绪韧性只是中位。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "high",
+      "responsibility_collective": "high"
+    },
+    "core_concerns": [
+      "积极期待",
+      "情绪韧性"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "student",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察为高，且四类中排名第1。",
+      "同理尊重为高，且四类中排名第1。",
+      "沟通协作为中但排名第1。",
+      "责任集体为中但排名第1。",
+      "积极未来期待为中，且四类中排名第4。"
+    ],
+    "avoid_overclaim": [
+      "不说乐观最强",
+      "不说情绪极强"
+    ],
+    "generator_model": "gpt-5.4-mini"
+  },
+  {
+    "role": "student",
+    "summary": "学生具有突出的未来乐观态度和较强的自我认识，但情绪调节和协作沟通能力相对薄弱，需要在压力应对和团队互动中加强发展。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "乐观与韧性的落差",
+      "协作沟通的薄弱"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生在未来乐观态度上排名第一，得分0.8346，处于极高水平。",
+      "学生的自我认识得分0.7543，在全体角色中排名第二。",
+      "学生在情绪调节能力上得分0.7291，排名第三，略低于角色平均值。",
+      "学生的协作沟通能力得分0.7538，在四个角色中排名最低。",
+      "学生的自我认识相比教师高出0.079，效应量为0.3796。"
+    ],
+    "avoid_overclaim": [
+      "情绪韧性不足",
+      "团队能力有限"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在沟通协作上表现相对突出，但自我认知与集体责任意识相对较弱，各维度整体处于中等水平。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知不足",
+      "集体责任意识薄弱"
+    ],
+    "signature_dimensions": [
+      "communication_collaboration",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长自我认知得分为0.6942，在四个角色中排名第三。",
+      "家长沟通协作得分为0.776，在四个角色中排名第二。",
+      "家长集体责任意识得分为0.8002，但相比校长低0.0594。",
+      "家长自我认知相比校长低0.092，差异显著。",
+      "家长各维度得分均在中等水平，跨度在0.6942至0.8002之间。"
+    ],
+    "avoid_overclaim": [
+      "缺乏具体表现",
+      "未知个体差异"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师自我认知较弱，但情绪调适能力突出。责任意识中等偏上，与校长相比自觉性和同理心均有差距。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知不足",
+      "同理心与校长差距明显"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师自我认知得分0.6753，在四类角色中排名末位，属极低水平。",
+      "教师情绪调适能力得分0.7854，四类角色中排名第一，处极高水平。",
+      "教师集体责任感得分0.8576，在角色中排名第二，处极高水平。",
+      "教师自我认知较校长低0.1109分，差异显著。",
+      "教师同理心与尊重较校长低0.0684分，存在明显差距。"
+    ],
+    "avoid_overclaim": [
+      "动机推断",
+      "教学成效"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "principal",
+    "summary": "自我认知突出，同理心和集体责任感强，沟通协作能力突出；但对未来乐观度相对保留，情绪韧性有待加强。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来乐观度偏低",
+      "情绪韧性需强化"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我认知得分0.7862，在四个角色中排名第一，属极高水平。",
+      "同理心与尊重得分0.8317，在所有角色中排名最高，表现突出。",
+      "集体责任感得分0.8596，在四个角色中排名第一。",
+      "对未来乐观度得分0.7608，在四个角色中排名第四，相对偏低。",
+      "情绪调节韧性得分0.752，处于中等水平，接近全体均值。"
+    ],
+    "avoid_overclaim": [
+      "乐观度排名最后",
+      "情绪韧性水平不确定"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "student",
+    "summary": "学生角色以积极未来展望为核心优势,自我认知突出,但情绪调适和协作沟通相对薄弱,需在挑战中增强韧性。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "乐观与韧性失衡",
+      "协作沟通相对薄弱"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生积极未来展望排名全角色第一,均值0.8346处于极高水位。",
+      "学生自我认知排名第二,均值0.7543,超越教师0.079。",
+      "学生情绪调适韧性排名第三,均值0.7291,低于角色平均0.0173。",
+      "学生协作沟通排名四角色最后,均值0.7538,低于角色平均0.022。",
+      "学生责任集体意识排名第三,均值0.8229,介于中等水平。"
+    ],
+    "avoid_overclaim": [
+      "缺乏数据支撑",
+      "推断个性特征"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在责任担当和集体导向上表现中等偏弱,自我认知有待提升,沟通协作相对均衡,需在自省与集体意识间找到平衡。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知不足",
+      "集体责任意识薄弱"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长自我认知得分0.6942,在四个角色中排名第三。",
+      "家长责任与集体导向得分0.8002,在四个角色中排名最后。",
+      "家长自我认知相比校长低0.092分,差异显著(Cohen's d=-0.4187)。",
+      "家长责任与集体导向相比校长低0.0594分(Cohen's d=-0.3537)。",
+      "家长沟通协作得分0.776,排名第二,接近角色平均水平。"
+    ],
+    "avoid_overclaim": [
+      "情绪调节能力",
+      "未来乐观度"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "teacher",
+    "summary": "情绪韧性突出，自我认知薄弱。善于应对压力，但对自身行为反思不足，与管理者的差距明显。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知不足",
+      "情绪管理与反思的落差"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师情绪调节与韧性得分为0.7854，排名全角色第一，属极高水平。",
+      "教师自我认知得分为0.6753，排名全角色第四，处于极低区间。",
+      "教师自我认知低于校长0.1109分，差异显著。",
+      "教师同理心与尊重得分为0.7634，低于校长0.0684分。",
+      "教师责任与集体意识得分为0.8576，排名全角色第二。"
+    ],
+    "avoid_overclaim": [
+      "动机推断",
+      "性格判断"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "principal",
+    "summary": "校长具有极强的自我认知和同理心，在全校管理中最突出。但对未来前景的乐观度相对保留，需要在愿景鼓舞与现实压力间找到平衡。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "愿景与现实的张力",
+      "高期许与稳健步伐的矛盾"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长自我认知在四个角色中排名第一，平均得分0.7862，处于极高水平。",
+      "校长同理心与尊重在全角色中排名第一，平均得分0.8317，同样处于极高水平。",
+      "校长对未来乐观度排名第四，平均得分0.7608，相对其他维度表现保留。",
+      "校长自我认知比教师高0.1109个单位，体现了管理角色的自知之明差异。",
+      "校长同理心比教师高0.0684个单位，显示了其在人文关怀上的突出优势。"
+    ],
+    "avoid_overclaim": [
+      "情绪韧性未明确强劲",
+      "沟通协作水平不确定"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "student",
+    "summary": "学生具有突出的未来乐观心态和较强的自我认知，但情绪调节和协作沟通相对薄弱，呈现希望与挑战并存的心理特征。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来憧憬与现实调适",
+      "协作沟通的瓶颈"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生的未来乐观心态在四个角色中排名第一，平均值达0.8346。",
+      "学生的自我认知水平排名第二，较角色总体均值高0.0268。",
+      "学生在情绪调节韧性上表现中等，排名第三，低于角色总体均值0.0173。",
+      "学生的协作沟通能力在四个角色中排名最低，较总体均值低0.022。",
+      "学生的自我认知相比教师高0.079，达到中等偏高水平。"
+    ],
+    "avoid_overclaim": [
+      "社会责任感",
+      "共情能力"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在集体责任感和自我认知上相对较弱，但沟通协作能力突出，展现出行动导向但反思不足的特点。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "集体责任意识薄弱",
+      "自我反思缺乏"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长自我认知得分0.6942，在四个角色中排名第三。",
+      "家长自我认知比校长低0.092个百分点，效应量为-0.4187。",
+      "家长集体责任感得分0.8002，在四个角色中排名最低。",
+      "家长集体责任感比校长和教师分别低0.0594和0.0574个百分点。",
+      "家长沟通协作能力得分0.776，排名第二，接近角色平均水平。"
+    ],
+    "avoid_overclaim": [
+      "动机不明",
+      "心理特征"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "teacher",
+    "summary": "情绪调节能力突出，自我认知薄弱。承担集体责任感强，但对学生同理心有限。在压力中展现韧性，却缺乏自我反思深度。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知不足与压力韧性矛盾",
+      "责任承诺强但共情能力有限"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "教师情绪调节与韧性在四类角色中排名第一，得分0.7854。",
+      "教师自我认知得分0.6753，排名末位，属极低区间。",
+      "相比校长，教师自我认知低0.1109个单位。",
+      "教师集体责任感得分0.8576，排名第二。",
+      "教师积极未来展望得分0.7999，处于中等偏上水平。"
+    ],
+    "avoid_overclaim": [
+      "缺乏内省机制",
+      "需进一步验证"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "principal",
+    "summary": "校长具有极高的自我认知和同理心，在全职能角色中排名首位，但对未来前景的乐观度相对较低，呈现出审慎的领导特征。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知与乐观度的落差",
+      "高期待与现实制约"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长自我认知得分0.7862，在四个职能角色中排名第一，处于极高水平。",
+      "校长同理心与尊重得分0.8317，同样在四个职能角色中排名第一，属极高水平。",
+      "校长对未来积极乐观度得分0.7608，在四个职能角色中排名最低。",
+      "校长的自我认知比教师高0.1109个单位，效应量差异达-0.4403。",
+      "校长的同理心与尊重比教师高0.0684个单位，效应量差异达-0.3818。"
+    ],
+    "avoid_overclaim": [
+      "情绪调节能力",
+      "沟通协作水平"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "student",
+    "summary": "学生角色以积极未来展望和自我觉察见长，但在情绪调节和协作沟通方面相对薄弱，展现出理想主义与实践执行的张力。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "理想与挫折",
+      "个人视角与协作需求"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生的积极未来展望在四个角色中排名第一，得分0.8346。",
+      "学生的自我觉察得分0.7543，仅次于家长角色，高于教师0.079。",
+      "学生的情绪调节韧性得分0.7291，处于中等水平但低于角色平均值0.0173。",
+      "学生的沟通协作能力在四个角色中排名最后，得分0.7538。",
+      "学生的集体责任感得分0.8229，但低于角色平均值0.0122，接近中等水平。"
+    ],
+    "avoid_overclaim": [
+      "情绪稳定性",
+      "领导潜力"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在沟通协作上表现突出,但自我认知和集体责任意识相对较弱,整体呈现中等水平的心理素质特征。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知滞后",
+      "集体责任感不足"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长自我认知得分为0.6942,在四个角色中排名第三,低于校长0.092分。",
+      "家长集体责任意识得分为0.8002,在四个角色中排名最后,相比校长低0.0594分。",
+      "家长沟通协作能力得分为0.776,排名第二,接近全体平均水平。",
+      "家长情绪调节韧性得分为0.7189,处于中等水平但排名靠后。",
+      "家长在自我认知维度的极端低分桶位显示该能力存在明显短板。"
+    ],
+    "avoid_overclaim": [
+      "动机不明",
+      "因果关系未知"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师情绪调节能力突出，在四个角色中排名第一，但自我认知相对薄弱，自觉性明显低于校长。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知不足",
+      "情绪韧性与自觉性的落差"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "教师的情绪调节与韧性得分为0.7854，在四个角色中排名第一。",
+      "教师的自我认知得分为0.6753，在四个角色中排名最后，处于极低水平。",
+      "与校长相比，教师的自我认知平均差异为-0.1109。",
+      "教师的同情心与尊重得分为0.7634，与校长相比低0.0684。",
+      "教师的责任与集体意识得分为0.8576，在四个角色中排名第二。"
+    ],
+    "avoid_overclaim": [
+      "乐观程度接近平均",
+      "沟通协作能力中等"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "principal",
+    "summary": "校长具有突出的自我认知和同理心，在自我意识和人际尊重上全角色最高。但对未来乐观度偏低，情绪调节能力中等，需在实际执行中平衡理想与现实。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "理想认知与执行乐观度的落差",
+      "集体责任感与情绪韧性的平衡"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长自我认知得分0.7862，在全部角色中排名第一。",
+      "校长同理心与尊重得分0.8317，同样在全部角色中排名最高。",
+      "校长自我认知相比教师高出0.1109分，差异显著。",
+      "校长未来乐观度得分0.7608，在四个角色中排名最低。",
+      "校长集体责任感得分0.8596，虽属中等水平，但在角色间最高。"
+    ],
+    "avoid_overclaim": [
+      "情绪调节能力接近中等",
+      "沟通协作水平非绝对优势"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "role": "student|parent|teacher|principal",
+    "summary": "40-70 Chinese characters",
+    "dimensions": {
+      "self_awareness": "high|mid|low",
+      "positive_future_optimism": "high|mid|low",
+      "emotion_regulation_resilience": "high|mid|low",
+      "empathy_respect": "high|mid|low",
+      "communication_collaboration": "high|mid|low",
+      "responsibility_collective": "high|mid|low"
+    },
+    "core_concerns": [
+      "exactly 2 short Chinese phrases"
+    ],
+    "signature_dimensions": [
+      "exactly 2 dimension ids chosen from the 6 dimensions"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "one dimension id",
+        "vs_role": "student|parent|teacher|principal",
+        "direction": "higher|lower"
+      }
+    ],
+    "evidence_statements": [
+      "exactly 5 short Chinese sentences, each directly supported by the card"
+    ],
+    "avoid_overclaim": [
+      "exactly 2 very short Chinese phrases"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "student",
+    "summary": "学生在积极未来乐观上表现突出（均分0.8346，排名1/4），自我认知也处于中高水平（均分0.7543，排名2/4），情绪调节和协作能力居中。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "学业压力与未来期待",
+      "自我认知与情绪管理"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生积极未来乐观均值0.8346，排名在全部角色中第一，属于极端高水平。",
+      "学生自我认知均值0.7543，排名第二，差异为正0.0268（相对全体均值）。",
+      "学生在自我认知上高于教师0.079（Cohen’s d=0.3796）。",
+      "学生在积极未来乐观上高于校长0.0737（Cohen’s d=0.3544）。",
+      "情绪调节与协作能力的均值分别为0.7291和0.7538，均居中且低于最高水平。"
+    ],
+    "avoid_overclaim": [
+      "保持客观",
+      "避免夸大"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师情绪调节与抗逆力最高（均值0.7854，排名1/4），但自我认知最低（均值0.6753，排名4/4），呈现强韧性但反思性偏弱特征。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "教学压力下的情绪稳定",
+      "学生心理状态的准确把握"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "student",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "教师自我认知均值0.6753，在四种角色中排名最低。",
+      "教师自我认知在校长对比中Cohen's d为-0.4403，显著低于校长。",
+      "教师情绪调节与抗逆力均值0.7854，排名第一，处于极端高水平。",
+      "教师同理心与尊重均值0.7634，在校长对比中Cohen's d为-0.3818，低于校长。",
+      "教师自我认知在学生对比中Cohen's d为0.3796，高于学生。"
+    ],
+    "avoid_overclaim": [
+      "自我认知并非完全缺失",
+      "高分维度并非完美无缺"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "student",
+    "summary": "学生对未来充满乐观（均值0.8346，排名第一），自我认知处于中高水平，在积极心态上优于校长和教师。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "保持乐观与面对挫折的矛盾",
+      "自我认知深化与外部评价的平衡"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生积极未来乐观均值0.8346，在四个角色中排名第一。",
+      "学生积极未来乐观得分比校长高0.0737（Cohen's d=0.3544）。",
+      "学生自我认知均值0.7543，在四个角色中排名第二。",
+      "学生自我认知得分比教师高0.079（ Cohen's d=0.3796）。",
+      "学生沟通协作均值0.7538，在四个角色中排名最后。"
+    ],
+    "avoid_overclaim": [
+      "不过度承诺自我提升效果",
+      "不假设所有学生均能保持乐观"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "student",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "parent",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "teacher",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "principal",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "student",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "parent",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "teacher",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "principal",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "student",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "positive_future_optimism"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "parent",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "teacher",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "principal",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "student",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "parent",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "teacher",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "emotion_regulation_resilience",
+        "vs_role": "student",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "principal",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "llama-3.3-70b-instruct"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "学生对未来高度乐观，排名居首。自我意识中等偏高。情绪调节与沟通能力中等，存在极端低值。集体责任感中等。整体表现稳健但有波动。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来乐观与情绪调节落差",
+      "自我意识与沟通协作平衡"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来乐观度均值为 0.8346，位列所有角色第一。",
+      "自我意识均值为 0.7543，定性水平为中等。",
+      "情绪调节韧性均值为 0.7291，极端低值桶标记为极端低。",
+      "沟通协作均值为 0.7538，排名在四个角色中居第四。",
+      "集体责任感均值为 0.8229，定性水平维持在中等。"
+    ],
+    "avoid_overclaim": [
+      "不推断具体成因",
+      "不假设个人动机"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "家长角色在各维度均表现为中等水平。责任集体取向均值最高但排名靠后，自我意识均值最低。沟通协作较好，接近中间水平。整体表现均衡，无极端特征。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任均值高但排名低",
+      "自我意识相对较弱"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识均值为零点六九四二，定性为中等。",
+      "责任集体取向均值为零点八零零二，排名第四。",
+      "沟通协作维度接近中间水平，排名第二位。",
+      "情绪调节韧性均值为零点七一八九，处于中等。",
+      "积极未来乐观均值为零点七七七一，排名第三。"
+    ],
+    "avoid_overclaim": [
+      "非绝对高低",
+      "非性格定论"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "教师群体情绪调节韧性最强，排名首位且处于极高水平。自我意识相对较弱，排名末位。集体责任感与未来乐观度中等，同理心与沟通协作表现平平。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "情绪稳定与自我认知的落差",
+      "集体责任与同理心的平衡"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识均值为 0.6753，在四类角色中排名第四。",
+      "情绪调节韧性均值为 0.7854，位列四类角色之首。",
+      "集体责任感均值达 0.8576，处于极高分段桶。",
+      "与校长相比，自我意识维度均值低 0.1109。",
+      "同理心尊重维度均值为 0.7634，定性等级为中等。"
+    ],
+    "avoid_overclaim": [
+      "勿推断个人性格",
+      "勿臆测因果动机"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "校长在自我意识与同理心尊重方面表现突出，均位列角色首位。集体责任感与沟通协作亦居第一，但未来乐观度与情绪韧性处于中等水平。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "高责任与中等韧性的平衡",
+      "自我认知与未来预期的落差"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识均值为 0.7862，在四类角色中排名第一。",
+      "同理心尊重均值为 0.8317，同样位列角色首位。",
+      "集体责任感均值最高，达 0.8596，定性为中等水平。",
+      "未来乐观度均值为 0.7608，排名第四，处于中等区间。",
+      "与教师相比，校长在自我意识维度上均值高出 0.1109。"
+    ],
+    "avoid_overclaim": [
+      "不推断个人动机",
+      "不假设人口特征"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "学生对未来期望极高，乐观维度位居所有角色之首。自我意识中等但极端值偏高。情绪调节与沟通协作较弱，需在保持希望同时加强现实应对与集体责任平衡。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来乐观与当下情绪调节的落差",
+      "自我意识较强但沟通协作偏弱"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来乐观度均值为 0.8346，在四个角色中排名第一。",
+      "自我意识均值为 0.7543，定性水平为中等，但处于极端高值桶。",
+      "情绪调节韧性均值为 0.7291，定性水平为中等，处于极端低值桶。",
+      "沟通协作均值为 0.7538，在四个角色中排名第四。",
+      "与教师相比，学生在自我意识维度上的均值差异为 0.079。"
+    ],
+    "avoid_overclaim": [
+      "不推断具体年龄层",
+      "不假设动机成因"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "家长角色六项维度均处中等水平。沟通协作排名靠前，但责任集体维度排名靠后。自我意识相比校长略低。整体表现均衡，无极端倾向，需关注责任感弱势。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任感相对弱势",
+      "自我意识待提升"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识均值为 0.6942，定性为中等。",
+      "沟通协作在四个角色中排名第二。",
+      "责任集体均值为 0.8002，排名第四。",
+      "自我意识相比校长低 0.092。",
+      "多数维度极端桶标记为极低。"
+    ],
+    "avoid_overclaim": [
+      "非高责任感",
+      "非高自我意识"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "teacher",
+    "prompt_variant": "v3_judge_ready_profile",
+    "summary": "教师角色情绪调节与韧性表现突出，排名首位。自我意识水平相对较低，位于末位。集体责任感较强，但共情尊重与沟通协作处于中等水平。乐观态度中等。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我意识薄弱",
+      "共情尊重受限"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识均值为 0.6753，定性水平为低。",
+      "情绪调节韧性均值为 0.7854，排名角色第一。",
+      "集体责任感均值为 0.8576，处于极端高桶。",
+      "共情尊重均值为 0.7634，定性水平为中。",
+      "自我意识与校长相比差异显著，科恩 d 值为 -0.4403。"
+    ],
+    "avoid_overclaim": [
+      "不推断动机",
+      "不假设人口"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "principal",
+    "summary": "校长角色在自我意识与共情尊重维度表现突出，排名居首。虽对未来乐观度中等，但集体责任感极强。人际和谐与自我反思，平衡管理压力与情感支持。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "平衡管理压力与情感支持",
+      "维持集体责任与自我觉察"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识均值为 0.7862，在角色中排名第一。",
+      "共情尊重均值为 0.8317，处于极端高水平。",
+      "集体责任感均值最高，达到 0.8596。",
+      "未来乐观度定性水平为中等，排名第四。",
+      "自我意识相比教师角色高出 0.1109 分。"
+    ],
+    "avoid_overclaim": [
+      "不推断具体管理风格",
+      "不假设个人生活背景"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v5_signature_first",
+    "summary": "学生角色对未来展望高度乐观，自我意识中等。相比教师家长，自我意识更强；相比校长，未来乐观度更高。情绪调节沟通能力中等，集体责任感中等。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "高度未来乐观",
+      "中等情绪调节"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "未来乐观度均值为 0.8346，在四个角色中排名第一。",
+      "自我意识均值为 0.7543，显著高于教师群体。",
+      "情绪调节韧性均值为 0.7291，处于中等水平。",
+      "沟通协作均值为 0.7538，在角色排名中位列第四。",
+      "集体责任感均值为 0.8229，属于中等范围。"
+    ],
+    "avoid_overclaim": [
+      "无人口统计推断",
+      "无因果解释"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "parent",
+    "prompt_variant": "v5_signature_first",
+    "summary": "家长各维度表现均为中等。责任集体导向得分最高但排名靠后，自我意识相对校长较低。沟通协作排名第二，情绪调节与共情处于中间状态，无极端表现。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任感知相对较弱",
+      "自我觉察有待提升"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "责任集体导向均值为 0.8002，定性为中等。",
+      "自我意识均值为 0.6942，排名第四角色中的第三。",
+      "沟通协作排名第四角色中的第二，接近中间水平。",
+      "情绪调节韧性均值为 0.7189，处于极端低桶。",
+      "与校长相比，自我意识维度均值差为负 0.092。"
+    ],
+    "avoid_overclaim": [
+      "非卓越责任",
+      "非薄弱情绪"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师情绪调节韧性居四类角色之首，但自我觉察水平排名末位。集体责任感较强，未来乐观度中等。相比校长，自我觉察与共情尊重得分显著偏低。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察水平低",
+      "情绪调节韧性高"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察均值为 0.6753，在四类角色中排名第四。",
+      "情绪调节韧性均值为 0.7854，在四类角色中排名第一。",
+      "集体责任均值为 0.8576，处于中等水平但排名第二。",
+      "与校长相比，自我觉察维度均值差异为负 0.1109。",
+      "共情尊重维度在四类角色中排名第四，处于极端低值区间。"
+    ],
+    "avoid_overclaim": [
+      "非个人缺陷",
+      "非职业倦怠"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v5_signature_first",
+    "summary": "校长自我意识与同理心尊重维度表现突出，均位列角色之首。虽未来乐观度一般，但集体责任感均值最高。沟通及情绪调节能力中等，展现稳健特质。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "高责任感与中等乐观的平衡",
+      "高同理心下的决策压力"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识均值为 0.7862，在四类角色中排名第一。",
+      "同理心尊重均值为 0.8317，处于极端高水平区间。",
+      "集体责任感均值最高，达到 0.8596。",
+      "沟通协作均值为 0.8033，定性等级为中等。",
+      "未来乐观度均值为 0.7608，排名位于角色末位。"
+    ],
+    "avoid_overclaim": [
+      "不推断具体管理风格",
+      "不猜测个人生活背景"
+    ],
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "student",
+    "summary": "学生角色对未来乐观度最高，自我意识处于中等水平。相比其他角色，他们在情绪调节和沟通协作方面得分较低，显示出成长中的不平衡特征。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来期望高",
+      "情绪调节弱"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "未来乐观度均值 0.8346 居首位。",
+      "自我意识均值 0.7543 排第二。",
+      "情绪调节处于极端低桶。",
+      "沟通协作处于极端低桶。",
+      "责任集体维度接近中等水平。"
+    ],
+    "avoid_overclaim": [
+      "具体学习动机",
+      "家庭背景影响"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "parent",
+    "summary": "家长角色各维度多为中等水平，责任集体取向排名最低。相比校长，其自我意识和责任感显著较低，体现支持性角色的特征。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任感相对低",
+      "自我意识不足"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "责任集体均值 0.8002 排第四。",
+      "自我意识均值 0.6942 排第三。",
+      "情绪调节处于极端低桶。",
+      "未来乐观度处于极端低桶。",
+      "沟通协作维度接近中等水平。"
+    ],
+    "avoid_overclaim": [
+      "育儿具体方式",
+      "经济状况关联"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师角色情绪调节韧性最高，但自我意识水平最低。相比校长，其在共情尊重维度得分较低，显示职业压力下的心理特征。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "韧性高",
+      "自我意识低"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "情绪调节均值 0.7854 排第一。",
+      "自我意识均值 0.6753 排第四。",
+      "自我意识处于极端低桶。",
+      "责任集体处于极端高桶。",
+      "共情尊重处于极端低桶。"
+    ],
+    "avoid_overclaim": [
+      "教学具体方法",
+      "个人性格成因"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "principal",
+    "summary": "校长角色自我意识与共情尊重均最高，责任集体取向排名首位。相比教师，其在自我认知维度显著更高，体现领导岗位特征。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我意识强",
+      "共情能力高"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识均值 0.7862 排第一。",
+      "共情尊重均值 0.8317 排第一。",
+      "责任集体处于极端高桶。",
+      "沟通协作处于极端高桶。",
+      "未来乐观度处于极端低桶。"
+    ],
+    "avoid_overclaim": [
+      "管理具体策略",
+      "决策权力大小"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "qwen3.5-plus"
+  },
+  {
+    "role": "student",
+    "summary": "<short Chinese summary>",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "<phrase1>",
+      "<phrase2>"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "<s1>",
+      "<s2>",
+      "<s3>",
+      "<s4>",
+      "<s5>"
+    ],
+    "avoid_overclaim": [
+      "<phrase1>",
+      "<phrase2>"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "student|parent|teacher|principal",
+    "summary": "40-70 Chinese characters",
+    "dimensions": {
+      "self_awareness": "high|mid|low",
+      "positive_future_optimism": "high|mid|low",
+      "emotion_regulation_resilience": "high|mid|low",
+      "empathy_respect": "high|mid|low",
+      "communication_collaboration": "high|mid|low",
+      "responsibility_collective": "high|mid|low"
+    },
+    "core_concerns": [
+      "exactly 2 short Chinese phrases"
+    ],
+    "signature_dimensions": [
+      "exactly 2 dimension ids chosen from the 6 dimensions"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "one dimension id",
+        "vs_role": "student|parent|teacher|principal",
+        "direction": "higher|lower"
+      }
+    ],
+    "evidence_statements": [
+      "exactly 5 short Chinese sentences, each directly supported by the card"
+    ],
+    "avoid_overclaim": [
+      "exactly 2 very short Chinese phrases"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "student|parent|teacher|principal",
+    "summary": "40-70 Chinese characters",
+    "dimensions": {
+      "self_awareness": "high|mid|low",
+      "positive_future_optimism": "high|mid|low",
+      "emotion_regulation_resilience": "high|mid|low",
+      "empathy_respect": "high|mid|low",
+      "communication_collaboration": "high|mid|low",
+      "responsibility_collective": "high|mid|low"
+    },
+    "core_concerns": [
+      "exactly 2 short Chinese phrases"
+    ],
+    "signature_dimensions": [
+      "exactly 2 dimension ids chosen from the 6 dimensions"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "one dimension id",
+        "vs_role": "student|parent|teacher|principal",
+        "direction": "higher|lower"
+      }
+    ],
+    "evidence_statements": [
+      "exactly 5 short Chinese sentences, each directly supported by the card"
+    ],
+    "avoid_overclaim": [
+      "exactly 2 very short Chinese phrases"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在集体责任感维度排名末尾（均值0.8002），自我认知维度处于中低水平（均值0.6942），与校长和教师相比存在显著差距，沟通协作能力接近中等。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "子女成长压力",
+      "家校协同平衡"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "teacher",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长自我认知均值（0.6942）低于校长对应维度，差距约为0.092。",
+      "家长集体责任感均值（0.8002）在所有角色中排名第四。",
+      "家长沟通协作维度均值（0.776）排名第二，略高于教师。",
+      "家长情感调节韧性均值（0.7189）排名末尾，属于极端低水平。",
+      "家长对未来乐观程度均值（0.7771）处于中低水平。"
+    ],
+    "avoid_overclaim": [
+      "不宜过度拔高家长领导力",
+      "不宜断言家长缺乏教育理解"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "principal",
+    "summary": "校长角色以高度的自我意识和同理心为核心特征，在这两项维度上显著高于教师和家长。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "建立校园积极文化",
+      "促进学生整体福祉"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长在自我意识维度上平均得分为0.7862，排名在所有角色中第一，属于极高水平。",
+      "校长在同理心与尊重维度上平均得分为0.8317，同样排名最高，表现出极端高的水平。",
+      "相较于教师，校长在自我意识上的平均得分高出约0.1109，表明更强的自我认知能力。",
+      "相较于家长，校长在自我意识上的得分也高出约0.092，显示其突出的自我觉察。",
+      "在同理心与尊重上，校长比教师高出约0.0684，体现出更高的共情水平。"
+    ],
+    "avoid_overclaim": [
+      "并非所有校长都必然表现出最高水平",
+      "本描述不适用于所有校长的个人差异"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "student",
+    "summary": "学生对自己未来非常乐观，自省能力较强。在情绪调节、合作和责任心方面表现居中，但尚不是最强。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "对未来满怀希望",
+      "合作中寻找定位"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生的未来乐观得分在四个角色中最高。",
+      "学生的自省能力得分高于教师和家长。",
+      "学生的情绪调节得分在四个角色中排第三。",
+      "学生的沟通合作得分在四个角色中排第四。",
+      "学生的责任心得分在四个角色中排第三。"
+    ],
+    "avoid_overclaim": [
+      "不自评情绪调节很强",
+      "不自评合作水平突出"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "parent",
+    "summary": "家长在各项能力上多为中等水平，自省和责任心得分在四个角色中偏低，尤其是自省意识较校长明显不足。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自省意识相对薄弱",
+      "集体责任感有待提升"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长的自省得分在四个角色中排第三。",
+      "家长的责任心得分为0.8002，在四个角色中最低。",
+      "家长的自省得分明显低于校长。",
+      "家长的责任心明显低于教师和校长。",
+      "家长的沟通合作得分在四个角色中排第二。"
+    ],
+    "avoid_overclaim": [
+      "不自评未来乐观很低",
+      "不自评情绪调节很差"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师情绪调节能力突出，在四个角色中得分最高。但自省意识和共情尊重得分相对较低，尤其是自省与其他角色有较大差距。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自省方面存在短板",
+      "情绪调节能力较强"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师的情绪调节得分在四个角色中最高。",
+      "教师的自省得分在四个角色中最低。",
+      "教师的自省得分明显低于校长。",
+      "教师的共情尊重得分在四个角色中排第四。",
+      "教师的共情尊重得分明显低于校长。"
+    ],
+    "avoid_overclaim": [
+      "不自评共情尊重很差",
+      "不自评责任心很强"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "principal",
+    "summary": "校长自省意识和共情尊重得分居首位，沟通合作和责任心也领先。但未来乐观得分在四个角色中最低。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "对未来的乐观度较低",
+      "自省与共情能力突出"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长的自省得分在四个角色中最高。",
+      "校长的共情尊重得分在四个角色中最高。",
+      "校长的未来乐观得分在四个角色中最低。",
+      "校长的沟通合作得分在四个角色中最高。",
+      "校长的责任心得分在四个角色中最高。"
+    ],
+    "avoid_overclaim": [
+      "不自评未来乐观很强",
+      "不自评情绪调节顶尖"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "student",
+    "summary": "对未来充满最高期待，自我认知居中偏上。情绪调节与合作处于组内偏下游，责任意识居中，但属于群体共同特征。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "保持乐观展望",
+      "合作中不被边缘化"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生积极未来乐观维度均值0.8346，排名第一，且属于极端高分组。",
+      "学生的自我认知均值0.7543，位列第四角色第二，属极端高分组。",
+      "学生的情绪调节与韧性均值0.7291，排名第三，属极端低分组。",
+      "学生的沟通协作均值0.7538，排名第四，属极端低分组。",
+      "学生的责任与集体取向均值0.8229，排名第三，属靠近中间组。"
+    ],
+    "avoid_overclaim": [
+      "不推断家庭背景",
+      "不涉及具体动机"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "parent",
+    "summary": "各维度均处于中等水平，且在多数方面落于极端低分组。责任意识与自我认知是相对最弱的维度，整体表现低于群体均值。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "责任担当感不足",
+      "自我反思深度有限"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长自我认知均值0.6942，排名第三，属极端低分组。",
+      "家长责任与集体取向均值0.8002，排名第四，属极端低分组。",
+      "家长积极未来乐观均值0.7771，排名第三，属极端低分组。",
+      "家长情绪调节与韧性均值0.7189，排名第四，属极端低分组。",
+      "家长共情与尊重均值0.7659，排名第三，属极端低分组。"
+    ],
+    "avoid_overclaim": [
+      "不解释归因",
+      "不推测经济水平"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "teacher",
+    "summary": "自我认知得分最低且属极端低分，情绪调节能力却位列第一且属极端高分。责任与集体意识较强，但共情与尊重相对较弱。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "维持情绪稳定",
+      "提升自我觉察能力"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "student",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师自我认知均值0.6753，排名第四，属极端低分组。",
+      "教师情绪调节与韧性均值0.7854，排名第一，属极端高分组。",
+      "教师共情与尊重均值0.7634，排名第四，属极端低分组。",
+      "教师沟通协作均值0.7701，排名第三，属靠近中间组。",
+      "教师责任与集体取向均值0.8576，排名第二，属极端高分组。"
+    ],
+    "avoid_overclaim": [
+      "不推断教学风格",
+      "不涉及职业倦怠"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "principal",
+    "summary": "自我认知、共情尊重均为极高分组且排名第一。沟通协作与责任意识也排名首位，属极端高分组，但未来乐观相对最低。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "保持战略乐观",
+      "协调各方期望"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "parent",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长自我认知均值0.7862，排名第一，属极端高分组。",
+      "校长共情与尊重均值0.8317，排名第一，属极端高分组。",
+      "校长沟通协作均值0.8033，排名第一，属极端高分组。",
+      "校长责任与集体取向均值0.8596，排名第一，属极端高分组。",
+      "校长积极未来乐观均值0.7608，排名第四，属极端低分组。"
+    ],
+    "avoid_overclaim": [
+      "不推断领导风格",
+      "不涉及管理年限"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "student",
+    "summary": "对未来抱有极高希望，自我认识处于中上水平但波动，团队沟通相对薄弱，情绪韧性中等偏下。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "保持乐观却难控情绪",
+      "合作沟通易成短板"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "communication_collaboration"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来乐观维度居角色之首，均值0.8346。",
+      "自我认识分数0.7543，在四角色中排第二。",
+      "沟通协作维度排最末，均值0.7538。",
+      "情绪调节韧性均值0.7291，低于角色总均值。",
+      "责任感均值0.8229，排在第三位。"
+    ],
+    "avoid_overclaim": [
+      "不推断家庭背景",
+      "不夸大沟通问题"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "parent",
+    "summary": "各维度均处于中等水平，但责任感与自我认识在四角色中明显偏低，整体缺乏突出优势。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察不如他人",
+      "集体担当明显靠后"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "responsibility_collective"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我认识均值0.6942，排倒数第二且为极端低值。",
+      "责任感均值0.8002，在四角色中垫底。",
+      "积极乐观均值0.7771，列第三位。",
+      "情绪调节均值0.7189，同样排最末。",
+      "共情尊重均值0.7659，排在第三位。"
+    ],
+    "avoid_overclaim": [
+      "不推断教育程度",
+      "不夸大责任感负面"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "teacher",
+    "summary": "情绪韧性在四大角色中最强，责任感较高，但自我认识显著偏低，共情尊重也处于末位。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自身觉察明显不足",
+      "情绪调控却是强项"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "情绪调节韧性均值0.7854，在四角色中排第一且为极端高值。",
+      "自我认识均值0.6753，排在最末且为低水平。",
+      "责任感均值0.8576，排第二位且为极端高值。",
+      "共情尊重均值0.7634，排在第四位。",
+      "积极乐观均值0.7999，排第二位。"
+    ],
+    "avoid_overclaim": [
+      "不推断教学压力",
+      "不描述人格缺陷"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "principal",
+    "summary": "自我认识与共情尊重均居角色之首且水平很高，沟通协作与责任感同样领先，但乐观程度最低。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "全局意识强烈",
+      "乐观水平反而最低"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我认识均值0.7862，排名第一且为极端高值。",
+      "共情尊重均值0.8317，排名第一且为极端高值。",
+      "沟通协作均值0.8033，同样位列第一。",
+      "责任感均值0.8596，同样排在首位。",
+      "积极乐观均值0.7608，在四角色中垫底。"
+    ],
+    "avoid_overclaim": [
+      "不推断领导风格",
+      "不假设对未来的判断"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "student",
+    "summary": "学生抱有极高的未来乐观度，自省处于中水平且偏高，但在情绪调节与协作维度上相对薄弱。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "对前景的高期待",
+      "情绪韧性与团队配合的相对短板"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "学生的未来乐观度在四个角色中排名第一。",
+      "学生未来乐观度的均值高于校长。",
+      "学生自省维度排名第二，属于偏高范围。",
+      "学生自省度的均值高于教师。",
+      "学生情绪调节与协作维度在数据中处于极端低值区间。"
+    ],
+    "avoid_overclaim": [
+      "不推断实际行为动机",
+      "不自称人际能力突出"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "parent",
+    "summary": "家长各维度均处于中水平，责任感与集体取向在四个角色中最低，沟通协作相对较好但无明显优势。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "集体责任感偏低",
+      "跨角色对比中缺乏突出维度"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "teacher",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长的集体责任感在四个角色中排名最后。",
+      "家长的集体责任感均值低于校长。",
+      "家长的集体责任感均值低于教师。",
+      "家长的自省维度排名第三，低于校长。",
+      "家长的沟通协作排名第二，处于中间水平。"
+    ],
+    "avoid_overclaim": [
+      "不描述为缺乏责任感",
+      "不认定沟通能力很强"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师情绪调节与韧性极高，排在首位，但自省维度处于低水平且排名末位，共情维度也偏低。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "极高的情绪韧性",
+      "低自省与共情维度的相对不足"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "student",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师的情绪调节韧性在四个角色中排名第一。",
+      "教师的情绪调节韧性属于极端高值区间。",
+      "教师的自信水平在四个角色中排名末位。",
+      "教师自省度的均值低于校长。",
+      "教师自省度的均值低于学生。"
+    ],
+    "avoid_overclaim": [
+      "不推断韧性高等于无压力",
+      "不自称共情能力强"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "principal",
+    "summary": "校长自省、共情、沟通协作、集体责任感四项均排名第一，未来乐观度在角色中最低，情绪调节居中。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "最高自省与共情能力",
+      "相对最低的未来乐观度"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长的自省维度在四个角色中排名第一。",
+      "校长的共情与尊重维度在四个角色中排名第一。",
+      "校长的沟通协作在四个角色中排名第一。",
+      "校长的集体责任感在四个角色中排名第一。",
+      "校长的未来乐观度在四个角色中排名最后。"
+    ],
+    "avoid_overclaim": [
+      "不解释为何未来乐观低",
+      "不推断领导风格"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "deepseek-v4-flash"
+  },
+  {
+    "role": "student",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "学生对未来抱有较高乐观，自我认知清晰，但在情绪韧性与合作沟通上偏弱，整体责任感与共处能力居中。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "情绪调节偏弱",
+      "沟通协作不足"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "未来乐观度均值为0.8346且排名第一。",
+      "自我认知均值为0.7543且排名第二。",
+      "情绪韧性均值为0.7291且排名第三。",
+      "沟通协作均值为0.7538且排名第四。",
+      "自我认知较教师高出0.079。"
+    ],
+    "avoid_overclaim": [
+      "共处能力极强",
+      "韧性显著偏低"
+    ],
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "parent",
+    "summary": "各维度均处于中等水平，在责任感与集体取向及自我觉察方面相对其他角色偏低，与校长和教师形成对比。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "集体责任意识相对偏弱",
+      "自我觉察能力相对偏低"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察均值为0.6942处于中等水平但位列第三",
+      "责任感与集体取向均值为0.8002属于中等水平但位列第四",
+      "与校长相比自我觉察差异显著且偏低",
+      "与校长相比集体责任取向差异显著且偏低",
+      "与教师相比集体责任取向存在显著偏低差异"
+    ],
+    "avoid_overclaim": [
+      "不推断其人口统计学特征或内在动机",
+      "不声称任何维度达到高水平或极端值"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "principal",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "校长在自我认知与共情尊重上居首，具有极高水平；在责任与沟通上表现为中高水平；未来乐观度处于中等偏低水平。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知极高而乐观偏低",
+      "共情领先而情绪韧性居中"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我认知均值为0.7862。",
+      "自我认知在四个角色中排名第一。",
+      "共情尊重均值为0.8317。",
+      "共情尊重排名位列第一。",
+      "未来乐观度均值为0.7608且处于极低区间。"
+    ],
+    "avoid_overclaim": [
+      "推断性格动机",
+      "夸大乐观劣势"
+    ],
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "student",
+    "summary": "学生角色以极高的未来乐观度为显著特征，自我意识相对突出，其余维度均处于中等水平，整体呈现积极进取但能力尚在发展的特点。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来乐观显著",
+      "沟通协作相对较弱"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "未来乐观度均值为0.8346，排名第一。",
+      "自我意识均值为0.7543，排名第二。",
+      "情绪调节与韧性均值为0.7291，排名第三。",
+      "沟通协作均值为0.7538，排名第四。",
+      "责任感与集体意识均值为0.8229，排名第三。"
+    ],
+    "avoid_overclaim": [
+      "自我意识非高",
+      "情绪调节非低"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "parent",
+    "summary": "家长角色各项维度均为中等水平，自我觉察与责任感相对较弱，排名靠后，且显著低于校长角色，沟通协作接近均值。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察相对薄弱",
+      "集体责任感排名靠后"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长在责任感与集体意识维度排名第四。",
+      "自我觉察维度得分为0.6942，定性为中等。",
+      "沟通协作维度处于接近中等水平。",
+      "自我觉察水平低于校长，效应量为-0.4187。",
+      "责任感与集体意识得分低于校长和教师。"
+    ],
+    "avoid_overclaim": [
+      "非高自我觉察",
+      "责任感非优势"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师角色具有极高的情绪调节与韧性及强烈的集体责任感，但对自我觉察的关注显著较低，相比校长在自我觉察和共情尊重方面明显偏低。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "维持情绪稳定与集体责任",
+      "缺乏对内在自我觉察与共情深度的反思"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察处于极低水平，均值为0.6753，在四个角色中排名第四",
+      "情绪调节与韧性处于极高水平，均值为0.7854，在四个角色中排名第一",
+      "相比校长，自我觉察维度显著较低，科恩d值为-0.4403",
+      "相比校长，共情与尊重维度明显偏低，科恩d值为-0.3818",
+      "集体责任均值为0.8576，排名第二，属于极高水平"
+    ],
+    "avoid_overclaim": [
+      "不得推断教师的具体人口统计学特征或内在动机",
+      "不得声称教师比学生在共情与尊重上更低，因为卡片未提供该对比证据"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "principal",
+    "summary": "校长在自我觉察与同理尊重上居首，重视深层认知与共情，关切系统清醒与人际包容，警惕过度乐观与情绪波动的泛化解读。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "系统清醒",
+      "人际包容"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察均值为0.7862且排名第一。",
+      "同理尊重均值为0.8317且排名第一。",
+      "乐观均值为0.7608且排名第四。",
+      "情绪调节均值为0.752且靠近中值。",
+      "自我觉察显著高于教师。"
+    ],
+    "avoid_overclaim": [
+      "乐观极强",
+      "情绪韧性极强"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "principal",
+    "summary": "校长角色以极高的自我意识和同理心尊重为显著特征，两项指标均位列第一且属于极高水平，在自我认知方面显著优于教师和家长群体。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "保持高水平的自我认知与反思",
+      "建立基于尊重与同理心的人际连接"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "parent",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识均值为0.7862，在四个角色中排名第一",
+      "自我意识属于极高分组别(extreme_high)",
+      "同理心与尊重均值为0.8317，排名第一",
+      "相比教师，校长的自我意识均值高出0.1109",
+      "相比家长，校长的自我意识均值高出0.092"
+    ],
+    "avoid_overclaim": [
+      "避免推断校长具有特定的人口统计特征或动机",
+      "避免声称校长在未来乐观维度上具有优势"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "student",
+    "summary": "学生展现出极高的未来乐观心态，自我意识处于中高水平，但在情绪调节与合作沟通方面表现平平，责任感与共情能力适中。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "未来憧憬与现实",
+      "自我认知与调节"
+    ],
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "未来乐观心态得分0.8346，定性为高水平。",
+      "自我意识得分0.7543，定性为中水平。",
+      "情绪调节与韧性得分0.7291，定性为中水平。",
+      "共情与尊重得分0.7945，定性为中水平。",
+      "沟通与合作得分0.7538，定性为中水平。"
+    ],
+    "avoid_overclaim": [
+      "不宣称高责任感",
+      "不宣称高沟通能力"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "parent",
+    "summary": "家长各项心理指标均处于中等水平，但在自我意识与责任感方面相对其他角色较弱，沟通合作能力处于中游，情绪调节能力有待提升。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "角色责任与自我",
+      "家庭沟通与情绪"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识得分0.6942，定性为中水平。",
+      "未来乐观心态得分0.7771，定性为中水平。",
+      "情绪调节与韧性得分0.7189，定性为中水平。",
+      "共情与尊重得分0.7659，定性为中水平。",
+      "责任感与集体取向得分0.8002，定性为中水平。"
+    ],
+    "avoid_overclaim": [
+      "不宣称高自我意识",
+      "不宣称高责任感"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师具备高水平的情绪调节与韧性，但自我意识水平较低，共情能力处于中游，责任感与沟通合作能力表现适中。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "职业韧性与自省",
+      "共情关怀与边界"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "情绪调节与韧性得分0.7854，定性为高水平。",
+      "自我意识得分0.6753，定性为低水平。",
+      "未来乐观心态得分0.7999，定性为中水平。",
+      "共情与尊重得分0.7634，定性为中水平。",
+      "责任感与集体取向得分0.8576，定性为中水平。"
+    ],
+    "avoid_overclaim": [
+      "不宣称高自我意识",
+      "不宣称高共情能力"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "principal",
+    "summary": "校长在自我意识与共情尊重方面表现突出，均达到高水平，沟通合作与责任感处于中高水平，但对未来的乐观程度相对较低。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察与引领",
+      "共情管理与远见"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "parent",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我意识得分0.7862，定性为高水平。",
+      "共情与尊重得分0.8317，定性为高水平。",
+      "未来乐观心态得分0.7608，定性为中水平。",
+      "情绪调节与韧性得分0.752，定性为中水平。",
+      "沟通与合作得分0.8033，定性为中水平。"
+    ],
+    "avoid_overclaim": [
+      "不宣称高未来乐观",
+      "不宣称高情绪韧性"
+    ],
+    "prompt_variant": "v6_boundary_conditions",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师具备高水平情绪调节与韧性及中等责任集体意识，但自我认知处于极低水平，且在自我觉察与共情上低于校长。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我认知极低",
+      "共情低于管理层"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "教师的自我认知均值为0.6753，定性为低水平。",
+      "教师的情绪调节与韧性排名第一，定性为高水平。",
+      "教师的共情与尊重均值为0.7634，处于中等水平。",
+      "与校长相比，教师的自我认知均值差为-0.1109。",
+      "与校长相比，教师的共情与尊重均值差为-0.0684。"
+    ],
+    "avoid_overclaim": [
+      "推断内在动机",
+      "夸大中等表现"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "student",
+    "summary": "学生在积极未来乐观方面表现为高，自我意识处于中等但排名靠前，呈现出对未来抱有高度期待且自我认知较明显的特征。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "high",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "积极展望未来",
+      "保持清晰的自我认知"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "positive_future_optimism"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "积极未来乐观度均值为0.8346",
+      "积极未来乐观度排名1/4且属极端高组",
+      "自我意识均值为0.7543",
+      "自我意识排名2/4且属极端高组",
+      "情绪调节韧性排名3/4均值为0.7291"
+    ],
+    "avoid_overclaim": [
+      "不推断学生的具体人口学特征",
+      "不臆测数据未支持的内在动机"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师情绪调节与韧性能力突出，排名第一；自我觉察能力较低，排名垫底。其他维度处于中等水平。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "自我觉察盲区",
+      "情绪管理压力"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "emotion_regulation_resilience"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "自我觉察均值为0.6753。",
+      "自我觉察排名第四。",
+      "情绪调节与韧性排名第一。",
+      "情绪调节与韧性均值为0.7854。",
+      "自我觉察属于极低分组。"
+    ],
+    "avoid_overclaim": [
+      "不推断动机",
+      "不外推特质"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "glm-5"
+  },
+  {
+    "role": "parent",
+    "summary": "家长角色在集体责任与自我认知方面呈现中等水平，在责任维度排名靠后，与校长和教师相比存在明显差距。",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "平衡家庭与集体责任",
+      "维持中等自我认知水平"
+    ],
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "responsibility_collective",
+        "vs_role": "principal",
+        "direction": "lower"
+      }
+    ],
+    "evidence_statements": [
+      "家长在自我认知维度均值为0.6942，在角色中排名第三。",
+      "家长在积极未来乐观维度均值为0.7771，排名第三，低于全体均值0.016。",
+      "家长在情绪调节韧性维度均值为0.7189，排名第四，属于极低区间。",
+      "家长在沟通协作维度均值为0.776，排名第二，接近全体均值。",
+      "家长在集体责任维度均值为0.8002，排名第四，相比校长差距为-0.0594。"
+    ],
+    "avoid_overclaim": [
+      "不推断家长动机",
+      "不扩展至因果解释"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "principal",
+    "summary": "校长角色在自我认知和共情尊重方面表现突出，均为最高水平，但在积极未来乐观方面排名靠后，整体情绪调节和沟通协作处于中等。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "在自我认知优势与未来乐观不足之间寻找平衡",
+      "在高度共情与中等沟通协作之间保持张力"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "parent",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "校长自我认知均值为0.7862，在所有角色中排名第一。",
+      "校长共情尊重均值为0.8317，在所有角色中排名第一。",
+      "校长沟通协作均值为0.8033，在所有角色中排名第一。",
+      "校长责任集体均值为0.8596，在所有角色中排名第一。",
+      "校长积极未来乐观均值为0.7608，在所有角色中排名第四，低于总体均值。"
+    ],
+    "avoid_overclaim": [
+      "避免声称所有维度均为高水平",
+      "避免声称对未来有极强乐观态度"
+    ],
+    "prompt_variant": "v1_direct_translation",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "teacher",
+    "summary": "教师情绪调节能力突出且集体责任感强，但自我认知偏低，在同理心方面表现中等。",
+    "dimensions": {
+      "self_awareness": "low",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "high",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "如何在维持情绪稳定的同时提升自我认知",
+      "平衡职业责任感与个人发展需求"
+    ],
+    "signature_dimensions": [
+      "emotion_regulation_resilience",
+      "self_awareness"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "principal",
+        "direction": "lower"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "student",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "教师情绪调节韧性得分0.7854，在四种角色中排名第一，属于极高水平。",
+      "教师集体责任感得分0.8576，位列第二，数据处于极高区间。",
+      "教师自我认知得分0.6753，在四种角色中排名第四，为极低水平。",
+      "与校长相比，教师同理心得分低0.0684，效应量Cohen's d为-0.38。",
+      "教师正向未来乐观得分0.7999，处于中等水平。"
+    ],
+    "avoid_overclaim": [
+      "不宜过度强调教师同理心",
+      "避免将中等水平解读为明显弱项"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "principal",
+    "summary": "校长以高自我认知与同理心为核心，注重全校氛围与制度协同，关注教学质量与学生安全的平衡。",
+    "dimensions": {
+      "self_awareness": "high",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "high",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "core_concerns": [
+      "校园安全与教学质量",
+      "制度公平与师生关系"
+    ],
+    "signature_dimensions": [
+      "self_awareness",
+      "empathy_respect"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      },
+      {
+        "dimension": "empathy_respect",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "evidence_statements": [
+      "自我认知均值为0.7862，在角色中排名第一，属于极高水平。",
+      "同理心与尊重均值0.8317，同样在角色中排名第一，属于极高水平。",
+      "在自我认知上，校长比教师高0.1109，差异显著。",
+      "在同理心与尊重上，校长比教师高0.0684，差异明显。",
+      "沟通协作与集体责任感均值分别为0.8033和0.8596，均在角色中位列第一。"
+    ],
+    "avoid_overclaim": [
+      "不宜夸大所有维度",
+      "避免脱离数据的推论"
+    ],
+    "prompt_variant": "v3_judge_ready_profile",
+    "generator_model": "MiniMax-M2.7"
+  },
+  {
+    "role": "parent",
+    "summary": "???????????????????????????????????????????????????",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "signature_dimensions": [
+      "responsibility_collective",
+      "self_awareness"
+    ],
+    "evidence_statements": [
+      "?????????????",
+      "?????????????",
+      "?????????????",
+      "?????????????",
+      "????????????????"
+    ],
+    "prompt_variant": "v5_signature_first",
+    "generator_model": "glm-5"
+  }
+]

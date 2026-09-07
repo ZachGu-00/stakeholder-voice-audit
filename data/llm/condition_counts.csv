@@ -1,0 +1,14 @@
+condition,model,n
+default,deepseek-v4-flash,300
+default,gemini-3.1-flash-lite-preview,300
+default,gpt-4o-mini,300
+gpt5_4_default,gpt-5.4,180
+principal_prompt,deepseek-v4-flash,180
+principal_prompt,gemini-3.1-flash-lite-preview,180
+principal_prompt,gpt-4o-mini,180
+principal_speaker,deepseek-v4-flash,30
+principal_speaker,gemini-3.1-flash-lite-preview,30
+principal_speaker,gpt-4o-mini,30
+teacher_speaker,deepseek-v4-flash,30
+teacher_speaker,gemini-3.1-flash-lite-preview,30
+teacher_speaker,gpt-4o-mini,30

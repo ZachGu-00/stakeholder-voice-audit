@@ -1,0 +1,5 @@
+ablation,metric,n_generators,generators,full,ablated,decline_percentage_points
+no_qualitative_levels,Level faithfulness,3,gpt-4o-mini|deepseek-v4-flash|gpt-4.1,0.9861,0.5139,47.22
+no_qualitative_levels,Signature recall,3,gpt-4o-mini|deepseek-v4-flash|gpt-4.1,0.9792,0.9375,4.169999999999996
+numeric_only,Level faithfulness,3,gpt-5.4-mini|deepseek-v4-flash|claude-haiku-4-5-20251001,0.9861,0.6041666666666667,38.19333333333332
+numeric_only,Signature recall,3,gpt-5.4-mini|deepseek-v4-flash|claude-haiku-4-5-20251001,0.9167,0.7604000000000001,15.629999999999988

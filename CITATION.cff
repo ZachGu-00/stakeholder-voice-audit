@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite this dataset release and the associated manuscript when using these materials."
+type: dataset
+title: "Data and classifier for Whose voice does the chatbot speak?"
+version: 1.0.0
+date-released: 2026-09-07
+url: "https://github.com/ZachGu-00/stakeholder-voice-audit"
+repository-code: "https://github.com/ZachGu-00/stakeholder-voice-audit"
+authors:
+  - family-names: Gu
+    given-names: Zhexi
+    orcid: "https://orcid.org/0000-0002-0467-5254"
+  - family-names: Zhu
+    given-names: Runping
+    orcid: "https://orcid.org/0000-0003-3302-7376"
+  - family-names: Mao
+    given-names: Yaqing
+    orcid: "https://orcid.org/0009-0006-7727-7085"
+  - family-names: Wu
+    given-names: Jianglun
+    orcid: "https://orcid.org/0000-0003-4568-7013"
+  - family-names: Chan
+    given-names: Philip Wing
+    orcid: "https://orcid.org/0000-0003-1605-1665"
+keywords:
+  - stakeholder voice
+  - social-emotional learning
+  - large language models
+  - institutional responsibility
+  - content analysis
+  - SetFit

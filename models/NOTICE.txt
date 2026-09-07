@@ -1,0 +1,5 @@
+This checkpoint is derived from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+Upstream model: https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Upstream authors: Sentence Transformers. Upstream license: Apache License 2.0.
+Modification: SetFit fine-tuning and a four-class logistic-regression head for the stakeholder voice audit.
+Derived research model: Zhexi Gu, Runping Zhu, Yaqing Mao, Jianglun Wu and Philip Wing Chan.

@@ -1,0 +1,15 @@
+{
+  "construct": "perceived role-value voice anchored to H2 portraits, not respondent identity alone",
+  "p01_n": 80,
+  "h2_n": 138,
+  "h2_exclusion": "16 valid-role records with empty summaries excluded; malformed aggregate-role records excluded",
+  "h2_leakage_control": "all four role names removed; pairwise contrast claims omitted",
+  "h3_training_leakage": "none; no H3 response or condition label used in training",
+  "inference": "120-token non-overlapping chunks; mean class probabilities",
+  "roles": [
+    "student",
+    "parent",
+    "teacher",
+    "principal"
+  ]
+}

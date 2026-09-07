@@ -1,0 +1,57 @@
+[
+  {
+    "path": "config.json",
+    "bytes": 644,
+    "sha256": "be1a4627bd0a7bc5dc5782a803140e592e59f237fdb89ae7221e4de3e605be15"
+  },
+  {
+    "path": "config_sentence_transformers.json",
+    "bytes": 296,
+    "sha256": "ba771eafdf801156eae4efee29b96744bde7d0b66fa4ff98a4000c3cc1457687"
+  },
+  {
+    "path": "config_setfit.json",
+    "bytes": 122,
+    "sha256": "42359c8b71148bb9cd04b7393901bde2ceaa3eb53bfe1a0427f834d4a28e7d24"
+  },
+  {
+    "path": "model.safetensors",
+    "bytes": 470637416,
+    "sha256": "1fd5f5a438fb40622f25d03fc471b3782a0e354612ff77f59e08d732a765a103"
+  },
+  {
+    "path": "model_head.pkl",
+    "bytes": 13191,
+    "sha256": "cbc61900630ee01f1413dad0c1d6f81745c27310312b4ced74a6471fe6d0058c"
+  },
+  {
+    "path": "modules.json",
+    "bytes": 242,
+    "sha256": "27e3a229cecaf4d6ec90fb8e439d6bd2da7b2e22ff49a23e0b0a293a5f3e413c"
+  },
+  {
+    "path": "sentence_bert_config.json",
+    "bytes": 60,
+    "sha256": "874954176b1baf79cb203116c9583f72249d6d28012447ecccfc248a680e0400"
+  },
+  {
+    "path": "special_tokens_map.json",
+    "bytes": 1015,
+    "sha256": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307"
+  },
+  {
+    "path": "tokenizer.json",
+    "bytes": 17082987,
+    "sha256": "cad551d5600a84242d0973327029452a1e3672ba6313c2a3c3d69c4310e12719"
+  },
+  {
+    "path": "tokenizer_config.json",
+    "bytes": 1522,
+    "sha256": "1fed1cc0c6f6bad47d564fca8c308cbed81cf4e5d3af36651e9e804717e5795d"
+  },
+  {
+    "path": "1_Pooling/config.json",
+    "bytes": 321,
+    "sha256": "b4105bf48c5257a542a7e1968cef220b3ecd49ae24943143279650c4ac6e30a0"
+  }
+]

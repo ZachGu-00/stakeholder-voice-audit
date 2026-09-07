@@ -1,0 +1,47 @@
+[
+  {
+    "role": "student",
+    "generator_model": "gpt-5-mini",
+    "prompt_variant": "v1_direct_translation",
+    "summary": "",
+    "dimensions": {
+      "self_awareness": "mid",
+      "positive_future_optimism": "mid",
+      "emotion_regulation_resilience": "mid",
+      "empathy_respect": "mid",
+      "communication_collaboration": "mid",
+      "responsibility_collective": "mid"
+    },
+    "signature_dimensions": [
+      "positive_future_optimism",
+      "communication_collaboration"
+    ],
+    "contrast_claims": [
+      {
+        "dimension": "positive_future_optimism",
+        "vs_role": "principal",
+        "direction": "higher"
+      },
+      {
+        "dimension": "self_awareness",
+        "vs_role": "teacher",
+        "direction": "higher"
+      }
+    ],
+    "core_concerns": [
+      "",
+      ""
+    ],
+    "evidence_statements": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "avoid_overclaim": [
+      "",
+      ""
+    ]
+  }
+]

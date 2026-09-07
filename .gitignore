@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+models/checkpoint/
+models/*.zip
+checkpoints/
+training_output/
+.DS_Store
+Thumbs.db

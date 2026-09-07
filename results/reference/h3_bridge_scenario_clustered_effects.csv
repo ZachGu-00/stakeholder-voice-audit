@@ -1,0 +1,7 @@
+﻿contrast,outcome,scenario_pairs,estimate,ci_low,ci_high
+principal_prompt_minus_default,principal_share,60,0.7899999999999999,0.7418425925925924,0.8351851851851851
+principal_prompt_minus_default,principal_probability,60,0.5299758256639266,0.5036920121831956,0.5551424837640097
+teacher_speaker_minus_default,principal_share,10,0.13333333333333333,-0.06000000000000001,0.30666666666666664
+teacher_speaker_minus_default,principal_probability,10,0.15329860493973282,0.045016673756800796,0.268071043789569
+principal_speaker_minus_default,principal_share,10,0.4888888888888888,0.32222222222222224,0.6666666666666667
+principal_speaker_minus_default,principal_probability,10,0.32853096753717326,0.21105759025581614,0.4436371869993111

@@ -1,0 +1,301 @@
+form,role,variable,question_zh,sel_dimensions,sel_dimension_order,ai_polarity,ai_item_label,ai_item_order,observed_min,observed_max,n_observed,observed_values
+primary_student,student,q001,一、请根据您的实际情况，在每行选择一个答案：—1.生活是有意义的,positive_future_optimism,"{""positive_future_optimism"": 0}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q002,2.我对生活充满热情，并享受其中的乐趣,positive_future_optimism,"{""positive_future_optimism"": 1}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q003,3.未来的生活会越来越好,positive_future_optimism,"{""positive_future_optimism"": 2}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q004,4.我认可自己的优势和特长,self_awareness,"{""self_awareness"": 0}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q005,5.我知道自己在哪方面做得好,self_awareness,"{""self_awareness"": 1}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q006,6.我认为自己非常棒,self_awareness,"{""self_awareness"": 2}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q007,7.我知道自己在什么情况下会生气,self_awareness,"{""self_awareness"": 3}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q008,8.我知道我做出现在的行为表现的原因,self_awareness,"{""self_awareness"": 4}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q009,9.我知道什么是对的，什么是错的,self_awareness,"{""self_awareness"": 5}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q010,10.生命宝贵，应该过好每一天,positive_future_optimism,"{""positive_future_optimism"": 3}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q011,11.如果事情不能一次完成，我会继续尝试，直到成功为止,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 0}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q012,12.我相信即使遇到障碍我也能够实现我的目标,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 1}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q013,13.遇到困难，我也不会轻易放弃自己的任务,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 2}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q014,18.当我要发脾气时，我会先停下来，等情绪平静下来再行动,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 3}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q015,19.我能够在紧张的情况下放松心情,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 4}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q016,20.我不会轻易地被失败打倒,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 5}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q017,23.我认为大多数人都是友善的,empathy_respect,"{""empathy_respect"": 0}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q018,24.我经常可以体会到他人的感受,empathy_respect,"{""empathy_respect"": 1}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q019,25.我可以感受到朋友的心情,empathy_respect,"{""empathy_respect"": 2}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q020,26.我可以理解他人看问题的角度,empathy_respect,"{""empathy_respect"": 3}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q021,27.未得到允许，不应该去碰别人的东西,empathy_respect,"{""empathy_respect"": 4}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q022,28.当朋友哭泣时，不应该嘲笑他/她,empathy_respect,"{""empathy_respect"": 5}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q023,29.朋友不想和我出去玩的时候，不应该强迫他/她,empathy_respect,"{""empathy_respect"": 6}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q024,30.在小组活动中，我会积极提出自己的想法,communication_collaboration,"{""communication_collaboration"": 0}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q025,31.我喜欢和团队一起完成任务,communication_collaboration,"{""communication_collaboration"": 1}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q026,32.在团队中，我能够主动承担责任,communication_collaboration,"{""communication_collaboration"": 2}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q027,33.我能够与不同个性的人做朋友,communication_collaboration,"{""communication_collaboration"": 6}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q028,34.我能够与那些跟我习惯不同的人友好相处,communication_collaboration,"{""communication_collaboration"": 7}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q029,35.即使和他人在某些行为方式上存在不同，也不影响我和他们交朋友,communication_collaboration,"{""communication_collaboration"": 8}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q030,36.有人跟我说话时，我会积极给予回应,communication_collaboration,"{""communication_collaboration"": 3}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q031,37.我一般会确保在与他人对话交流时采用不伤害他人的方式,communication_collaboration,"{""communication_collaboration"": 4}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q032,38.如果我不同意他人的观点，我会细致地说明我的理由,communication_collaboration,"{""communication_collaboration"": 5}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q033,39.我为自己是中国人而感到自豪,responsibility_collective,"{""responsibility_collective"": 13}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q034,40.我为中国优秀传统文化感到自豪,responsibility_collective,"{""responsibility_collective"": 14}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q035,41.我为中国具有5000年的悠久历史而感到自豪,responsibility_collective,"{""responsibility_collective"": 15}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q036,42.我认为自己是班级/集体中的重要一员,responsibility_collective,"{""responsibility_collective"": 0}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q037,43.班级是一个温暖的大家庭,responsibility_collective,"{""responsibility_collective"": 1}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q038,44.我因为自己是学校的一份子而感到自豪,responsibility_collective,"{""responsibility_collective"": 2}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q039,45.我认为参加学校组织的集体活动是必要的,responsibility_collective,"{""responsibility_collective"": 3}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q040,46.我知道和平对每个人都很重要,responsibility_collective,"{""responsibility_collective"": 17}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q041,47.我认为地球是人类共有的家园,responsibility_collective,"{""responsibility_collective"": 18}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q042,48.我认为我们应该爱护环境，不破坏花草树木,responsibility_collective,"{""responsibility_collective"": 19}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q043,49.我主动竞选班干部，以协助班主任更好的管理班级,responsibility_collective,"{""responsibility_collective"": 4}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q044,50.当班集体面临挑战或困难时，我会主动站出来寻找解决问题的办法,responsibility_collective,"{""responsibility_collective"": 5}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q045,51.看到征集志愿者的活动，我会主动报名,responsibility_collective,"{""responsibility_collective"": 6}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q046,52.放假在家时，我会承担一些家务,responsibility_collective,"{""responsibility_collective"": 7}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q047,53.我会为自己的错误行为承担责任,responsibility_collective,"{""responsibility_collective"": 8}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q048,54.为了祖国的明天，我不断进步，天天向上,responsibility_collective,"{""responsibility_collective"": 16}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q049,55.当遇到不明确或不清楚的规则时，我会主动询问并了解,responsibility_collective,"{""responsibility_collective"": 9}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q050,56.我遵守课堂纪律，不随意讲话或做与课堂无关的事情,responsibility_collective,"{""responsibility_collective"": 10}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q051,57.我会按时完成老师布置的任务,responsibility_collective,"{""responsibility_collective"": 11}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q052,58.我主动参加志愿活动，为学校和社会做贡献,responsibility_collective,"{""responsibility_collective"": 12}",,,-1,1,5,9566,1|2|3|4|5
+primary_student,student,q053,八、请选择您最真实的想法，在每行选择一个答案：—1.我觉得，用AI工具可以帮我想出更好的办法和同学、朋友沟通,,{},positive,comm_help,0,1,5,9566,1|2|3|4|5
+primary_student,student,q054,2.我很担心，我跟AI说的真心话会被别人看到。,,{},concern,privacy_worry,1,1,5,9566,1|2|3|4|5
+primary_student,student,q055,3.跟AI说我的秘密比跟真人说更让我安心，因为它不会笑话我或批评我,,{},positive,safe_confidant,2,1,5,9566,1|2|3|4|5
+primary_student,student,q056,4.当我感到压力很大或者很烦的时候，用AI工具（比如和聊天机器人说话）能让我感觉好一点,,{},positive,stress_relief,3,1,5,9566,1|2|3|4|5
+primary_student,student,q057,5.我觉得通过和AI练习对话，能帮助我更有信心地和同学交流,,{},positive,social_practice,4,1,5,9566,1|2|3|4|5
+primary_student,student,q058,6.当我要做一个重要的决定时（比如选哪个课外班），我会问问AI的建议,,{},positive,decision_support,5,1,5,9566,1|2|3|4|5
+primary_student,student,q059,7.我觉得AI像一个耐心的朋友，可以随时听我说话,,{},positive,patient_friend,6,1,5,9566,1|2|3|4|5
+primary_student,student,q060,8.有时候，我花太多时间和AI聊天，就没时间跟真朋友玩了,,{},concern,overuse,7,1,5,9566,1|2|3|4|5
+middle_student,student,q001,一、请根据您的实际情况，在每行选择一个答案:—1.生活是有意义的,positive_future_optimism,"{""positive_future_optimism"": 0}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q002,2.我对生活充满热情，并享受其中的乐趣,positive_future_optimism,"{""positive_future_optimism"": 1}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q003,3.我认为积极的心态能够帮助我获得更多的快乐和幸福,positive_future_optimism,"{""positive_future_optimism"": 2}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q004,4.我知道自己在哪方面做得好,self_awareness,"{""self_awareness"": 1}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q005,5.我认为自己非常棒,self_awareness,"{""self_awareness"": 2}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q006,6.我认可自己的优势和特长,self_awareness,"{""self_awareness"": 0}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q007,7.我知道自己的情绪会影响行为,self_awareness,"{""self_awareness"": 4}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q008,8.我知道自己在什么情况下会生气,self_awareness,"{""self_awareness"": 3}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q009,9.我自己有评价是非的原则,self_awareness,"{""self_awareness"": 5}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q010,10.如果事情不能一次完成，我会继续尝试，直到成功为止,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 0}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q011,11.遇到困难，我也不会轻易放弃自己的任务,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 2}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q012,12.我相信即使遇到障碍我也能够实现我的目标,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 1}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q013,13.心情不好的时候，我用适当的方法让心情好起来,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 3}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q014,14.我能寻找适合自己的方式来释放压力,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 4}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q015,15.当我愤怒或沮丧时，我会尝试理解我的情绪和需要，从而找到行动方向,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 5}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q016,20.当朋友哭泣时，不应该嘲笑他/她,empathy_respect,"{""empathy_respect"": 4}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q017,21.朋友不想和我出去玩的时候，不应该强迫他/她,empathy_respect,"{""empathy_respect"": 5}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q018,22.我认为大多数人都是友善的,empathy_respect,"{""empathy_respect"": 0}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q019,26.当朋友不开心时，我能理解到他/她的感受,empathy_respect,"{""empathy_respect"": 1}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q020,27.当别人因为没做好某事而感到沮丧时，我认为应该鼓励他/她们,empathy_respect,"{""empathy_respect"": 2}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q021,28.我认为不能随意评判他人的选择,empathy_respect,"{""empathy_respect"": 3}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q022,29.我能够清晰地向别人表达我的想法,communication_collaboration,"{""communication_collaboration"": 0}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q023,30.我能够理解他人所表达的内容观点，体会其意图情感,communication_collaboration,"{""communication_collaboration"": 1}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q024,31.我能够根据他人的状态调整与他沟通的方式,communication_collaboration,"{""communication_collaboration"": 2}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q025,36.我能够与不同个性的人做朋友,communication_collaboration,"{""communication_collaboration"": 3}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q026,38.我为自己是中国人而感到自豪,responsibility_collective,"{""responsibility_collective"": 8}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q027,39.我为中国优秀传统文化感到自豪,responsibility_collective,"{""responsibility_collective"": 9}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q028,40.我为中国具有5000年的悠久历史而感到自豪,responsibility_collective,"{""responsibility_collective"": 10}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q029,41.班级和学校的荣誉对我来说很重要,responsibility_collective,"{""responsibility_collective"": 3}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q030,42.我认为参加学校组织的集体活动是必要的,responsibility_collective,"{""responsibility_collective"": 2}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q031,43.我因为自己是学校的一份子而感到自豪,responsibility_collective,"{""responsibility_collective"": 1}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q032,44.我认为了解国际新闻和全球事件，关注国际形势很重要,responsibility_collective,"{""responsibility_collective"": 14}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q033,46.我知道和平对每个人都很重要，它让我们可以安心学习和生活,responsibility_collective,"{""responsibility_collective"": 13}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q034,47.班级是一个温暖的大家庭,responsibility_collective,"{""responsibility_collective"": 0}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q035,48.关注全球气候变化等生态环境问题对我们来说很重要,responsibility_collective,"{""responsibility_collective"": 15}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q036,49.我主动竞选班干部，以协助班主任更好的管理班级,responsibility_collective,"{""responsibility_collective"": 4}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q037,50.看到征集志愿者的活动，我会主动报名,responsibility_collective,"{""responsibility_collective"": 5}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q038,56.我具有传承并弘扬中华传统优秀文化的使命感,responsibility_collective,"{""responsibility_collective"": 12}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q039,57.我为国家的发展做出力所能及的事,responsibility_collective,"{""responsibility_collective"": 11}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q040,58.我会按时完成老师布置的任务,responsibility_collective,"{""responsibility_collective"": 6}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q041,59.我主动参加志愿活动，为学校和社会做贡献,responsibility_collective,"{""responsibility_collective"": 7}",,,-1,1,5,3923,1|2|3|4|5
+middle_student,student,q042,九、请选择您最真实的想法，在每行选择一个答案:—1.我觉得，用AI工具可以帮我想出更好的办法和同学、朋友沟通,,{},positive,comm_help,0,1,5,3923,1|2|3|4|5
+middle_student,student,q043,2.我很担心，我跟AI说的真心话会被别人看到,,{},concern,privacy_worry,1,1,5,3923,1|2|3|4|5
+middle_student,student,q044,3.我觉得，AI不可能真正“懂”我的心情,,{},concern,skeptical_emotion,2,1,5,3923,1|2|3|4|5
+middle_student,student,q045,4.当我有烦心事时，我宁愿先跟AI聊，也不想先跟老师或爸妈说,,{},concern,human_avoidance,3,1,5,3923,1|2|3|4|5
+middle_student,student,q046,5.跟AI说我的秘密比跟真人说更让我安心，因为它不会笑话我或批评我,,{},positive,safe_confidant,4,1,5,3923,1|2|3|4|5
+middle_student,student,q047,6.AI助手在倾听我的烦恼方面，比大多数人更有耐心,,{},positive,patient_listener,5,1,5,3923,1|2|3|4|5
+middle_student,student,q048,8.当我感到压力很大或者很烦的时候，用AI工具（比如和聊天机器人说话）能让我感觉好一点,,{},positive,stress_relief,6,1,5,3923,1|2|3|4|5
+middle_student,student,q049,9.我觉得通过和AI练习对话，能帮助我更有信心地和同学交流,,{},positive,social_practice,7,1,5,3923,1|2|3|4|5
+middle_student,student,q050,10.我知道AI说的话不一定全对，需要我自己来判断,,{},neutral,critical_thinking,8,1,5,3923,1|2|3|4|5
+middle_student,student,q051,11.当我要做一个重要的决定时（比如选哪个课外班），我会问问AI的建议,,{},positive,decision_support,9,1,5,3923,1|2|3|4|5
+middle_student,student,q052,12.我觉得AI像一个耐心的朋友，可以随时听我说话,,{},positive,patient_friend,10,1,5,3923,1|2|3|4|5
+middle_student,student,q053,13.有时候，我花太多时间和AI聊天，就没时间跟真朋友玩了,,{},concern,overuse,11,1,5,3923,1|2|3|4|5
+parent,parent,q001,B4.您和孩子一起做以下事情的频率是：（请在每行选择一个答案）—1. 吃晚饭,communication_collaboration,"{""communication_collaboration"": 3}",,,-1,1,6,12266,1|2|3|4|5|6
+parent,parent,q002,2. 读书,communication_collaboration,"{""communication_collaboration"": 4}",,,-1,1,6,12266,1|2|3|4|5|6
+parent,parent,q003,3. 看电视,communication_collaboration,"{""communication_collaboration"": 5}",,,-1,1,6,12266,1|2|3|4|5|6
+parent,parent,q004,4. 做运动,communication_collaboration,"{""communication_collaboration"": 6}",,,-1,1,6,12266,1|2|3|4|5|6
+parent,parent,q005,8. 监督孩子的学习,communication_collaboration,"{""communication_collaboration"": 7}",,,-1,1,6,12266,1|2|3|4|5|6
+parent,parent,q006,9. 与孩子讨论学习相关问题,communication_collaboration,"{""communication_collaboration"": 8}",,,-1,1,6,12266,1|2|3|4|5|6
+parent,parent,q007,B5.您是否主动与孩子讨论以下事情：（请在每行选择一个答案）—1. 学校发生的事情,communication_collaboration,"{""communication_collaboration"": 9}",,,-1,1,3,12266,1|2|3
+parent,parent,q008,2. 孩子与朋友的关系,communication_collaboration,"{""communication_collaboration"": 10}",,,-1,1,3,12266,1|2|3
+parent,parent,q009,3. 孩子与老师的关系,communication_collaboration,"{""communication_collaboration"": 11}",,,-1,1,3,12266,1|2|3
+parent,parent,q010,4. 孩子的心事或烦恼,communication_collaboration,"{""communication_collaboration"": 12}",,,-1,1,3,12266,1|2|3
+parent,parent,q011,5. 孩子的心情,communication_collaboration,"{""communication_collaboration"": 13}",,,-1,1,3,12266,1|2|3
+parent,parent,q012,在日常生活中，我…—1. 我知道自己的情绪会影响行为。,self_awareness,"{""self_awareness"": 0}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q013,2. 我知道自己的情绪会传递给孩子。,self_awareness,"{""self_awareness"": 1}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q014,3. 我知道我的情感受多种因素的影响。,self_awareness,"{""self_awareness"": 2}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q015,4.  我相信自己能做好家长的角色。,positive_future_optimism,"{""positive_future_optimism"": 0}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q016,5. 我欣赏自己的优点。,self_awareness,"{""self_awareness"": 3}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q017,6. 我知道自己擅长什么。,self_awareness,"{""self_awareness"": 4}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q018,7. 我对未来充满希望。,positive_future_optimism,"{""positive_future_optimism"": 1}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q019,8. 我认为自己生活中的事情都会朝好的方向发展。,positive_future_optimism,"{""positive_future_optimism"": 2}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q020,9. 我相信通过努力生活会变得越来越好。,positive_future_optimism,"{""positive_future_optimism"": 3}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q021,10. 当我想对孩子发脾气时，我能控制自己。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 0}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q022,11. 当与孩子出现冲突时，我能够保持冷静。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 1}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q023,12. 我能够在紧张的情况下平复心情。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 2}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q024,13 我会坚持不懈直到任务完成。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 3}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q025,14. 遇到困难，我能快速调整心态，继续努力。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 4}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q026,15. 我能够从失败中吸取经验。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 5}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q027,19. 当孩子不开心时，我清楚原因。,empathy_respect,"{""empathy_respect"": 0}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q028,20. 我可以理解别人看问题的角度。,empathy_respect,"{""empathy_respect"": 1}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q029,21. 我可以体会同事的感受。,empathy_respect,"{""empathy_respect"": 2}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q030,22 我认为家长应该与孩子平等交流。,empathy_respect,"{""empathy_respect"": 3}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q031,23. 我尊重孩子的想法。,empathy_respect,"{""empathy_respect"": 4}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q032,24. 我理解每位家长在教育孩子方面的观念不同。,empathy_respect,"{""empathy_respect"": 5}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q033,31. 我能够条理清晰地向别人表达我的观点。,communication_collaboration,"{""communication_collaboration"": 0}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q034,32. 我能够根据他人的状态，调整与其沟通的方式。,communication_collaboration,"{""communication_collaboration"": 1}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q035,33 与他人产生分歧时，我能够通过沟通达成共识。,communication_collaboration,"{""communication_collaboration"": 2}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q036,37. 我知道我应该为自己的工作单位做贡献。,responsibility_collective,"{""responsibility_collective"": 0}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q037,38. 我认为我和邻居有责任共同改善我们生活的地方。,responsibility_collective,"{""responsibility_collective"": 1}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q038,39. 我认为群策群力更有利于集体发展。,responsibility_collective,"{""responsibility_collective"": 2}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q039,40. 我为祖国的发展感到自豪。,responsibility_collective,"{""responsibility_collective"": 3}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q040,41. 我坚定中华民族文化自信。,responsibility_collective,"{""responsibility_collective"": 4}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q041,42. 我相信中华民族能够创造更加辉煌的未来。,responsibility_collective,"{""responsibility_collective"": 5}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q042,43. 我认为了解国际新闻和全球事件，关注国际局势很重要。,responsibility_collective,"{""responsibility_collective"": 6}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q043,44. 我认为人类社会是相互依存的。,responsibility_collective,"{""responsibility_collective"": 7}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q044,45. 我关注全球性的环境问题，如气候变化、生物多样性等。,responsibility_collective,"{""responsibility_collective"": 8}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q045,46. 我能够遵守公共秩序。,responsibility_collective,"{""responsibility_collective"": 9}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q046,47. 我自觉保护环境。,responsibility_collective,"{""responsibility_collective"": 10}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q047,48. 我会向孩子示范遵守交通规则，不闯红灯。,responsibility_collective,"{""responsibility_collective"": 11}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q048,49. 我坚持绿色低碳、节能减排的现代生活方式。,responsibility_collective,"{""responsibility_collective"": 12}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q049,50. 我积极弘扬中华优秀传统文化。,responsibility_collective,"{""responsibility_collective"": 13}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q050,51. 在做决定时，我会考虑到自己、他人和集体利益的平衡。,responsibility_collective,"{""responsibility_collective"": 14}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q051,53. 我主动为他人提供力所能及的支持和帮助。,responsibility_collective,"{""responsibility_collective"": 15}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q052,54. 我努力倡导和传播正能量，以影响和带动周围的人。,responsibility_collective,"{""responsibility_collective"": 16}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q053,E2—1.我们家的人不容易被困难压倒。,responsibility_collective,"{""responsibility_collective"": 17}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q054,2.遇到困难家里人相信我们自己能够克服。,responsibility_collective,"{""responsibility_collective"": 18}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q055,3.家里人遇到困难会越挫越勇。,responsibility_collective,"{""responsibility_collective"": 19}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q056,4.面对困难家里人总会有解决办法。,responsibility_collective,"{""responsibility_collective"": 20}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q057,5.我们家人都很上进。,responsibility_collective,"{""responsibility_collective"": 21}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q058,6，家里人相信我们会在逆境中成长。,responsibility_collective,"{""responsibility_collective"": 22}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q059,7.即使是生气发火也不会影响家里人的感情。,responsibility_collective,"{""responsibility_collective"": 23}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q060,8.家里人会用自己的方式表达对彼此的爱。,responsibility_collective,"{""responsibility_collective"": 24}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q061,9.我们一家人喜欢坐在一起度过愉快的时光。,responsibility_collective,"{""responsibility_collective"": 25}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q062,10.我们相互之间都很坦诚。,responsibility_collective,"{""responsibility_collective"": 26}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q063,11.在做重要决定的时候，家里人会征求彼此的意见。,responsibility_collective,"{""responsibility_collective"": 27}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q064,12.在家里大家可以有话直说，不必藏着掖着。,responsibility_collective,"{""responsibility_collective"": 28}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q065,17.在外面遇到伤害的时候，我可以对家人诉说。,responsibility_collective,"{""responsibility_collective"": 29}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q066,19.遇到困难家里人会一起讨论如何面对。,responsibility_collective,"{""responsibility_collective"": 30}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q067,20.当我遇到困难时，家里人会帮着出主意想办法。,responsibility_collective,"{""responsibility_collective"": 31}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q068,E3—1.我向老师了解孩子在学校里与同学相处的情况。,communication_collaboration,"{""communication_collaboration"": 14}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q069,2.我会和老师讨论班规。,communication_collaboration,"{""communication_collaboration"": 15}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q070,3.我会和老师讨论孩子在学校生活中遇到的困难。,communication_collaboration,"{""communication_collaboration"": 16}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q071,4.我会和老师讨论孩子在家完成家庭作业的情况。,communication_collaboration,"{""communication_collaboration"": 17}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q072,5.我会和老师谈论孩子的个性发展和素质。,communication_collaboration,"{""communication_collaboration"": 18}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q073,6.我会和老师谈论孩子的日常生活。,communication_collaboration,"{""communication_collaboration"": 19}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q074,7.我会参加家长会和老师谈论孩子的学习情况和行为表现。,communication_collaboration,"{""communication_collaboration"": 20}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q075,8.我和老师通过短信或留言等方式交流孩子情况或者学校活动信息。,communication_collaboration,"{""communication_collaboration"": 21}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q076,10.我会和孩子老师打电话交流。,communication_collaboration,"{""communication_collaboration"": 22}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q077,11.我会和孩子老师聊一些关于个人或者家庭的话题。,communication_collaboration,"{""communication_collaboration"": 23}",,,-1,1,5,12266,1|2|3|4|5
+parent,parent,q078,六、请根据您的实际情况，选择最合适的选项。—1.我信任学校能保护好我孩子在使用人工智能+社会情感能力工具时产生的情感数据。,,{},positive,trust_school_data,0,1,5,12266,1|2|3|4|5
+parent,parent,q079,2.我支持学校使用人工智能技术来帮助我的孩子提升社会情感能力（如情绪管理）。,,{},positive,support_ai_sel,1,1,5,12266,1|2|3|4|5
+parent,parent,q080,3.我不放心让一个人工智能程序来引导我孩子的情感发展，这应该是人（家长/老师）的工作。,,{},concern,human_role,2,1,5,12266,1|2|3|4|5
+parent,parent,q081,4.我认为人工智能系统给出的关于孩子情感的分析和建议是不可靠的。,,{},concern,reliability,3,1,5,12266,1|2|3|4|5
+parent,parent,q082,5.我担心孩子使用人工智能工具进行情感交流会影响他/她的正常现实社交。,,{},concern,social_displacement,4,1,5,12266,1|2|3|4|5
+parent,parent,q083,6我担心人工智能系统会向我的孩子灌输不正确的价值观或情感应对方式。,,{},concern,value_alignment,5,1,5,12266,1|2|3|4|5
+parent,parent,q084,7.我担心孩子过度沉迷于和人工智能的互动，而忽视了家庭成员间的交流。,,{},concern,addiction,6,1,5,12266,1|2|3|4|5
+parent,parent,q085,8.我担心这些人工智能工具会过度收集我孩子的个人隐私。,,{},concern,privacy,7,1,5,12266,1|2|3|4|5
+teacher,teacher,q001,一、请根据您的实际感受，选择最合适的选项：—1. 我知道我的文化信仰和背景会影响我的教学实践。,self_awareness,"{""self_awareness"": 0}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q002,2. 我知道我的情绪会影响我的教学活动。,self_awareness,"{""self_awareness"": 1}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q003,3. 我知道工作中有情绪起伏是正常的。,self_awareness,"{""self_awareness"": 2}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q004,4. 我相信我能实现自己的目标。,positive_future_optimism,"{""positive_future_optimism"": 0}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q005,5. 我认为别人能做到的事，我通过努力也能做到。,positive_future_optimism,"{""positive_future_optimism"": 1}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q006,6. 我认为自己能成为一名优秀的教师。,positive_future_optimism,"{""positive_future_optimism"": 2}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q007,7. 生命宝贵，我们更需要积极奋斗。,positive_future_optimism,"{""positive_future_optimism"": 3}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q008,8. 我认为自己生活中的事情都会朝好的方向发展。,positive_future_optimism,"{""positive_future_optimism"": 4}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q009,9. 我对生活充满热情，并享受其中的乐趣。,positive_future_optimism,"{""positive_future_optimism"": 5}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q010,10. 我能在心情不好时想办法让自己开心。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 0}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q011,11. 我能在需要时调节好自己的情绪。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 1}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q012,12. 面对压力时，我能调整好自己的心态。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 2}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q013,13. 工作中即使遇到困难，我也不会轻言放弃。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 3}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q014,14. 如果事情不能一次完成，我会继续尝试，直到成功为止,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 4}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q015,15. 我不会轻易被失败打倒。,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 5}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q016,19. 当他人不开心时，我清楚原因。,empathy_respect,"{""empathy_respect"": 0}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q017,20. 我可以感受到朋友的情绪如何。,empathy_respect,"{""empathy_respect"": 1}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q018,21. 我可以体会他人的感受。,empathy_respect,"{""empathy_respect"": 2}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q019,22. 我尊重每个人的想法。,empathy_respect,"{""empathy_respect"": 3}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q020,23. 我认为每个人都有自己的闪光点。,empathy_respect,"{""empathy_respect"": 4}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q021,24. 我尊重其他老师的教育理念。,empathy_respect,"{""empathy_respect"": 5}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q022,28. 我可以跟观点不同的人合作共事。,communication_collaboration,"{""communication_collaboration"": 0}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q023,29. 我能接受有个性的学生。,communication_collaboration,"{""communication_collaboration"": 1}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q024,30. 我能包容那些对我有意见的人。,communication_collaboration,"{""communication_collaboration"": 2}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q025,31. 我是一个优秀的谈判者。,communication_collaboration,"{""communication_collaboration"": 3}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q026,34. 我能听取别人对我教学工作的建议。,communication_collaboration,"{""communication_collaboration"": 4}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q027,35. 当团队遇到困难时，我会和大家一起积极面对，寻找解决办法。,communication_collaboration,"{""communication_collaboration"": 5}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q028,36. 我积极与家长合作，共同促进学生发展。,communication_collaboration,"{""communication_collaboration"": 6}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q029,37. 我认为集体对我很重要。,responsibility_collective,"{""responsibility_collective"": 0}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q030,38. 我认为自己是集体中的一员。,responsibility_collective,"{""responsibility_collective"": 1}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q031,39. 我知道我应该为我的社区做贡献。,responsibility_collective,"{""responsibility_collective"": 2}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q032,40. 我拥护国家最新的教育方针和政策。,responsibility_collective,"{""responsibility_collective"": 3}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q033,41. 我认为中华民族的传统文化具有独特的价值和魅力。,responsibility_collective,"{""responsibility_collective"": 4}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q034,42. 我觉得国家的发展与我休戚相关。,responsibility_collective,"{""responsibility_collective"": 5}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q035,43. 我认为人类发展中面临的问题大家应一起承担。,responsibility_collective,"{""responsibility_collective"": 6}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q036,44. 我认为了解国际新闻和全球事件，关注国际形势很重要。,responsibility_collective,"{""responsibility_collective"": 7}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q037,45. 我认为需要关注全球性的环境问题，如气候变化、生物多样性等。,responsibility_collective,"{""responsibility_collective"": 8}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q038,46. 我自觉遵守学校的规章制度。,responsibility_collective,"{""responsibility_collective"": 9}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q039,47. 我始终以师德标准严格要求自己。,responsibility_collective,"{""responsibility_collective"": 10}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q040,48. 我能够遵守公共秩序。,responsibility_collective,"{""responsibility_collective"": 11}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q041,50. 在做决定时，我会考虑到自己、他人和集体利益的平衡。,responsibility_collective,"{""responsibility_collective"": 12}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q042,51. 我积极弘扬中华优秀传统文化。,responsibility_collective,"{""responsibility_collective"": 13}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q043,53. 为了社会公正，我会坚持发声并身体力行。,responsibility_collective,"{""responsibility_collective"": 14}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q044,54. 我努力倡导和传播正能量，以影响和带动周围的人。,responsibility_collective,"{""responsibility_collective"": 15}",,,-1,1,5,1546,1|2|3|4|5
+teacher,teacher,q045,九、下面是关于人工智能工具（简称AI）在社会情感教育中的应用，请您根据实际情况进行选择:—1.我认为人工智能（AI）工具有助于我更准确地识别班级中需要情感关注的学生。,,{},positive,identify_students,0,1,5,1546,1|2|3|4|5
+teacher,teacher,q046,2.AI技术可以为学生提供个性化的社会情感学习资源，减轻我的教学负担。,,{},positive,personalized_resources,1,1,5,1546,1|2|3|4|5
+teacher,teacher,q047,3.使用AI工具可以帮助我更客观地追踪和评估学生的SEL发展进度。,,{},positive,objective_tracking,2,1,5,1546,1|2|3|4|5
+teacher,teacher,q048,4.AI可以作为有效的辅助工具，丰富我的SEL课程内容和教学形式。,,{},positive,enrich_curriculum,3,1,5,1546,1|2|3|4|5
+teacher,teacher,q049,5.我严重关切学生的情感数据被AI系统收集后的隐私和安全问题。,,{},concern,data_privacy,4,1,5,1546,1|2|3|4|5
+teacher,teacher,q050,6.我担心AI的算法可能存在偏见，无法公平对待所有学生（特别是弱势群体）的情感需求。,,{},concern,algo_bias,5,1,5,1546,1|2|3|4|5
+teacher,teacher,q051,7.我顾虑学生过度依赖AI的情感陪伴，而忽视了发展真实的师生和同伴关系。,,{},concern,student_dependency,6,1,5,1546,1|2|3|4|5
+teacher,teacher,q052,8.我担心AI技术的广泛使用会削弱教师在学生情感教育中的“人”的独特作用。,,{},concern,teacher_role,7,1,5,1546,1|2|3|4|5
+teacher,teacher,q053,9.我有信心能够熟练使用AI工具来辅助我的社会情感教学。,,{},positive,self_efficacy_use,8,1,5,1546,1|2|3|4|5
+teacher,teacher,q054,10.我清楚如何将AI技术（如AI测评、AI辅导）有效地融合到我现有的SEL课程中。,,{},positive,self_efficacy_integrate,9,1,5,1546,1|2|3|4|5
+teacher,teacher,q055,11.我能够判断和筛选出哪些AI工具是真正适合我的学生的。,,{},positive,self_efficacy_select,10,1,5,1546,1|2|3|4|5
+principal,principal,q001,一、请根据您的实际情况，选择最合适的选项。—1. 我知道什么事情会影响我的心情,self_awareness,"{""self_awareness"": 0}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q002,2. 我知道我的教育理念会影响我的学校管理工作,self_awareness,"{""self_awareness"": 1}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q003,3. 我知道工作中有情绪变化是正常的,self_awareness,"{""self_awareness"": 2}",,,-1,2,5,95,2|3|4|5
+principal,principal,q004,4.我知道自己擅长什么,self_awareness,"{""self_awareness"": 3}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q005,5. 我相信我能实现自己的目标,positive_future_optimism,"{""positive_future_optimism"": 0}",,,-1,2,5,95,2|3|4|5
+principal,principal,q006,6. 我认为别人能做到的事，我通过努力也能做到,positive_future_optimism,"{""positive_future_optimism"": 1}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q007,7. 我认为自己生活中的事情都会朝好的方向发展,positive_future_optimism,"{""positive_future_optimism"": 2}",,,-1,2,5,95,2|3|4|5
+principal,principal,q008,8. 我对未来充满希望,positive_future_optimism,"{""positive_future_optimism"": 3}",,,-1,2,5,95,2|3|4|5
+principal,principal,q009,9. 我认为积极的心态能够让我更好地应对压力和挑战,positive_future_optimism,"{""positive_future_optimism"": 4}",,,-1,2,5,95,2|3|4|5
+principal,principal,q010,10. 我对生活充满热情，并享受其中的乐趣,positive_future_optimism,"{""positive_future_optimism"": 5}",,,-1,2,5,95,2|3|4|5
+principal,principal,q011,11. 我能在心情不好时想办法让自己开心,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 0}",,,-1,2,5,95,2|3|4|5
+principal,principal,q012,12. 面对压力时，我能调整好自己的心态,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 1}",,,-1,2,5,95,2|3|4|5
+principal,principal,q013,13. 当我想发脾气时，我能控制自己,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 2}",,,-1,2,5,95,2|3|4|5
+principal,principal,q014,14. 如果事情不能一次完成，我会继续尝试，直到成功为止,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 3}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q015,15. 工作中即使遇到困难，我也不会轻言放弃,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 4}",,,-1,2,5,95,2|3|4|5
+principal,principal,q016,16. 即使面临压力，我也能专注于当前的任务,emotion_regulation_resilience,"{""emotion_regulation_resilience"": 5}",,,-1,2,5,95,2|3|4|5
+principal,principal,q017,20. 我可以体会他人的感受,empathy_respect,"{""empathy_respect"": 0}",,,-1,2,5,95,2|3|4|5
+principal,principal,q018,21. 在学校领导工作中，我能换位思考,empathy_respect,"{""empathy_respect"": 1}",,,-1,1,5,95,1|3|4|5
+principal,principal,q019,22. 当他人遇到困难时，我理解他的处境,empathy_respect,"{""empathy_respect"": 2}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q020,23. 我认为学校成员之间是平等的,empathy_respect,"{""empathy_respect"": 3}",,,-1,1,5,95,1|3|4|5
+principal,principal,q021,24. 我认为每个教师都能为学校管理贡献智慧,empathy_respect,"{""empathy_respect"": 4}",,,-1,2,5,95,2|3|4|5
+principal,principal,q022,25. 我尊重他人的选择，不随意评判,empathy_respect,"{""empathy_respect"": 5}",,,-1,2,5,95,2|3|4|5
+principal,principal,q023,27. 我相信同事会在我需要时给予我帮助,communication_collaboration,"{""communication_collaboration"": 0}",,,-1,2,5,95,2|3|4|5
+principal,principal,q024,28. 我相信教师愿意为了实现学校目标而努力,communication_collaboration,"{""communication_collaboration"": 1}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q025,29. 我能接受有个性的同事,communication_collaboration,"{""communication_collaboration"": 2}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q026,30. 我可以跟观点不同的人合作共事,communication_collaboration,"{""communication_collaboration"": 3}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q027,31. 我能包容那些对我有意见的同事,communication_collaboration,"{""communication_collaboration"": 4}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q028,35. 我能与同事一起合作推动学校各项工作,communication_collaboration,"{""communication_collaboration"": 5}",,,-1,2,5,95,2|3|4|5
+principal,principal,q029,36. 学校工作中，我会认真听取同事意见,communication_collaboration,"{""communication_collaboration"": 6}",,,-1,3,5,95,3|4|5
+principal,principal,q030,37. 我积极和家长、社区合作共同促进学生发展,communication_collaboration,"{""communication_collaboration"": 7}",,,-1,3,5,95,3|4|5
+principal,principal,q031,38. 我认为集体对我很重要,responsibility_collective,"{""responsibility_collective"": 0}",,,-1,2,5,95,2|3|4|5
+principal,principal,q032,39. 我认为自己是集体中的一员,responsibility_collective,"{""responsibility_collective"": 1}",,,-1,2,5,95,2|3|4|5
+principal,principal,q033,40. 我认为群策群力更有利于学校发展,responsibility_collective,"{""responsibility_collective"": 2}",,,-1,2,5,95,2|3|4|5
+principal,principal,q034,41. 我觉得国家的发展与我休戚相关,responsibility_collective,"{""responsibility_collective"": 3}",,,-1,1,5,95,1|2|3|4|5
+principal,principal,q035,42. 看到诋毁中国的言论我会感到愤怒,responsibility_collective,"{""responsibility_collective"": 4}",,,-1,2,5,95,2|3|4|5
+principal,principal,q036,43. 我认为在这个共有的星球上，我们彼此相连,responsibility_collective,"{""responsibility_collective"": 5}",,,-1,2,5,95,2|3|4|5
+principal,principal,q037,44. 我认为了解国际新闻和全球事件，关注国际形势很重要,responsibility_collective,"{""responsibility_collective"": 6}",,,-1,3,5,95,3|4|5
+principal,principal,q038,45. 我认为人类发展中面临的问题大家应一起承担,responsibility_collective,"{""responsibility_collective"": 7}",,,-1,2,5,95,2|3|4|5
+principal,principal,q039,46. 我带头遵守学校的规章制度,responsibility_collective,"{""responsibility_collective"": 8}",,,-1,3,5,95,3|4|5
+principal,principal,q040,48. 我遵守公共秩序,responsibility_collective,"{""responsibility_collective"": 9}",,,-1,3,5,95,3|4|5
+principal,principal,q041,50. 在做决定时，我会考虑到自己、他人和集体利益的平衡,responsibility_collective,"{""responsibility_collective"": 10}",,,-1,2,5,95,2|3|4|5
+principal,principal,q042,51. 我注意引领师生了解世界文明，尊重世界文明多样性,responsibility_collective,"{""responsibility_collective"": 11}",,,-1,3,5,95,3|4|5
+principal,principal,q043,53. 为了社会公正，我会坚持发声并身体力行,responsibility_collective,"{""responsibility_collective"": 12}",,,-1,2,5,95,2|3|4|5
+principal,principal,q044,六、请根据您的实际情况，选择最合适的选项。—1.我校已经制定了清晰的、将人工智能技术融入社会情感教育的发展规划。,,{},positive,plan,0,2,5,95,2|3|4|5
+principal,principal,q045,2.我校在人工智能+社会情感能力方面的师资培训是充足的。,,{},positive,training,1,2,5,95,2|3|4|5
+principal,principal,q046,3.我校有足够的预算和技术资源（如硬件、软件、网络）来支持人工智能+社会情感能力的实施。,,{},positive,budget,2,1,5,95,1|2|3|4|5
+principal,principal,q047,4.我校已经建立了关于人工智能+社会情感能力应用的数据隐私和伦理使用的明确规范。,,{},positive,ethics,3,1,5,95,1|2|3|4|5
