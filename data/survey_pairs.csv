@@ -1,0 +1,8 @@
+id,form,x,y,label
+primary_relief_privacy,primary_student,q056,q054,Perceived relief and privacy concern
+middle_relief_privacy,middle_student,q048,q043,Perceived relief and privacy concern
+parent_support_privacy,parent,q079,q085,School AI support and privacy concern
+parent_support_human_role,parent,q079,q080,School AI support and human responsibility expectation
+teacher_value_privacy,teacher,q048,q049,AI teaching value and emotional data privacy concern
+teacher_value_relationship,teacher,q048,q051,AI teaching value and concern over dependence and real relationships
+teacher_value_human_role,teacher,q048,q052,AI teaching value and concern over erosion of the teacher's human role

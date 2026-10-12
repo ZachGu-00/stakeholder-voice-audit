@@ -1,0 +1,15 @@
+pair_id,form,label,label_zh,threshold,n_complete,n_benefit_agree,n_concern_agree,n_both,benefit_agree_pct,concern_agree_pct,both_pct,concern_among_benefit_pct
+primary_relief_privacy,primary_student,Perceived relief and privacy concern,小学生：压力缓解与倾诉隐私顾虑,primary,9566,4405,2700,2165,46.04850512230818,28.224963412084467,22.63223918043069,49.148694665153236
+primary_relief_privacy,primary_student,Perceived relief and privacy concern,小学生：压力缓解与倾诉隐私顾虑,strict,9566,1869,1087,847,19.537946895254024,11.363161195902153,8.854275559272423,45.3183520599251
+middle_relief_privacy,middle_student,Perceived relief and privacy concern,初中生：压力缓解与倾诉隐私顾虑,primary,3923,1537,1147,810,39.17919959214887,29.23782819270966,20.64746367575835,52.700065061808715
+middle_relief_privacy,middle_student,Perceived relief and privacy concern,初中生：压力缓解与倾诉隐私顾虑,strict,3923,560,458,289,14.274789701758857,11.674738720367065,7.3668111139434105,51.607142857142854
+parent_support_privacy,parent,School AI support and privacy concern,家长：支持学校使用AI与隐私顾虑,primary,12266,8513,7814,6223,69.40322843632806,63.70454916028045,50.73373552910484,73.09996475977916
+parent_support_privacy,parent,School AI support and privacy concern,家长：支持学校使用AI与隐私顾虑,strict,12266,3938,3670,2280,32.105005706831896,29.92010435349747,18.58796673732268,57.89740985271712
+parent_support_human_role,parent,School AI support and human responsibility expectation,家长：支持学校使用AI与真人责任期待,primary,12266,8513,7031,5836,69.40322843632806,57.32105005706832,47.57867275395402,68.55397627158463
+parent_support_human_role,parent,School AI support and human responsibility expectation,家长：支持学校使用AI与真人责任期待,strict,12266,3938,3202,2393,32.105005706831896,26.10467960215229,19.50921245719876,60.76688674454038
+teacher_value_privacy,teacher,AI teaching value and emotional data privacy concern,教师：教学辅助价值与情感数据隐私顾虑,primary,1546,1320,1146,1089,85.38163001293661,74.1267787839586,70.4398447606727,82.5
+teacher_value_privacy,teacher,AI teaching value and emotional data privacy concern,教师：教学辅助价值与情感数据隐私顾虑,strict,1546,420,365,290,27.166882276843467,23.609314359637775,18.758085381630014,69.04761904761905
+teacher_value_relationship,teacher,AI teaching value and concern over dependence and real relationships,教师：教学辅助价值与真实关系顾虑,primary,1546,1320,1136,1066,85.38163001293661,73.47994825355757,68.95213454075032,80.75757575757575
+teacher_value_relationship,teacher,AI teaching value and concern over dependence and real relationships,教师：教学辅助价值与真实关系顾虑,strict,1546,420,333,252,27.166882276843467,21.539456662354464,16.30012936610608,60.0
+teacher_value_human_role,teacher,AI teaching value and concern over erosion of the teacher's human role,教师：教学辅助价值与教师作用顾虑,primary,1546,1320,1059,993,85.38163001293661,68.4993531694696,64.23027166882277,75.22727272727273
+teacher_value_human_role,teacher,AI teaching value and concern over erosion of the teacher's human role,教师：教学辅助价值与教师作用顾虑,strict,1546,420,315,238,27.166882276843467,20.3751617076326,15.394566623544632,56.666666666666664

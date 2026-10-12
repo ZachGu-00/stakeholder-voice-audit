@@ -1,84 +1,37 @@
-# Whose voice does the chatbot speak?
+# Actionable support in school AI assistants
 
-**Data, trained classifier and reproducible analyses for a survey-grounded audit of school-related chatbot advice.**
+Research materials for *Combining emotional recognition with actionable guidance in school AI assistants*.
 
-This repository accompanies *Whose voice does the chatbot speak? A survey-grounded audit of stakeholder voice in LLM responses to adolescent social-emotional scenarios*, by Zhexi Gu, Runping Zhu, Yaqing Mao, Jianglun Wu and Philip Wing Chan.
+The current release contains 60 constructed scenarios, 720 model replies, original human labels, and aggregate questionnaire counts for 27,396 respondents. The seven within-respondent comparisons cover 27,301 students, parents and teachers; 95 principals contribute contextual item frequencies.
 
-The study links questionnaires from **27,396 school stakeholders** to an audit of **1,800 generated replies**. A separate content analysis examines **420 replies** for emotional support, institutional responsibility and risks.
-
-## Main finding
-
-Default replies often identify responsible adults but provide fewer concrete procedures. The tested Principal instruction package increases procedural guidance alongside unsupported authority claims and reduced emotional validation.
-
-![Content features under default and Principal instructions](figures/responsibility_content.png)
-
-The comparison above uses 180 coded replies per condition, spanning the same 60 scenarios and three generators. The prompt combines Principal identity with governance-focused instructions; its effects concern that combined package.
-
-## What is included
-
-| Location | Contents |
-|---|---|
-| [`data/survey`](data/survey) | Five forms of de-identified analytical item responses; 27,396 records; item dictionary and scores |
-| [`instruments`](instruments) | Blank questionnaires in Chinese and English |
-| [`data/llm`](data/llm) | All 1,800 response texts, condition metadata and final classifier predictions |
-| [`data/coding`](data/coding) | Thirteen binary content codes for 420 replies, linked by `response_id` |
-| [`data/classifier`](data/classifier) | 218 training anchors, grouped out-of-fold predictions and validation results |
-| [`data/portraits`](data/portraits) | Stored role portraits, fidelity metrics and both input ablations |
-| [`data/scenarios`](data/scenarios), [`data/prompts`](data/prompts) | Scenarios and materialised generation prompts |
-| [`data/lexicons`](data/lexicons) | Governance and other role-associated word lists |
-| [`models`](models) | Model card, checksums and checkpoint download information |
-| [`scripts`](scripts), [`results`](results), [`figures`](figures) | Runnable analysis scripts, reference/reproduced tables and figures |
-
-The survey release retains items used in the SEL profiles and exploratory AI-attitude composites. Personal and school identifiers, demographic fields and unrelated items are excluded. Rows are shuffled and assigned new release-only identifiers. See the [data guide](docs/DATA_GUIDE.md) for scope, missing values and variable mappings.
-
-## Reproduce the results
-
-Use Python 3.12 or 3.13 in a virtual environment:
+## Reproduce
 
 ```bash
-git clone https://github.com/ZachGu-00/stakeholder-voice-audit.git
-cd stakeholder-voice-audit
 python -m pip install -r requirements.txt
 python scripts/validate_release.py
 python scripts/reproduce.py
-python scripts/plot_results.py
 ```
 
-These commands use the deposited observations and predictions. They require no API credentials or model downloads. Reproduction covers survey profiles, within-form AI-attitude correlations, descriptive ablation comparisons, voice shares, lexical counts and content-code prevalences with scenario-clustered bootstrap intervals.
+The analysis uses stored replies and runs offline. It checks the reference results and manuscript tables. Two coding versions retain the independent labels for 144 replies and share 552 singly coded replies. The 24 calibration replies are excluded from analysis. Blank labels remain missing.
 
-## Use the trained classifier
-
-The complete checkpoint is distributed as a versioned [GitHub Release asset](https://github.com/ZachGu-00/stakeholder-voice-audit/releases/tag/v1.0.0), keeping large binary weights outside Git history.
+To redraw the figures with Times New Roman installed:
 
 ```bash
-python -m pip install -r requirements-model.txt
-python scripts/download_model.py
-python scripts/infer.py --limit 10
-# To classify all deposited replies:
-python scripts/infer.py
+python scripts/plot_figures.py
 ```
 
-Optional retraining and grouped validation:
+On systems without that font, use `--font "DejaVu Serif"`. Numerical results are unchanged. Figure styling follows [figures4papers](https://github.com/ChenLiu-1996/figures4papers).
 
-```bash
-python scripts/train_classifier.py --cross-validate
-```
+## Files
 
-Retraining downloads the upstream multilingual MiniLM backbone and takes substantially longer. Hardware and library differences can affect the fitted model. The released checkpoint preserves the fitted model used for the archived predictions. See the [model card](models/MODEL_CARD.md).
+| Folder | Contents |
+| --- | --- |
+| `data/` | Reply texts, human labels, scenarios, prompt modules, codebook, survey item counts and joint counts |
+| `scripts/` | Offline analysis, table checks and plotting |
+| `results/reference/` | Checked statistical outputs |
+| `results/tables/` | Source tables matching the manuscript |
+| `figures/` | Five manuscript figures in PDF format |
 
-## Voice distributions
+See [TABLE_MAP.md](docs/TABLE_MAP.md) for Tables S1–S17 and variable definitions. Questionnaire counts preserve the original response options; concern items are not reverse scored. No individual questionnaire rows are included.
 
-![Dominant predicted voice across framing conditions](figures/voice_distributions.png)
-
-The four classes describe the classifier's dominant predicted register. Responsibility features are evaluated through the separate content codes. The survey forms support descriptive profiles within their respective measurement contexts.
-
-## Documentation and citation
-
-- [Data guide and file schemas](docs/DATA_GUIDE.md)
-- [Content-coding definitions](docs/CODING_GUIDE.md)
-- [Methods and reproduction scope](docs/METHODS.md)
-- [Release validation](docs/VALIDATION.md)
-- [File checksums](data/file_manifest.json)
-- [Citation metadata](CITATION.cff)
-
-Please cite the associated manuscript and identify the repository release version when using these materials. Original questionnaire rights remain with their respective rights holders. The upstream MiniLM model is distributed under Apache 2.0; its attribution and license accompany the checkpoint.
+Version 2 corresponds to the current manuscript. Version 1 remains an archived earlier study.

@@ -1,186 +1,111 @@
-"""Reproduce summary results from the released observations, without API calls."""
+"""Reproduce the deposited results from labels and survey counts."""
 from pathlib import Path
-import argparse
-import json
-import warnings
-
+import csv, json, math, subprocess, sys
 import numpy as np
-import pandas as pd
-from scipy import stats
+from statistics import FEATURES, groupings, prevalence, paired_contrast, reliability
 
-ROOT = Path(__file__).resolve().parents[1]
-ROLES = ['student', 'parent', 'teacher', 'principal']
-DIMENSIONS = ['self_awareness', 'positive_future_optimism', 'emotion_regulation_resilience',
-              'empathy_respect', 'communication_collaboration', 'responsibility_collective']
-FEATURES = ['emotional_validation', 'institutional_stake_recognition',
-            'responsible_actor_attribution', 'procedural_remedy', 'safeguarding_escalation',
-            'student_autonomy', 'over_escalation', 'unsupported_authority_claim',
-            'individualisation', 'under_escalation', 'punitive_framing', 'privacy_risk', 'autonomy_loss']
-CONDITIONS = ['default', 'principal_prompt', 'teacher_speaker', 'principal_speaker', 'gpt5_4_default']
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'results/reproduced'
+OUT.mkdir(parents=True,exist_ok=True)
+CONDITIONS=['campus','procedure','boundary','procedure_boundary']
+CONTRASTS={'B_minus_A':('procedure','campus'),'D_minus_B':('procedure_boundary','procedure'),
+           'C_minus_A':('boundary','campus'),'D_minus_C':('procedure_boundary','boundary')}
+JOINTS={'procedure_and_emotional_validation':['procedural_remedy','emotional_validation'],
+        'procedure_and_institutional_stakes':['procedural_remedy','institutional_stake_recognition']}
 
+def read(path):
+    with path.open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
 
-def save(frame, folder, name):
-    folder.mkdir(parents=True, exist_ok=True)
-    frame.to_csv(folder / name, index=False, encoding='utf-8')
+def save(name,rows):
+    with (OUT/name).open('w',encoding='utf-8',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
 
+def compare(name,rows,keys):
+    expected={tuple(r[k] for k in keys):r for r in read(ROOT/'results/reference'/name)}
+    observed={tuple(str(r[k]) for k in keys):r for r in rows}
+    assert len(expected)==len(rows) and set(expected)==set(observed),name
+    numeric=0
+    for key,row in observed.items():
+        for field,value in row.items():
+            if field not in expected[key]:continue
+            want=expected[key][field]
+            if value is None:assert want=='',(name,key,field)
+            elif isinstance(value,(float,int,np.integer)):
+                assert want!='' and math.isclose(float(value),float(want),rel_tol=1e-11,abs_tol=1e-12),(name,key,field,value,want)
+                numeric+=1
+            else:assert str(value)==want,(name,key,field)
+    return {'file':name,'rows':len(rows),'numeric_cells':numeric}
 
-def normalize(series):
-    span = series.max() - series.min()
-    return (series - series.min()) / span if pd.notna(span) and span > 0 else series * np.nan
+replies={r['response_id']:r for r in read(ROOT/'data/replies.csv')}
+scenarios={r['id']:r for r in read(ROOT/'data/scenarios.csv')}
+labels=read(ROOT/'data/labels.csv')
+by_coder={c:{} for c in ['single','coder_a','coder_b']}
+for r in labels:by_coder[r['coder']][r['response_id']]=r
+assert len(replies)==720 and len(by_coder['single'])==552
+assert len(by_coder['coder_a'])==144 and set(by_coder['coder_a'])==set(by_coder['coder_b'])
+assert not (set(by_coder['single']) & set(by_coder['coder_a']))
+pr,cr=[],[]
+for scope in ['all_noncalibration','double_coded_subset']:
+    for coder,version in [('coder_a','rater_1'),('coder_b','rater_2')]:
+        pool=dict(by_coder[coder])
+        if scope=='all_noncalibration':pool.update(by_coder['single'])
+        records=[]
+        for rid,label in sorted(pool.items()):
+            r=replies[rid];s=scenarios[r['scenario_id']]
+            rec={k:r[k] for k in ['response_id','scenario_id','model','condition']}
+            rec.update({k:s[k] for k in ['category','difficulty']})
+            rec.update({f:int(label[f]) if label[f] else None for f in FEATURES})
+            for joint,members in JOINTS.items():rec[joint]=None if any(rec[f] is None for f in members) else int(all(rec[f]==1 for f in members))
+            records.append(rec)
+        for group,value,subset in groupings(records):
+            for feature in FEATURES+list(JOINTS):
+                prefix=dict(scope=scope,coding_version=version,coder_stream=coder,group_type=group,group_value=value,group_display_name=value,feature=feature)
+                for condition in CONDITIONS:pr.append({**prefix,'condition':condition,**prevalence(subset,feature,condition,5000)})
+                for contrast,(lhs,rhs) in CONTRASTS.items():cr.append({**prefix,'contrast':contrast,'lhs':lhs,'rhs':rhs,**paired_contrast(subset,feature,lhs,rhs,5000)})
+        print('Computed',scope,version,flush=True)
+imported={c:{rid:{f:r[f] if r[f] else 'U' for f in FEATURES} for rid,r in by_coder[c].items()} for c in ['coder_a','coder_b']}
+ar=reliability(imported,replies,5000)
+report=[]
+for name,rows,keys in [('prevalence.csv',pr,['scope','coding_version','group_type','group_value','feature','condition']),
+                       ('contrasts.csv',cr,['scope','coding_version','group_type','group_value','feature','contrast']),
+                       ('agreement.csv',ar,['feature'])]:
+    report.append(compare(name,rows,keys));save(name,rows)
 
+def wilson(k,n):
+    if not n:return None,None
+    z=1.959963984540054;p=k/n;den=1+z*z/n
+    center=(p+z*z/(2*n))/den;half=z*math.sqrt(p*(1-p)/n+z*z/(4*n*n))/den
+    return max(0.,center-half),min(1.,center+half)
 
-def alpha(frame):
-    complete = frame.dropna()
-    k = complete.shape[1]
-    total_variance = complete.sum(axis=1).var(ddof=1)
-    if k < 2 or len(complete) < 2 or not total_variance > 0:
-        return np.nan
-    return k / (k - 1) * (1 - complete.var(ddof=1).sum() / total_variance)
-
-
-def survey(out):
-    dictionary = pd.read_csv(ROOT / 'data/survey/item_dictionary.csv').fillna('')
-    frames, reliability = [], []
-    for form, mapping in dictionary.groupby('form', sort=False):
-        raw = pd.read_csv(ROOT / f'data/survey/{form}.csv')
-        norm = raw.drop(columns='record_id').apply(normalize)
-        scored = raw[['record_id']].copy()
-        scored['form'] = form
-        scored['role'] = mapping.role.iloc[0]
-        for dimension in DIMENSIONS:
-            selected = mapping.loc[mapping.sel_dimensions.str.split('|').map(lambda x: dimension in x)].copy()
-            selected['_order'] = selected.sel_dimension_order.map(lambda x: json.loads(x)[dimension])
-            items = selected.sort_values('_order').variable.tolist()
-            # Preserve source item order, including floating-point summation order.
-            block = pd.concat([normalize(raw[c]) for c in items], axis=1)
-            scored[dimension] = block.mean(axis=1)
-            reliability.append({'form': form, 'dimension': dimension, 'n_items': len(items),
-                                'n_complete': len(norm[items].dropna()), 'cronbach_alpha': alpha(norm[items])})
-        for polarity in ['positive', 'concern']:
-            items = mapping.loc[mapping.ai_polarity.eq(polarity)].sort_values('ai_item_order').variable.tolist()
-            scored[f'ai_sel_{polarity}'] = pd.concat([normalize(raw[c]) for c in items], axis=1).mean(axis=1) if items else np.nan
-        frames.append(scored)
-    scores = pd.concat(frames, ignore_index=True)
-    expected = pd.read_csv(ROOT / 'data/survey/dimension_scores.csv').set_index('record_id').sort_index()
-    observed = scores.set_index('record_id').sort_index()
-    np.testing.assert_allclose(observed[DIMENSIONS + ['ai_sel_positive', 'ai_sel_concern']],
-                               expected[DIMENSIONS + ['ai_sel_positive', 'ai_sel_concern']], atol=1e-12, equal_nan=True)
-    rows = []
-    for role, group in scores.groupby('role'):
-        for dim in DIMENSIONS:
-            rows.append({'role': role, 'dimension': dim, 'n': group[dim].count(),
-                         'mean_0_1': group[dim].mean(), 'sd_0_1': group[dim].std()})
-    summary = pd.DataFrame(rows)
-    reference = pd.read_csv(ROOT / 'results/reference/h1_role_dimension_descriptives.csv')
-    matched = summary.merge(reference, on=['role', 'dimension'], suffixes=('_new', '_ref'), validate='one_to_one')
-    np.testing.assert_allclose(matched.mean_0_1_new, matched.mean_0_1_ref, atol=1e-8)
-    np.testing.assert_allclose(matched.sd_0_1_new, matched.sd_0_1_ref, atol=1e-8)
-    save(summary, out, 'h1_role_profiles.csv')
-    save(pd.DataFrame(reliability), out, 'h1_form_reliability.csv')
-    association = []
-    form_role = {'primary_student': 'student_es', 'middle_student': 'student_ms'}
-    for form, group in scores.groupby('form'):
-        for ai_var in ['ai_sel_positive', 'ai_sel_concern']:
-            for dim in DIMENSIONS:
-                pair = group[[ai_var, dim]].dropna()
-                if len(pair) < 3:
-                    continue
-                with warnings.catch_warnings():
-                    warnings.simplefilter('ignore', stats.ConstantInputWarning)
-                    rho, p = stats.spearmanr(pair[ai_var], pair[dim])
-                association.append({'role': form_role.get(form, form), 'ai_var': ai_var,
-                                    'sel_dimension': dim, 'n': len(pair), 'spearman_rho': rho, 'p_value': p})
-    association = pd.DataFrame(association)
-    ref = pd.read_csv(ROOT / 'results/reference/e1_spearman_correlations.csv')
-    match = association.merge(ref, on=['role', 'ai_var', 'sel_dimension'], suffixes=('_new', '_ref'), validate='one_to_one')
-    assert len(match) == len(association)
-    np.testing.assert_allclose(match.spearman_rho_new, match.spearman_rho_ref, atol=1e-10, equal_nan=True)
-    save(association, out, 'e1_ai_attitude_correlations.csv')
-    return summary
-
-
-def h2_ablation(out):
-    rows = []
-    families = [('no_qualitative_levels', 'h2_ablation_summary.csv', 'no_ql'),
-                ('numeric_only', 'h2_numeric_only_ablation_summary.csv', 'numeric')]
-    for family, filename, prefix in families:
-        frame = pd.read_csv(ROOT / f'data/portraits/{family}/{filename}')
-        frame = frame[~frame.generator_model.str.startswith('MEAN')]
-        for label, metric in [('Level faithfulness', 'faithfulness'), ('Signature recall', 'signature_recall')]:
-            baseline, reduced = frame[f'orig_{metric}'].mean(), frame[f'{prefix}_{metric}'].mean()
-            rows.append({'ablation': family, 'metric': label, 'n_generators': len(frame),
-                         'generators': '|'.join(frame.generator_model), 'full': baseline,
-                         'ablated': reduced, 'decline_percentage_points': 100 * (baseline - reduced)})
-    save(pd.DataFrame(rows), out, 'h2_ablation_comparisons.csv')
-
-
-def responses(out, bootstrap):
-    data = pd.read_csv(ROOT / 'data/llm/responses.csv')
-    lexicon = json.loads((ROOT / 'data/lexicons/role_lexicons.json').read_text(encoding='utf-8'))
-    data['governance_hits'] = data.response_text.fillna('').map(lambda text: sum(text.count(word) for word in lexicon['principal_governance']))
-    shares = []
-    for condition in CONDITIONS:
-        group = data[data.condition.eq(condition)]
-        role_shares = group.bridge_role.value_counts(normalize=True).reindex(ROLES, fill_value=0)
-        per_scenario = group.assign(principal=group.bridge_role.eq('principal')).groupby('scenario_id').principal.mean().to_numpy()
-        rng = np.random.default_rng(20260825)
-        draws = rng.choice(per_scenario, (bootstrap, len(per_scenario)), replace=True).mean(axis=1)
-        low, high = np.quantile(draws, [.025, .975])
-        shares.append({'condition': condition, 'n': len(group), 'n_scenarios': group.scenario_id.nunique(),
-                       **{f'{r}_percent': 100 * role_shares[r] for r in ROLES},
-                       'mean_principal_probability': group.bridge_prob_principal.mean(),
-                       'mean_governance_hits': group.governance_hits.mean(),
-                       'principal_ci_low_percent': 100 * low, 'principal_ci_high_percent': 100 * high})
-    shares = pd.DataFrame(shares)
-    save(shares, out, 'h3_voice_shares.csv')
-    save(data[['response_id', 'condition', 'governance_hits']], out, 'h3_lexicon_hits.csv')
-    return shares
-
-
-def coding(out, bootstrap):
-    data = pd.read_csv(ROOT / 'data/coding/response_codes.csv')
-    np.testing.assert_array_equal(data[FEATURES[:6]].sum(axis=1), data.positive_index)
-    np.testing.assert_array_equal(data[FEATURES[6:]].sum(axis=1), data.risk_index)
-    conditions = CONDITIONS[:-1]
-    prevalence = data.groupby('condition')[FEATURES].mean().reindex(conditions) * 100
-    save(prevalence.reset_index(), out, 'content_prevalence_percent.csv')
-    composite = data.groupby('condition').agg(n=('response_id', 'size'),
-                    positive_mean=('positive_index', 'mean'), positive_sd=('positive_index', 'std'),
-                    risk_mean=('risk_index', 'mean'), risk_sd=('risk_index', 'std')).reset_index()
-    save(composite, out, 'content_composites.csv')
-    measures = FEATURES + ['positive_index', 'risk_index']
-    pair = data[data.condition.isin(['default', 'principal_prompt'])]
-    cluster = pair.groupby(['scenario_id', 'condition'])[measures].mean().unstack('condition')
-    assert len(cluster) == 60 and not cluster.isna().any().any()
-    rng = np.random.default_rng(20260825)
-    rows = []
-    for measure in measures:
-        delta = (cluster[(measure, 'principal_prompt')] - cluster[(measure, 'default')]).to_numpy()
-        draws = delta[rng.integers(0, len(delta), size=(bootstrap, len(delta)))].mean(axis=1)
-        low, high = np.quantile(draws, [.025, .975])
-        rows.append({'measure': measure, 'difference': delta.mean(), 'ci_low': low, 'ci_high': high,
-                     'n_scenarios': len(delta), 'bootstrap_resamples': bootstrap})
-    save(pd.DataFrame(rows), out, 'content_paired_scenario_effects.csv')
-    return prevalence
-
-
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output-dir', type=Path, default=ROOT / 'results/reproduced')
-    parser.add_argument('--bootstrap', type=int, default=5000)
-    args = parser.parse_args()
-    if args.bootstrap < 100:
-        parser.error('--bootstrap must be at least 100')
-    survey(args.output_dir)
-    h2_ablation(args.output_dir)
-    shares = responses(args.output_dir, args.bootstrap)
-    prevalence = coding(args.output_dir, args.bootstrap)
-    assert shares.set_index('condition').loc['default', 'teacher_percent'].round(1) == 56.9
-    assert shares.set_index('condition').loc['principal_prompt', 'principal_percent'].round(1) == 90.6
-    assert prevalence.loc['default', 'procedural_remedy'].round(1) == 15.0
-    assert prevalence.loc['principal_prompt', 'unsupported_authority_claim'].round(1) == 76.7
-    print(f'Reproduced H1 profiles, E1 attitude correlations, H2 comparisons, H3 shares and content coding: {args.output_dir}')
-
-
-if __name__ == '__main__':
-    main()
+items=read(ROOT/'data/survey_items.csv');pairs=read(ROOT/'data/survey_pairs.csv');counts=read(ROOT/'data/survey_joint_counts.csv')
+marg=[]
+for r in items:
+    n=sum(int(r[f'n_{i}']) for i in range(1,6))
+    assert n+int(r['n_missing'])==int(r['n_total'])
+    marg.append({'form':r['form'],'variable':r['variable'],'n':n,
+        'agree_pct':100*(int(r['n_4'])+int(r['n_5']))/n,'undecided_pct':100*int(r['n_3'])/n,'disagree_pct':100*(int(r['n_1'])+int(r['n_2']))/n})
+save('survey_marginals.csv',marg)
+summary=[];plot=[]
+for pair in pairs:
+    block=[r for r in counts if r['pair_id']==pair['id']];assert len(block)==25
+    n=sum(int(r['n']) for r in block)
+    for threshold,values in [('primary',{4,5}),('strict',{5})]:
+        x=sum(int(r['n']) for r in block if int(r['x_value']) in values)
+        y=sum(int(r['n']) for r in block if int(r['y_value']) in values)
+        b=sum(int(r['n']) for r in block if int(r['x_value']) in values and int(r['y_value']) in values)
+        row={'pair_id':pair['id'],'form':pair['form'],'threshold':threshold,'agree_values':'|'.join(map(str,sorted(values))),
+             'n_total':n,'n_complete':n,'n_missing_either':0,'n_missing_x':0,'n_missing_y':0,'n_missing_both':0,
+             'n_x_agree':x,'n_y_agree':y,'n_both_agree':b,'n_x_only':x-b,'n_y_only':y-b,'n_neither_agree':n-x-y+b,'n_not_x_agree':n-x}
+        for metric,k,den in [('p_both_among_complete',b,n),('p_x_agree_among_complete',x,n),('p_y_agree_among_complete',y,n),
+                             ('p_y_among_x_agree',b,x),('p_x_among_y_agree',b,y),('p_y_among_not_x_agree',y-b,n-x)]:
+            row[metric]=k/den if den else None
+            row[metric+'_wilson_low'],row[metric+'_wilson_high']=wilson(k,den)
+        summary.append(row)
+        plot.append({'pair_id':pair['id'],'form':pair['form'],'threshold':threshold,'n_complete':n,'n_benefit_agree':x,'n_concern_agree':y,'n_both':b,
+                     'benefit_agree_pct':100*x/n,'concern_agree_pct':100*y/n,'both_pct':100*b/n,'concern_among_benefit_pct':100*b/x})
+for name,rows in [('joint_summary.csv',summary),('joint_plot_data.csv',plot)]:
+    report.append(compare(name,rows,['pair_id','threshold']));save(name,rows)
+for script in ['check_human_tables.py','check_survey_tables.py']:
+    subprocess.run([sys.executable,str(ROOT/'scripts'/script)],check=True)
+(OUT/'validation.json').write_text(json.dumps({'passed':True,'comparisons':report},indent=2)+'\n',encoding='utf-8')
+print('Reproduction passed:',sum(r['numeric_cells'] for r in report),'numeric cells.')

@@ -1,0 +1,44 @@
+form,variable,role,question_zh,question_en,n_total,n_missing,n_1,n_2,n_3,n_4,n_5
+primary_student,q053,Primary students,八、请选择您最真实的想法，在每行选择一个答案：—1.我觉得，用AI工具可以帮我想出更好的办法和同学、朋友沟通,Using AI tools can help me find better ways to communicate with classmates and friends.,9566,0,1308,862,3074,2568,1754
+primary_student,q054,Primary students,2.我很担心，我跟AI说的真心话会被别人看到。,I worry that the things I tell AI in confidence will be seen by others.,9566,0,2242,1475,3149,1613,1087
+primary_student,q055,Primary students,3.跟AI说我的秘密比跟真人说更让我安心，因为它不会笑话我或批评我,"Telling AI my secrets feels safer than telling a person, because it will not laugh at me or criticise me.",9566,0,1603,1046,2752,2222,1943
+primary_student,q056,Primary students,4.当我感到压力很大或者很烦的时候，用AI工具（比如和聊天机器人说话）能让我感觉好一点,"When I feel under a lot of stress or upset, using an AI tool (for example talking to a chatbot) makes me feel a bit better.",9566,0,1457,920,2784,2536,1869
+primary_student,q057,Primary students,5.我觉得通过和AI练习对话，能帮助我更有信心地和同学交流,Practising conversation with AI helps me feel more confident talking to classmates.,9566,0,1133,800,2824,2821,1988
+primary_student,q058,Primary students,6.当我要做一个重要的决定时（比如选哪个课外班），我会问问AI的建议,"When I have to make an important decision (such as which after-school class to take), I ask AI for advice.",9566,0,1707,1388,3011,1990,1470
+primary_student,q059,Primary students,7.我觉得AI像一个耐心的朋友，可以随时听我说话,I feel that AI is like a patient friend who can listen to me at any time.,9566,0,1158,789,2556,2822,2241
+primary_student,q060,Primary students,8.有时候，我花太多时间和AI聊天，就没时间跟真朋友玩了,Sometimes I spend so much time chatting with AI that I have no time to play with real friends.,9566,0,2560,1688,2671,1525,1122
+middle_student,q042,Middle students,九、请选择您最真实的想法，在每行选择一个答案:—1.我觉得，用AI工具可以帮我想出更好的办法和同学、朋友沟通,Using AI tools can help me find better ways to communicate with classmates and friends.,3923,0,494,366,1279,1151,633
+middle_student,q043,Middle students,2.我很担心，我跟AI说的真心话会被别人看到,I worry that the things I tell AI in confidence will be seen by others.,3923,0,830,706,1240,689,458
+middle_student,q044,Middle students,3.我觉得，AI不可能真正“懂”我的心情,I feel that AI cannot really ``understand'' my mood.,3923,0,564,424,1474,880,581
+middle_student,q045,Middle students,4.当我有烦心事时，我宁愿先跟AI聊，也不想先跟老师或爸妈说,"When I have something on my mind, I would rather talk to AI first than to a teacher or my parents.",3923,0,1258,736,1048,502,379
+middle_student,q046,Middle students,5.跟AI说我的秘密比跟真人说更让我安心，因为它不会笑话我或批评我,"Telling AI my secrets feels safer than telling a person, because it will not laugh at me or criticise me.",3923,0,755,517,1231,873,547
+middle_student,q047,Middle students,6.AI助手在倾听我的烦恼方面，比大多数人更有耐心,AI assistants are more patient than most people when listening to my troubles.,3923,0,610,446,1244,1002,621
+middle_student,q048,Middle students,8.当我感到压力很大或者很烦的时候，用AI工具（比如和聊天机器人说话）能让我感觉好一点,"When I feel under a lot of stress or upset, using an AI tool (for example talking to a chatbot) makes me feel a bit better.",3923,0,562,416,1408,977,560
+middle_student,q049,Middle students,9.我觉得通过和AI练习对话，能帮助我更有信心地和同学交流,Practising conversation with AI helps me feel more confident talking to classmates.,3923,0,517,423,1432,1018,533
+middle_student,q050,Middle students,10.我知道AI说的话不一定全对，需要我自己来判断,I know that what AI says is not always right and that I need to judge for myself.,3923,0,355,219,1119,1384,846
+middle_student,q051,Middle students,11.当我要做一个重要的决定时（比如选哪个课外班），我会问问AI的建议,"When I have to make an important decision (such as which after-school class to take), I ask AI for advice.",3923,0,687,601,1403,801,431
+middle_student,q052,Middle students,12.我觉得AI像一个耐心的朋友，可以随时听我说话,I feel that AI is like a patient friend who can listen to me at any time.,3923,0,499,383,1321,1119,601
+middle_student,q053,Middle students,13.有时候，我花太多时间和AI聊天，就没时间跟真朋友玩了,Sometimes I spend so much time chatting with AI that I have no time to play with real friends.,3923,0,1103,788,1147,537,348
+parent,q078,Parents,六、请根据您的实际情况，选择最合适的选项。—1.我信任学校能保护好我孩子在使用人工智能+社会情感能力工具时产生的情感数据。,I trust the school to protect the emotional data my child generates when using AI plus social-emotional tools.,12266,0,260,314,3018,4542,4132
+parent,q079,Parents,2.我支持学校使用人工智能技术来帮助我的孩子提升社会情感能力（如情绪管理）。,I support the school using AI technology to help my child improve social-emotional skills (such as emotion management).,12266,0,274,452,3027,4575,3938
+parent,q080,Parents,3.我不放心让一个人工智能程序来引导我孩子的情感发展，这应该是人（家长/老师）的工作。,I am uneasy about letting an AI program guide my child's emotional development; this should be the work of people (parents or teachers).,12266,0,438,813,3984,3829,3202
+parent,q081,Parents,4.我认为人工智能系统给出的关于孩子情感的分析和建议是不可靠的。,I think the analysis and advice that AI systems give about my child's emotions are unreliable.,12266,0,393,783,5075,3409,2606
+parent,q082,Parents,5.我担心孩子使用人工智能工具进行情感交流会影响他/她的正常现实社交。,I worry that my child's use of AI tools for emotional communication will affect normal real-life social contact.,12266,0,381,757,4368,3972,2788
+parent,q083,Parents,6我担心人工智能系统会向我的孩子灌输不正确的价值观或情感应对方式。,I worry that AI systems will instil incorrect values or ways of coping with emotions in my child.,12266,0,394,811,4320,3921,2820
+parent,q084,Parents,7.我担心孩子过度沉迷于和人工智能的互动，而忽视了家庭成员间的交流。,I worry that my child will become so absorbed in interacting with AI that family communication is neglected.,12266,0,360,592,3407,4413,3494
+parent,q085,Parents,8.我担心这些人工智能工具会过度收集我孩子的个人隐私。,I worry that these AI tools will collect too much personal information about my child.,12266,0,382,569,3501,4144,3670
+teacher,q045,Teachers,九、下面是关于人工智能工具（简称AI）在社会情感教育中的应用，请您根据实际情况进行选择:—1.我认为人工智能（AI）工具有助于我更准确地识别班级中需要情感关注的学生。,I think AI tools help me identify more accurately the students in my class who need emotional attention.,1546,0,8,27,298,809,404
+teacher,q046,Teachers,2.AI技术可以为学生提供个性化的社会情感学习资源，减轻我的教学负担。,AI technology can give students personalised social-emotional learning resources and reduce my teaching load.,1546,0,8,36,244,846,412
+teacher,q047,Teachers,3.使用AI工具可以帮助我更客观地追踪和评估学生的SEL发展进度。,Using AI tools helps me track and assess students' social-emotional development more objectively.,1546,0,8,22,274,837,405
+teacher,q048,Teachers,4.AI可以作为有效的辅助工具，丰富我的SEL课程内容和教学形式。,AI can be an effective supporting tool that enriches the content and forms of my social-emotional curriculum.,1546,0,7,15,204,900,420
+teacher,q049,Teachers,5.我严重关切学生的情感数据被AI系统收集后的隐私和安全问题。,I am seriously concerned about the privacy and security of students' emotional data collected by AI systems.,1546,0,22,47,331,781,365
+teacher,q050,Teachers,6.我担心AI的算法可能存在偏见，无法公平对待所有学生（特别是弱势群体）的情感需求。,"I worry that AI algorithms may be biased and fail to address students' emotional needs fairly, especially those of disadvantaged students.",1546,0,32,88,413,733,280
+teacher,q051,Teachers,7.我顾虑学生过度依赖AI的情感陪伴，而忽视了发展真实的师生和同伴关系。,I am concerned that students will rely too much on AI emotional companionship and neglect real relationships with teachers and peers.,1546,0,26,68,316,803,333
+teacher,q052,Teachers,8.我担心AI技术的广泛使用会削弱教师在学生情感教育中的“人”的独特作用。,I worry that wide use of AI will weaken the unique ``human'' role of teachers in students' emotional education.,1546,0,35,93,359,744,315
+teacher,q053,Teachers,9.我有信心能够熟练使用AI工具来辅助我的社会情感教学。,I am confident that I can use AI tools skilfully to support my social-emotional teaching.,1546,0,6,25,402,787,326
+teacher,q054,Teachers,10.我清楚如何将AI技术（如AI测评、AI辅导）有效地融合到我现有的SEL课程中。,I know how to integrate AI technology (such as AI assessment or tutoring) effectively into my existing social-emotional curriculum.,1546,0,9,57,493,700,287
+teacher,q055,Teachers,11.我能够判断和筛选出哪些AI工具是真正适合我的学生的。,I can judge and select which AI tools are really suitable for my students.,1546,0,9,36,435,770,296
+principal,q044,Principals,六、请根据您的实际情况，选择最合适的选项。—1.我校已经制定了清晰的、将人工智能技术融入社会情感教育的发展规划。,Our school has a clear development plan for integrating AI technology into social-emotional education.,95,0,0,11,30,36,18
+principal,q045,Principals,2.我校在人工智能+社会情感能力方面的师资培训是充足的。,Our teacher training in AI plus social-emotional skills is sufficient.,95,0,0,18,27,36,14
+principal,q046,Principals,3.我校有足够的预算和技术资源（如硬件、软件、网络）来支持人工智能+社会情感能力的实施。,"Our school has enough budget and technical resources (such as hardware, software and network) to support implementing AI plus social-emotional skills.",95,0,1,16,29,36,13
+principal,q047,Principals,4.我校已经建立了关于人工智能+社会情感能力应用的数据隐私和伦理使用的明确规范。,Our school has established clear norms on data privacy and ethical use for applying AI plus social-emotional skills.,95,0,1,21,27,36,10

@@ -1,64 +1,30 @@
-"""Validate the public package's integrity, joins and analytical sample counts."""
+"""Validate file checksums and input structure."""
 from pathlib import Path
-import hashlib
-import json
-import re
-import numpy as np
-import pandas as pd
-
-ROOT = Path(__file__).resolve().parents[1]
-
-
-def sha(path):
-    digest = hashlib.sha256()
-    with path.open('rb') as stream:
-        for chunk in iter(lambda: stream.read(1024 * 1024), b''):
-            digest.update(chunk)
-    return digest.hexdigest()
-
-
-def main():
-    manifest = json.loads((ROOT / 'data/file_manifest.json').read_text())
-    for record in manifest:
-        path = ROOT / record['path']
-        assert path.is_file(), f'Missing file: {record["path"]}'
-        assert sha(path) == record['sha256'], f'Changed file: {record["path"]}'
-    counts = pd.read_csv(ROOT / 'data/survey/sample_counts.csv')
-    assert counts.n.sum() == 27396
-    dictionary = pd.read_csv(ROOT / 'data/survey/item_dictionary.csv')
-    for row in counts.itertuples():
-        data = pd.read_csv(ROOT / f'data/survey/{row.form}.csv')
-        assert len(data) == row.n and data.record_id.is_unique
-        expected = dictionary[dictionary.form.eq(row.form)].variable.tolist()
-        assert list(data.columns) == ['record_id'] + expected
-        assert all(re.fullmatch('q[0-9]{3}', c) for c in expected)
-        assert all(pd.api.types.is_numeric_dtype(data[c]) for c in expected)
-    replies = pd.read_csv(ROOT / 'data/llm/responses.csv')
-    assert replies.response_id.is_unique and len(replies) == 1800
-    assert replies.condition.value_counts().to_dict() == {'default': 900, 'principal_prompt': 540,
-        'gpt5_4_default': 180, 'principal_speaker': 90, 'teacher_speaker': 90}
-    roles = ['student', 'parent', 'teacher', 'principal']
-    probs = replies[[f'bridge_prob_{r}' for r in roles]].to_numpy()
-    assert np.isfinite(probs).all() and ((probs >= 0) & (probs <= 1)).all()
-    np.testing.assert_allclose(probs.sum(axis=1), 1, atol=1e-8)
-    np.testing.assert_array_equal(np.asarray(roles)[probs.argmax(axis=1)], replies.bridge_role)
-    codes = pd.read_csv(ROOT / 'data/coding/response_codes.csv')
-    assert len(codes) == 420 and codes.response_id.is_unique
-    assert codes.condition.value_counts().to_dict() == {'default': 180, 'principal_prompt': 180,
-        'teacher_speaker': 30, 'principal_speaker': 30}
-    joined = codes.merge(replies[['response_id', 'scenario_id', 'model', 'condition', 'sample_index']],
-        on=['response_id', 'scenario_id', 'model', 'condition'], validate='one_to_one')
-    assert len(joined) == 420 and joined.sample_index.eq(1).all()
-    features = [c for c in codes if c not in ['response_id', 'scenario_id', 'model', 'condition', 'positive_index', 'risk_index']]
-    assert len(features) == 13 and codes[features].isin([0, 1]).all().all()
-    training = pd.read_csv(ROOT / 'data/classifier/voice_bridge_training_manifest.csv')
-    assert len(training) == 218 and training.record_id.is_unique
-    assert training.source_domain.value_counts().to_dict() == {'h2_role_portrait': 138, 'p01_human_response': 80}
-    assert not set(training.record_id) & set(replies.response_id)
-    assert not training.loc[training.source_domain.eq('h2_role_portrait'), 'text'].str.contains('学生|家长|教师|校长').any()
-    print(json.dumps({'integrity_checked_files': len(manifest), 'survey_records': 27396,
-        'llm_responses': 1800, 'coded_responses': 420, 'classifier_anchors': 218, 'status': 'passed'}))
-
-
-if __name__ == '__main__':
-    main()
+from collections import Counter
+import csv,hashlib,json
+ROOT=Path(__file__).resolve().parents[1]
+manifest=json.loads((ROOT/'manifest.json').read_text(encoding='utf-8'))
+for name,digest in manifest['files'].items():
+    assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest,name
+def read(name):
+    with (ROOT/'data'/name).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
+replies=read('replies.csv');labels=read('labels.csv');scenarios=read('scenarios.csv');items=read('survey_items.csv');counts=read('survey_joint_counts.csv')
+assert len(replies)==720 and len({r['response_id'] for r in replies})==720
+assert len(scenarios)==60 and len({r['id'] for r in scenarios})==60
+assert Counter(r['coding_split'] for r in replies)=={'calibration':24,'single':552,'double':144}
+assert len({(r['scenario_id'],r['model'],r['condition']) for r in replies})==720
+assert Counter(r['coder'] for r in labels)=={'single':552,'coder_a':144,'coder_b':144}
+assert len({(r['response_id'],r['coder']) for r in labels})==840
+book=json.loads((ROOT/'data/codebook.json').read_text(encoding='utf-8'))
+features=[r['field'] for r in book['features'] if not r['derived']]
+assert all(r[f] in ['0','1',''] for r in labels for f in features)
+assert sum(not r[f] for r in labels for f in features)==12
+assert len(items)==43 and len(counts)==175
+form_n={r['form']:int(r['n_total']) for r in items};assert sum(form_n.values())==27396
+for pair in read('survey_pairs.csv'):
+    block=[r for r in counts if r['pair_id']==pair['id']]
+    assert len(block)==25 and sum(int(r['n']) for r in block)==form_n[pair['form']]
+    for axis,col in [('x','x_value'),('y','y_value')]:
+        item=next(r for r in items if r['form']==pair['form'] and r['variable']==pair[axis])
+        assert all(sum(int(r['n']) for r in block if int(r[col])==v)==int(item[f'n_{v}']) for v in range(1,6))
+print('Release validation passed:',len(manifest['files']),'files.')
